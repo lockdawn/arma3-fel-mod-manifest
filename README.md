@@ -51,7 +51,7 @@ Esta lista representa el mínimo técnico y funcional que todo editor debe asumi
 
 A partir de esta lista, los editores pueden utilizar otros mods de las tablas que se presentan a continuación, las cuales se encuentran organizadas por función y describen extensiones opcionales que permiten enriquecer las misiones según sus objetivos, narrativa y nivel de complejidad.<br /><br />
 
-## 📋 Lista de Mods – [arma_3-mods_fundamentales.html](https://github.com/lockdawn/FEL-ModLists-Arma-3/blob/main/arma_3-mods_fundamentales.html)
+## 📋 Lista de Mods – [arma_3-mods_fundamentales.html](https://github.com/lockdawn/arma3-fel-mod-manifest/blob/main/arma_3-mods_fundamentales.html)
 <br />
 
 | Nombre del Mod | Descripción | Utilidades | Categoría | Compatibilidad |
