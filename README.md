@@ -58,15 +58,15 @@ A partir de esta lista, los editores pueden utilizar otros mods de las tablas qu
 |----------------|-------------|------------|-----------|----------------|
 | 3den Enhanced | Expande el editor 3DEN con herramientas avanzadas. | Edición de misiones, productividad. | Editor / Misiones | Independiente (recomendado con CBA_A3) |
 | ACE | Sistema avanzado de realismo (médico, balística, interacción). | Realismo táctico, nuevas mecánicas de jugabilidad. | Jugabilidad / Médico | Requiere CBA_A3 |
-| ACRE2 | Sistema de comunicación por radio realista con frecuencias. | Comunicaciones tácticas por rol. | Comunicación | Compatible con CBA_A3 |
+| Advanced Combat Medicine | Extiende el sistema médico de ACE con mayor profundidad. | Medicina avanzada, procedimientos médicos. | Médico | Requiere ACE + CBA_A3 |
 | Blastcore Edited | Mejora visual de explosiones, fuego y efectos de partículas. | Explosiones, humo, ambientación visual. | Gráficos / Efectos | Independiente |
-| CBA_A3 | Librería base requerida por numerosos mods. | Framework, compatibilidad y funciones base. | Soporte | Base requerida por ACE, KAT, Zeus Enhanced, etc. |
+| CBA_A3 | Librería base requerida por numerosos mods. | Framework, compatibilidad y funciones base. | Soporte | Base requerida por ACE, KAT/ACM, Zeus Enhanced, etc. |
 | CH View Distance | Ajuste dinámico de distancias de visión. | Optimización de rendimiento y visibilidad. | Rendimiento | Independiente |
 | Enhanced Movement | Permite trepar, saltar y moverse con mayor libertad. | Movilidad avanzada del jugador. | Movilidad | Independiente |
 | Enhanced Movement Rework | Versión optimizada y más estable de Enhanced Movement. | Movimientos avanzados mejorados. | Movilidad | Independiente |
 | Esenciales 2026 v2 | Compilado de utilidades básicas usadas en misiones FEL. | Funciones comunes, soporte general de misión. | Compilación | Puede requerir CBA_A3 y ACE |
-| KAT – Advanced Medical | Extiende el sistema médico de ACE con mayor profundidad. | Medicina avanzada, procedimientos médicos. | Médico | Requiere ACE + CBA_A3 |
 | LAMBS_Danger.fsm | IA avanzada (Lambs) – módulo Danger. | IA dinámica de combate. | IA | Compatible con CBA_A3 (recomendado) |
+| Task Force Arrowhead Radio (BETA!!!) | Sistema de comunicación por radio realista con frecuencias. | Comunicaciones tácticas por rol. | Comunicación | Compatible con CBA_A3 |
 | Zeus Enhanced | Amplía significativamente las capacidades del Zeus. | Control avanzado de misiones en vivo. | Zeus / Administración | Requiere CBA_A3 |
 
 <br /><br />
@@ -106,7 +106,7 @@ Los **mods de optimización** en este preset no añaden nuevos uniformes, armas 
 
 Dentro de este grupo se encuentran:  
 - **Mejoras gráficas y sonoras**: mods como *Blastcore Edited* y *JSRS Soundmod* transforman explosiones, humo, disparos y ambiente sonoro, logrando una experiencia mucho más realista.  
-- **Extensiones de jugabilidad**: *ACE* y *KAT Advanced Medical* profundizan el realismo con sistemas médicos, balística avanzada y mecánicas adicionales.  
+- **Extensiones de jugabilidad**: *ACE* y *KAT Advanced Medical*/*Advanced Combat Medicine* profundizan el realismo con sistemas médicos, balística avanzada y mecánicas adicionales.  
 - **Movilidad y animaciones**: *Enhanced Movement* y su rework permiten escalar, trepar y moverse de formas más naturales en combate.
 - **IA y dinámica de misión**: *Lambs AI* y *ALiVE* aportan inteligencia artificial mejorada y campañas dinámicas persistentes.  
 - **Herramientas de control y soporte**: mods como *CBA_A3*, *CH View Distance*, *Simplex Support Services* y *TFAR* añaden frameworks, control de rendimiento, soporte táctico y comunicación realista por radio.  
@@ -121,12 +121,13 @@ En conjunto, estos mods **perfeccionan cómo se siente jugar**: la visión, el s
 |----------------|-------------|------------|-----------|----------------|
 | [ACE](https://steamcommunity.com/sharedfiles/filedetails/?id=463939057) | Sistema avanzado de realismo (médico, balística, interacción). | Realismo, nuevas funciones de jugabilidad. | Jugabilidad / Médico | Requiere CBA_A3 |
 | [ACRE2](https://steamcommunity.com/sharedfiles/filedetails/?id=751965892) | Comunicación por radio realista con frecuencias. | Utilidades de comunicación. | Comunicación | Compatible con CBA_A3 |
+| [Advanced Combat Medicine](https://steamcommunity.com/sharedfiles/filedetails/?id=3235483358) | Extiende el sistema médico de ACE. | Jugabilidad médica avanzada. | Médico | Requiere ACE + CBA_A3 |
 | [AI behavior modification](https://steamcommunity.com/sharedfiles/filedetails/?id=3641926249) | Ajustes/mejoras de comportamiento de IA. | IA más reactiva / tweaks de combate. | IA | N/D |
 | [AIO Lambs Pack](https://steamcommunity.com/sharedfiles/filedetails/?id=2815713819) | IA mejorada con comportamientos más realistas. | IA dinámica y utilidades de combate. | IA | Compatible con CBA_A3 |
 | [Airfield Logistics](https://steamcommunity.com/sharedfiles/filedetails/?id=3048131698) | Logística y utilidades para operación en aeródromos. | Reabastecimiento/soporte (según mod). | Utilidad | N/D |
 | [ALiVE](https://steamcommunity.com/sharedfiles/filedetails/?id=620260972) | Sistema de guerra dinámica persistente. | Campañas dinámicas, utilidades de misión. | IA / Dinámica | Compatible con CBA_A3 |
 | [Blastcore Edited](https://steamcommunity.com/sharedfiles/filedetails/?id=767380317) | Mejora de efectos visuales de explosiones y humo. | Mejores explosiones, partículas y efectos. | Gráficos / Efectos | Independiente |
-| [CBA_A3](https://steamcommunity.com/sharedfiles/filedetails/?id=450814997) | Librería base requerida por muchos mods. | Framework y compatibilidad. | Soporte | Base requerida por ACE, KAT, ALiVE, etc. |
+| [CBA_A3](https://steamcommunity.com/sharedfiles/filedetails/?id=450814997) | Librería base requerida por muchos mods. | Framework y compatibilidad. | Soporte | Base requerida por ACE, KAT/ACM, ALiVE, etc. |
 | [CH View Distance](https://steamcommunity.com/sharedfiles/filedetails/?id=837729515) | Ajuste dinámico de distancias de visión. | Rendimiento y visibilidad. | Rendimiento | Independiente |
 | [DCO Soldier FSM](https://steamcommunity.com/sharedfiles/filedetails/?id=2825929474) | Ajustes FSM para comportamiento de soldados. | IA/animaciones/decisiones. | IA | N/D |
 | [DCO UnitScanner](https://steamcommunity.com/sharedfiles/filedetails/?id=2811378998) | Herramienta/función de escaneo de unidades. | Utilidad táctica/diagnóstico. | Utilidad | N/D |
