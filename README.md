@@ -58,6 +58,7 @@ A partir de esta lista, los editores pueden utilizar otros mods de las tablas qu
 |----------------|-------------|------------|-----------|----------------|
 | 3den Enhanced | Expande el editor 3DEN con herramientas avanzadas. | Edición de misiones, productividad. | Editor / Misiones | Independiente (recomendado con CBA_A3) |
 | ACE | Sistema avanzado de realismo (médico, balística, interacción). | Realismo táctico, nuevas mecánicas de jugabilidad. | Jugabilidad / Médico | Requiere CBA_A3 |
+| ACE3 Arsenal Extended - Core | Agrupa el arsenal por variantes para reducir la lista a la mitad de su tamaño original. | Realismo táctico, nuevas mecánicas de jugabilidad. | Jugabilidad / Médico | Requiere CBA_A3 |
 | Advanced Combat Medicine | Extiende el sistema médico de ACE con mayor profundidad. | Medicina avanzada, procedimientos médicos. | Médico | Requiere ACE + CBA_A3 |
 | Blastcore Edited | Mejora visual de explosiones, fuego y efectos de partículas. | Explosiones, humo, ambientación visual. | Gráficos / Efectos | Independiente |
 | CBA_A3 | Librería base requerida por numerosos mods. | Framework, compatibilidad y funciones base. | Soporte | Base requerida por ACE, KAT/ACM, Zeus Enhanced, etc. |
