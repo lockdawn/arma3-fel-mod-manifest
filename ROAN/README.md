@@ -5,8 +5,6 @@
 **Regimiento de Operaciones Aero Navales**
 
 > **Versión:** 0.2  
-> **Estado:** Versión funcional completa  
-> **Fecha:** 29 de septiembre de 2026  
 > **Plataforma:** Arma 3
 
 ---
@@ -14,9 +12,9 @@
 <a id="introduccion"></a>
 # 1. Introducción
 
-Este documento establece el inventario de aeronaves, plataformas e infraestructura aeronaval autorizadas para su empleo por el **Regimiento de Operaciones Aero Navales (ROAN)** dentro de **Arma 3**.
+Este documento establece el inventario de aeronaves, plataformas e infraestructura aeronaval autorizadas para su empleo por el **Regimiento de Operaciones Aero Navales (ROAN)** dentro del clan **FEL** de **Arma 3**.
 
-Su objetivo es funcionar como referencia operativa para pilotos, copilotos, artilleros/operadores de sistemas, instructores, líderes de misión, Zeus y personal encargado de diseñar escenarios. El catálogo permite identificar qué plataformas están aprobadas, qué capacidades ofrecen, qué limitaciones deben considerarse y qué mods/dependencias son necesarios.
+Su objetivo es funcionar como referencia operativa para pilotos, copilotos, artilleros/operadores de sistemas, instructores, líderes de misión y editores. El catálogo permite identificar qué plataformas están aprobadas, qué capacidades ofrecen, qué limitaciones deben considerarse y qué mods/dependencias son necesarios para su uso.
 
 ## 1.1 Propósito
 
@@ -29,11 +27,11 @@ Su objetivo es funcionar como referencia operativa para pilotos, copilotos, arti
 
 ## 1.2 Alcance
 
-Las plataformas del documento pueden emplearse en operaciones oficiales, entrenamientos, prácticas de vuelo, cursos, misiones cooperativas, operaciones conjuntas, pruebas y escenarios de instrucción.
+Las plataformas del documento pueden emplearse en operaciones oficiales, entrenamientos, prácticas de vuelo, cursos, misiones cooperativas, operaciones conjuntas, pruebas y edición de misiones.
 
 ## 1.3 Criterio de autorización
 
-Una aeronave que **no aparezca en este documento** no se considera parte del inventario autorizado de ROAN, salvo autorización específica para una misión, entrenamiento, prueba o evaluación.
+Una aeronave que **NO aparezca en este documento** no se considera parte del inventario autorizado de ROAN, salvo autorización específica de un oficial de FEL para una misión, entrenamiento, prueba o evaluación.
 
 ## 1.4 Criterio para los datos técnicos
 
@@ -51,7 +49,7 @@ Por lo tanto, las cifras de alcance, techo, velocidad y carga deben usarse para 
 - **Pasajeros:** personal transportado que no forma parte de la tripulación de vuelo.
 - **Carga útil / payload:** carga, armas, combustible adicional o combinación que la plataforma puede transportar.
 - **Sling load:** carga externa suspendida bajo un helicóptero.
-- Las denominaciones OTAN/Rusia se usan para ordenar el inventario y no sustituyen la facción concreta definida por cada misión.
+- Las denominaciones BLUFOR/OPFOR se usan para ordenar el inventario y no sustituyen la facción concreta definida por cada misión.
 
 [↑ Volver al inicio](#inicio)
 
@@ -64,19 +62,19 @@ Por lo tanto, las cifras de alcance, techo, velocidad y carga deben usarse para 
 - [2. Índice interactivo](#indice)
 - [3. Inventario general ROAN](#inventario-general)
 
-- [4. Ala fija — OTAN](#ala-fija-otan)
+- [4. Ala fija — BLUFOR](#ala-fija-blufor)
   - [A-10C Thunderbolt II](#a10c)
   - [C-130 E/H/J Hercules Series](#c130)
   - [F/A-18E/F Super Hornet](#fa18ef)
   - [F-35B Lightning II](#f35b)
   - [F-35C Lightning II](#f35c)
 
-- [5. Ala fija — Rusia](#ala-fija-rusia)
+- [5. Ala fija — OPFOR](#ala-fija-opfor)
   - [MiG-29SM Fulcrum](#mig29sm)
   - [Su-34M Fullback](#su34m)
   - [Su-35 Flanker-E](#su35)
 
-- [6. Ala rotativa — OTAN](#ala-rotativa-otan)
+- [6. Ala rotativa — BLUFOR](#ala-rotativa-blufor)
   - [H-60 Series Black Hawk / Seahawk family](#h60)
   - [AH-1Z Viper](#ah1z)
   - [AH-6M Little Bird](#ah6m)
@@ -85,7 +83,7 @@ Por lo tanto, las cifras de alcance, techo, velocidad y carga deben usarse para 
   - [CH-53E Super Stallion](#ch53e)
   - [MH-47G Chinook](#mh47g)
 
-- [7. Ala rotativa — Rusia](#ala-rotativa-rusia)
+- [7. Ala rotativa — OPFOR](#ala-rotativa-opfor)
   - [Mi-8MT Hip](#mi8mt)
   - [Mi-17 Hip](#mi17)
   - [Mi-24V Hind-E](#mi24v)
@@ -110,7 +108,7 @@ Por lo tanto, las cifras de alcance, techo, velocidad y carga deben usarse para 
 
 Vista rápida del inventario autorizado. Los roles detallados y limitaciones se encuentran en cada ficha.
 
-## Ala fija — OTAN
+## Ala fija — BLUFOR
 
 | Modelo | Nombre | Rol principal | MOD |
 |---|---|---|---|
@@ -120,7 +118,7 @@ Vista rápida del inventario autorizado. Los roles detallados y limitaciones se 
 | [F-35B](#f35b) | Lightning II | Multirrol / STOVL | [F-35B Lightning](https://steamcommunity.com/sharedfiles/filedetails/?id=3517620967) |
 | [F-35C](#f35c) | Lightning II | Multirrol / Embarcado | [F-35C Lightning](https://steamcommunity.com/sharedfiles/filedetails/?id=3083645332) |
 
-## Ala fija — Rusia
+## Ala fija — OPFOR
 
 | Modelo | Nombre | Rol principal | MOD |
 |---|---|---|---|
@@ -128,7 +126,7 @@ Vista rápida del inventario autorizado. Los roles detallados y limitaciones se 
 | [Su-34M](#su34m) | Fullback | Strike / Interdicción | [Su-34M (UMPK)](https://steamcommunity.com/sharedfiles/filedetails/?id=3137489963) |
 | [Su-35](#su35) | Flanker-E | Superioridad aérea / Multirrol | [SU-35 Flanker E](https://steamcommunity.com/sharedfiles/filedetails/?id=743108251) |
 
-## Ala rotativa — OTAN
+## Ala rotativa — BLUFOR
 
 | Modelo | Nombre | Rol principal | MOD |
 |---|---|---|---|
@@ -140,7 +138,7 @@ Vista rápida del inventario autorizado. Los roles detallados y limitaciones se 
 | [CH-53E](#ch53e) | Super Stallion | Transporte muy pesado / Anfibio | [RHSUSAF](https://steamcommunity.com/workshop/filedetails/?id=843577117) |
 | [MH-47G](#mh47g) | Chinook | Operaciones especiales / Heavy assault | [Pegasus Systems MH-47G](https://steamcommunity.com/sharedfiles/filedetails/?id=3805899171) |
 
-## Ala rotativa — Rusia
+## Ala rotativa — OPFOR
 
 | Modelo | Nombre | Rol principal | MOD |
 |---|---|---|---|
@@ -154,10 +152,10 @@ Vista rápida del inventario autorizado. Los roles detallados y limitaciones se 
 
 ---
 
-<a id="ala-fija-otan"></a>
-# 4. Ala fija — OTAN
+<a id="ala-fija-blufor"></a>
+# 4. Ala fija — BLUFOR
 
-Esta sección contiene las aeronaves autorizadas de **Ala fija — OTAN**.
+Esta sección contiene las aeronaves autorizadas de **Ala fija — BLUFOR**.
 
 ## Aeronaves
 
@@ -289,7 +287,7 @@ El mod anuncia cabina interactiva, sistema de carga dinámica, contramedidas, RW
 - U.S. Air Force — A-10C Thunderbolt II fact sheet
 - Steam Workshop — A-10C Thunderbolt
 
-[↑ Volver a Ala fija — OTAN](#ala-fija-otan)  
+[↑ Volver a Ala fija — BLUFOR](#ala-fija-blufor)  
 [↑ Volver al índice](#indice)
 
 ---
@@ -411,7 +409,7 @@ Radar meteorológico, navegación inercial/GPS y aviónica de transporte. El C-1
 - U.S. Air Force — C-130 Hercules fact sheet
 - Steam Workshop — C-130 E/H/J Hercules Series
 
-[↑ Volver a Ala fija — OTAN](#ala-fija-otan)  
+[↑ Volver a Ala fija — BLUFOR](#ala-fija-blufor)  
 [↑ Volver al índice](#indice)
 
 ---
@@ -537,7 +535,7 @@ Radar multimodo de combate, RWR, navegación táctica, datalink y pods de design
 - U.S. Navy — F/A-18E/F Super Hornet fact file
 - Steam Workshop — F/A-18E/F Super Hornet 2020
 
-[↑ Volver a Ala fija — OTAN](#ala-fija-otan)  
+[↑ Volver a Ala fija — BLUFOR](#ala-fija-blufor)  
 [↑ Volver al índice](#indice)
 
 ---
@@ -664,7 +662,7 @@ Radar AESA, EOTS, DAS y suite de guerra electrónica/sensor fusion en la aeronav
 - Lockheed Martin — F-35 Fast Facts
 - Steam Workshop — F-35B Lightning
 
-[↑ Volver a Ala fija — OTAN](#ala-fija-otan)  
+[↑ Volver a Ala fija — BLUFOR](#ala-fija-blufor)  
 [↑ Volver al índice](#indice)
 
 ---
@@ -790,15 +788,15 @@ Radar AESA, EOTS, DAS y guerra electrónica en la plataforma real; el mod integr
 - Lockheed Martin — F-35 Fast Facts
 - Steam Workshop — F-35C Lightning
 
-[↑ Volver a Ala fija — OTAN](#ala-fija-otan)  
+[↑ Volver a Ala fija — BLUFOR](#ala-fija-blufor)  
 [↑ Volver al índice](#indice)
 
 ---
 
-<a id="ala-fija-rusia"></a>
-# 5. Ala fija — Rusia
+<a id="ala-fija-opfor"></a>
+# 5. Ala fija — OPFOR
 
-Esta sección contiene las aeronaves autorizadas de **Ala fija — Rusia**.
+Esta sección contiene las aeronaves autorizadas de **Ala fija — OPFOR**.
 
 ## Aeronaves
 
@@ -931,7 +929,7 @@ Radar de combate, sistema electro-óptico/IRST y designación montada en casco e
 - Ficha técnica pública MiG-29SM/SMT
 - Steam Workshop — Improved RHS MiG-29SM + FIR support
 
-[↑ Volver a Ala fija — Rusia](#ala-fija-rusia)  
+[↑ Volver a Ala fija — OPFOR](#ala-fija-opfor)  
 [↑ Volver al índice](#indice)
 
 ---
@@ -1059,7 +1057,7 @@ Radar multimodo, navegación/ataque de largo alcance, suite de guerra electróni
 - UAC — Su-34/Su-34E flight performance
 - Steam Workshop — Su-34M (UMPK)
 
-[↑ Volver a Ala fija — Rusia](#ala-fija-rusia)  
+[↑ Volver a Ala fija — OPFOR](#ala-fija-opfor)  
 [↑ Volver al índice](#indice)
 
 ---
@@ -1184,15 +1182,15 @@ Radar de antena en fase con detección de blancos aéreos de hasta ~350 km en co
 - UAC — Su-35 official specifications
 - Steam Workshop — SU-35 Flanker E
 
-[↑ Volver a Ala fija — Rusia](#ala-fija-rusia)  
+[↑ Volver a Ala fija — OPFOR](#ala-fija-opfor)  
 [↑ Volver al índice](#indice)
 
 ---
 
-<a id="ala-rotativa-otan"></a>
-# 6. Ala rotativa — OTAN
+<a id="ala-rotativa-blufor"></a>
+# 6. Ala rotativa — BLUFOR
 
-Esta sección contiene las aeronaves autorizadas de **Ala rotativa — OTAN**.
+Esta sección contiene las aeronaves autorizadas de **Ala rotativa — BLUFOR**.
 
 ## Aeronaves
 
@@ -1330,7 +1328,7 @@ El Hatchet Pack se centra en cabina interactiva y una experiencia tipo simulador
 - U.S. Army / Sikorsky — UH-60M reference data
 - Steam Workshop — Hatchet H-60 Pack
 
-[↑ Volver a Ala rotativa — OTAN](#ala-rotativa-otan)  
+[↑ Volver a Ala rotativa — BLUFOR](#ala-rotativa-blufor)  
 [↑ Volver al índice](#indice)
 
 ---
@@ -1458,7 +1456,7 @@ Sistema electro-óptico/FLIR y designador láser en la plataforma real. El mod a
 - Bell — AH-1Z Viper reference data
 - Steam Workshop — AH-1Z Viper
 
-[↑ Volver a Ala rotativa — OTAN](#ala-rotativa-otan)  
+[↑ Volver a Ala rotativa — BLUFOR](#ala-rotativa-blufor)  
 [↑ Volver al índice](#indice)
 
 ---
@@ -1585,7 +1583,7 @@ Aviónica de operaciones especiales, navegación nocturna y miras/ópticas asoci
 - Boeing — AH-6 Little Bird
 - RHSUSAF
 
-[↑ Volver a Ala rotativa — OTAN](#ala-rotativa-otan)  
+[↑ Volver a Ala rotativa — BLUFOR](#ala-rotativa-blufor)  
 [↑ Volver al índice](#indice)
 
 ---
@@ -1708,7 +1706,7 @@ Navegación y equipamiento de operaciones especiales optimizado para vuelo noctu
 - U.S. Army 160th SOAR public data
 - RHSUSAF
 
-[↑ Volver a Ala rotativa — OTAN](#ala-rotativa-otan)  
+[↑ Volver a Ala rotativa — BLUFOR](#ala-rotativa-blufor)  
 [↑ Volver al índice](#indice)
 
 ---
@@ -1834,7 +1832,7 @@ Cabina digital en CH-47F, navegación táctica, sistemas de supervivencia y conc
 - Boeing — H-47 Chinook
 - RHSUSAF
 
-[↑ Volver a Ala rotativa — OTAN](#ala-rotativa-otan)  
+[↑ Volver a Ala rotativa — BLUFOR](#ala-rotativa-blufor)  
 [↑ Volver al índice](#indice)
 
 ---
@@ -1964,7 +1962,7 @@ GPS, FLIR, ANVIS-HUD, radios UHF/VHF/HF, IFF y sistemas de autoprotección como 
 - NAVAIR/U.S. Navy — CH-53E
 - RHSUSAF
 
-[↑ Volver a Ala rotativa — OTAN](#ala-rotativa-otan)  
+[↑ Volver a Ala rotativa — BLUFOR](#ala-rotativa-blufor)  
 [↑ Volver al índice](#indice)
 
 ---
@@ -2094,15 +2092,15 @@ El MH-47G real integra navegación de precisión, sensores de vuelo nocturno/FLI
 - Boeing — H-47 Chinook
 - Steam Workshop — Pegasus Systems MH-47G
 
-[↑ Volver a Ala rotativa — OTAN](#ala-rotativa-otan)  
+[↑ Volver a Ala rotativa — BLUFOR](#ala-rotativa-blufor)  
 [↑ Volver al índice](#indice)
 
 ---
 
-<a id="ala-rotativa-rusia"></a>
-# 7. Ala rotativa — Rusia
+<a id="ala-rotativa-opfor"></a>
+# 7. Ala rotativa — OPFOR
 
-Esta sección contiene las aeronaves autorizadas de **Ala rotativa — Rusia**.
+Esta sección contiene las aeronaves autorizadas de **Ala rotativa — OPFOR**.
 
 ## Aeronaves
 
@@ -2225,7 +2223,7 @@ Aviónica de navegación convencional, radios y equipos de autoprotección segú
 ### Observaciones ROAN
 
 - Útil como plataforma OPFOR de transporte general.
-- ROAN puede usarlo para prácticas de adaptación a cabinas/handling distintos a OTAN.
+- ROAN puede usarlo para prácticas de adaptación a cabinas/handling distintos a BLUFOR.
 - En misiones mixtas, identificar claramente callsign y variante para evitar confusión con Mi-17.
 
 ### Fuentes de referencia
@@ -2233,7 +2231,7 @@ Aviónica de navegación convencional, radios y equipos de autoprotección segú
 - Datos públicos familia Mi-8MT
 - RHSAFRF
 
-[↑ Volver a Ala rotativa — Rusia](#ala-rotativa-rusia)  
+[↑ Volver a Ala rotativa — OPFOR](#ala-rotativa-opfor)  
 [↑ Volver al índice](#indice)
 
 ---
@@ -2359,7 +2357,7 @@ Navegación, radios y sistemas de autoprotección variables según versión. Las
 - Rosoboronexport — Mi-17V-5
 - RHSAFRF
 
-[↑ Volver a Ala rotativa — Rusia](#ala-rotativa-rusia)  
+[↑ Volver a Ala rotativa — OPFOR](#ala-rotativa-opfor)  
 [↑ Volver al índice](#indice)
 
 ---
@@ -2489,7 +2487,7 @@ Mira/óptica para operador, sistemas de navegación y autoprotección de la épo
 - Czech MoD / datos públicos Mi-24V
 - RHSAFRF
 
-[↑ Volver a Ala rotativa — Rusia](#ala-rotativa-rusia)  
+[↑ Volver a Ala rotativa — OPFOR](#ala-rotativa-opfor)  
 [↑ Volver al índice](#indice)
 
 ---
@@ -2617,7 +2615,7 @@ Sistema de puntería/observación día-noche, navegación y autoprotección. Las
 - Rostec — Mi-28N/NE
 - RHSAFRF
 
-[↑ Volver a Ala rotativa — Rusia](#ala-rotativa-rusia)  
+[↑ Volver a Ala rotativa — OPFOR](#ala-rotativa-opfor)  
 [↑ Volver al índice](#indice)
 
 ---
@@ -2746,7 +2744,7 @@ Suite día/noche, navegación, electro-óptica y sistemas de autoprotección. El
 - Rostec — Ka-52 Alligator
 - RHSAFRF
 
-[↑ Volver a Ala rotativa — Rusia](#ala-rotativa-rusia)  
+[↑ Volver a Ala rotativa — OPFOR](#ala-rotativa-opfor)  
 [↑ Volver al índice](#indice)
 
 ---
