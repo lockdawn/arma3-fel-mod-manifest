@@ -56,10 +56,10 @@ Por lo tanto, las cifras de alcance, techo, velocidad y carga deben usarse para 
 ---
 
 <a id="indice"></a>
-# 2. Índice interactivo
+# 2. Contenido
 
 - [1. Introducción](#introduccion)
-- [2. Índice interactivo](#indice)
+- [2. Contenido](#indice)
 - [3. Inventario general ROAN](#inventario-general)
 
 - [4. Ala fija — BLUFOR](#ala-fija-blufor)
@@ -206,9 +206,9 @@ Las cifras de prestaciones son referencias del A-10C real. Los sistemas interact
 
 | Configuración | Cantidad / criterio |
 |---|---|
-| Tripulación mínima | 1 piloto |
-| Tripulación recomendada | 1 piloto |
-| Tripulación máxima | 1 piloto |
+| Tripulación mínima | 1 (piloto) |
+| Tripulación recomendada | 1 (piloto) |
+| Tripulación máxima | 1 (piloto) |
 | Pasajeros | 0 |
 
 ### Capacidad de carga
@@ -221,7 +221,7 @@ Cañón **GAU-8/A Avenger de 30 mm** como arma principal. Dependiendo de la conf
 
 ### Sensores y sistemas
 
-El mod anuncia cabina interactiva, sistema de carga dinámica, contramedidas, RWR, navegación/moving map, designación GPS y empleo de pod electro-óptico/FLIR tipo AN/AAQ-28. La aeronave real A-10C integra aviónica digital, navegación GPS/INS, datalink y capacidad de empleo de pods de designación.
+El mod anuncia cabina interactiva, sistema de carga dinámica, contramedidas, RWR, navegación/moving map, designación GPS y empleo de pod electro-óptico/FLIR tipo AN/AAQ-28. La aeronave real A-10C integra aviónica digital, navegación GPS/INS, datalink y capacidad de empleo de pods de designación (TGT).
 
 ### Escenarios recomendados
 
@@ -275,6 +275,7 @@ El mod anuncia cabina interactiva, sistema de carga dinámica, contramedidas, RW
 ### Dependencias
 
 - [Lala Peral - Vehicle Interaction System (VIS)](https://steamcommunity.com/sharedfiles/filedetails/?id=3083512801)
+- [USAF Mod - Main](https://steamcommunity.com/sharedfiles/filedetails/?id=2397360831)
 
 ### Observaciones ROAN
 
@@ -330,9 +331,9 @@ El mod cubre variantes C-130E/H/J y J-30; por ello las prestaciones se presentan
 
 | Configuración | Cantidad / criterio |
 |---|---|
-| Tripulación mínima | 3 en C-130J/J-30 (2 pilotos + loadmaster) |
-| Tripulación recomendada | 3 en J; 5 en E/H |
-| Tripulación máxima estándar | 5 en E/H; personal de misión adicional según tarea |
+| Tripulación mínima | 1 (piloto) |
+| Tripulación recomendada | 2 (piloto y copiloto/loadmaster) |
+| Tripulación máxima estándar | 3 (piloto, copiloto y loadmaster); personal de misión adicional según tarea |
 | Pasajeros / tropas | Hasta 90 tropas en E/H/J; J-30 hasta 128. Paracaidistas: hasta 64; J-30 hasta 92 |
 
 ### Capacidad de carga
@@ -415,7 +416,7 @@ Radar meteorológico, navegación inercial/GPS y aviónica de transporte. El C-1
 ---
 
 <a id="fa18ef"></a>
-## 4.3 F/A-18E/F Super Hornet
+## 4.3 F/A-18E Super Hornet
 
 ### Imagen
 
@@ -423,11 +424,11 @@ _Pendiente._
 
 ### Información general
 
-Caza embarcado multirrol diseñado para operar desde portaaviones CATOBAR. Combina superioridad aérea, escolta, ataque de precisión, CAS y supresión de defensas, por lo que constituye una de las plataformas más versátiles del inventario ROAN.
+Caza embarcado multirrol diseñado para operar desde portaaviones [CATOBAR](#nimitz). Combina superioridad aérea, escolta, ataque de precisión, CAS y supresión de defensas, por lo que constituye una de las plataformas más versátiles del inventario ROAN.
 
 ### Base de los datos técnicos
 
-Prestaciones basadas en el F/A-18E/F real. El mod añade una versión actualizada con cabina y funciones interactivas; la disponibilidad exacta de armas depende de la configuración del addon.
+Prestaciones basadas en el F/A-18E real. El mod añade una versión actualizada con cabina y funciones interactivas; la disponibilidad exacta de armas depende de la configuración del addon.
 
 ### Roles ROAN
 
@@ -454,9 +455,9 @@ Prestaciones basadas en el F/A-18E/F real. El mod añade una versión actualizad
 
 | Configuración | Cantidad / criterio |
 |---|---|
-| Tripulación mínima | 1 en F/A-18E; 2 en F/A-18F si se emplean ambos puestos |
-| Tripulación recomendada | E: 1; F: 2 para aprovechar piloto + WSO |
-| Tripulación máxima | 1 en E / 2 en F |
+| Tripulación mínima | 1 (piloto) |
+| Tripulación recomendada | 1 (piloto) |
+| Tripulación máxima | 1 (piloto) |
 | Pasajeros | 0 |
 
 ### Capacidad de carga
@@ -513,7 +514,6 @@ Radar multimodo de combate, RWR, navegación táctica, datalink y pods de design
 ### Limitaciones operativas
 
 - Para operaciones Nimitz debe respetarse el procedimiento de catapulta, patrón, marshal y apontaje definido por ROAN.
-- En F/A-18F se recomienda usar dos tripulantes cuando la misión implique navegación/ataque complejo.
 - La carga máxima teórica no equivale a una configuración óptima.
 
 ### MOD
@@ -526,9 +526,9 @@ Radar multimodo de combate, RWR, navegación táctica, datalink y pods de design
 
 ### Observaciones ROAN
 
-- Plataforma preferente de ROAN para operaciones de ala fija desde Nimitz.
+- Plataforma preferente de ROAN para operaciones de ala fija desde [Nimitz](#nimitz).
 - Debe priorizarse una configuración acorde con el paquete de misión: CAP, CAS, SEAD o strike.
-- El empleo de la variante F con WSO es recomendable para entrenamiento avanzado y misiones complejas.
+- El empleo de la variante F **SOLO** es recomendable para entrenamiento.
 
 ### Fuentes de referencia
 
@@ -563,7 +563,7 @@ Prestaciones basadas en datos públicos del F-35B real; los sistemas interactivo
 - CAS
 - SEAD / DEAD
 - ISR
-- Operaciones STOVL desde LHA
+- Operaciones STOVL desde [LHA](#lha)
 
 ### Características técnicas
 
@@ -581,9 +581,9 @@ Prestaciones basadas en datos públicos del F-35B real; los sistemas interactivo
 
 | Configuración | Cantidad / criterio |
 |---|---|
-| Tripulación mínima | 1 piloto |
-| Tripulación recomendada | 1 piloto |
-| Tripulación máxima | 1 piloto |
+| Tripulación mínima | 1 (piloto) |
+| Tripulación recomendada | 1 (piloto) |
+| Tripulación máxima | 1 (piloto) |
 | Pasajeros | 0 |
 
 ### Capacidad de carga
@@ -600,7 +600,7 @@ Radar AESA, EOTS, DAS y suite de guerra electrónica/sensor fusion en la aeronav
 
 ### Escenarios recomendados
 
-- Operaciones desde LHA
+- Operaciones desde [LHA](#lha)
 - Strike de precisión
 - CAP y escolta
 - SEAD/DEAD cuando la carga del mod lo permita
@@ -650,6 +650,7 @@ Radar AESA, EOTS, DAS y suite de guerra electrónica/sensor fusion en la aeronav
 ### Dependencias
 
 - [Lala Peral - Vehicle Interaction System (VIS)](https://steamcommunity.com/sharedfiles/filedetails/?id=3083512801)
+- [USAF Mod - Main](https://steamcommunity.com/sharedfiles/filedetails/?id=2397360831)
 
 ### Observaciones ROAN
 
@@ -776,6 +777,7 @@ Radar AESA, EOTS, DAS y guerra electrónica en la plataforma real; el mod integr
 ### Dependencias
 
 - [Lala Peral - Vehicle Interaction System (VIS)](https://steamcommunity.com/sharedfiles/filedetails/?id=3083512801)
+- [USAF Mod - Main](https://steamcommunity.com/sharedfiles/filedetails/?id=2397360831)
 
 ### Observaciones ROAN
 
@@ -1444,6 +1446,7 @@ Sistema electro-óptico/FLIR y designador láser en la plataforma real. El mod a
 ### Dependencias
 
 - [Lala Peral - Vehicle Interaction System (VIS)](https://steamcommunity.com/sharedfiles/filedetails/?id=3083512801)
+- [USAF Mod - Main](https://steamcommunity.com/sharedfiles/filedetails/?id=2397360831)
 
 ### Observaciones ROAN
 
@@ -3011,15 +3014,16 @@ Resumen centralizado de addons principales y sus dependencias conocidas de Steam
 
 | Dependencia | Workshop |
 |---|---|
-| CBA_A3 | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=450814997) |
 | ACE3 | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=463939057) |
-| Hatchet Interaction Framework | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=2941986336) |
+| CBA_A3 | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=450814997) |
 | FIR AWS | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=366425329) |
+| Hatchet Interaction Framework | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=2941986336) |
+| Lala Peral - Vehicle Interaction System | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3083512801) |
 | RHSGREF | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=843593391) |
 | RHSAFRF | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=843425103) |
 | RHSSAF | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=843632231) |
 | RHSUSAF | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=843577117) |
-| Lala Peral - Vehicle Interaction System | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3083512801) |
+| USAF Mod - Main | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2397360831) |
 
 > **Nota ROAN:** una compatibilidad opcional (por ejemplo, un missilebox alternativo) no se considera dependencia obligatoria salvo que la misión la utilice de forma explícita.
 
