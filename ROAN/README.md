@@ -333,7 +333,7 @@ El mod cubre variantes C-130E/H/J y J-30; por ello las prestaciones se presentan
 |---|---|
 | Tripulación mínima | 1 (piloto) |
 | Tripulación recomendada | 2 (piloto y copiloto/loadmaster) |
-| Tripulación máxima estándar | 3 (piloto, copiloto y loadmaster); personal de misión adicional según tarea |
+| Tripulación máxima | 3 (piloto, copiloto y loadmaster); personal de misión adicional según tarea |
 | Pasajeros / tropas | Hasta 90 tropas en E/H/J; J-30 hasta 128. Paracaidistas: hasta 64; J-30 hasta 92 |
 
 ### Capacidad de carga
@@ -1249,8 +1249,8 @@ Hatchet incluye varias configuraciones de la familia H-60. Las cifras se present
 |---|---|
 | Tripulación mínima | 1 (piloto) |
 | Tripulación recomendada | 2 (piloto y copiloto) |
-| Tripulación máxima operativa | 4 (piloto, copiloto y crew chiefs/artilleros cuando aplique) |
-| Pasajeros | ≈ 11 tropas equipadas como referencia; cambia por variante/configuración |
+| Tripulación máxima | 4 (piloto, copiloto y crew chiefs/artilleros cuando aplique) |
+| Pasajeros | ≈ 11 elementos |
 
 ### Capacidad de carga
 
@@ -1505,7 +1505,7 @@ Prestaciones basadas en datos USSOCOM/Boeing para la familia AH-6M/AH-6. La conf
 | Tripulación mínima | 1 (piloto) |
 | Tripulación recomendada | 2 (piloto y copiloto) |
 | Tripulación máxima | 2 (piloto y copiloto) |
-| Pasajeros | 1 operador |
+| Pasajeros | 1 elemento |
 
 ### Capacidad de carga
 
@@ -1631,7 +1631,7 @@ Prestaciones basadas en USSOCOM para el MH-6M. RHSUSAF puede variar ligeramente 
 | Tripulación mínima | 1 (piloto) |
 | Tripulación recomendada | 2 (piloto y copiloto) |
 | Tripulación máxima | 2 (piloto y copiloto) |
-| Pasajeros | Hasta 6 operadores |
+| Pasajeros | ≈ 6 elementos |
 
 ### Capacidad de carga
 
@@ -1756,8 +1756,8 @@ Prestaciones basadas en datos del U.S. Army/Boeing para CH-47F. RHS puede ajusta
 |---|---|
 | Tripulación mínima | 1 (piloto) |
 | Tripulación recomendada | 2 (piloto y copiloto) |
-| Tripulación máxima operativa | 3 (piloto, copiloto y flight engineer/crew chief) |
-| Pasajeros | 36 tropas |
+| Tripulación máxima | 3 (piloto, copiloto y flight engineer/crew chief) |
+| Pasajeros | ≈ 36 elementos |
 
 ### Capacidad de carga
 
@@ -1876,7 +1876,7 @@ Prestaciones basadas en documentación USMC/NAVAIR del CH-53E. Los valores de ca
 | Peso máximo bruto | ≈ 73,500 lb / 33,340 kg en documentación USMC |
 | Carga interna útil de referencia | ≈ 13,200 lb / 5,987 kg |
 | Carga externa | Hasta ≈ 36,000 lb / 16,330 kg como capacidad máxima publicada; la carga operativa depende fuertemente de condiciones |
-| Pasajeros | 30 en configuración estándar moderna; configuraciones históricas han permitido 37–55 |
+| Pasajeros | ≈ 30 elementos |
 
 ### Tripulación y pasajeros
 
@@ -1884,8 +1884,8 @@ Prestaciones basadas en documentación USMC/NAVAIR del CH-53E. Los valores de ca
 |---|---|
 | Tripulación mínima | 1 (piloto) |
 | Tripulación recomendada | 2 (piloto y copiloto) |
-| Tripulación máxima operativa | 5 (piloto, copiloto y flight engineer/crew chief/artilleros) |
-| Pasajeros | 30 tropas |
+| Tripulación máxima | 5 (piloto, copiloto y flight engineer/crew chief/artilleros) |
+| Pasajeros | ≈ 30 elementos |
 
 ### Capacidad de carga
 
@@ -2012,8 +2012,8 @@ Prestaciones basadas en USSOCOM/Boeing para MH-47G/H-47. El mod incluye MH-47G B
 |---|---|
 | Tripulación mínima | 1 (piloto) |
 | Tripulación recomendada | 2 (piloto y copiloto) |
-| Tripulación máxima operativa | 3 (piloto, copiloto y flight engineer/crew chief) |
-| Pasajeros | 33 tropas |
+| Tripulación máxima | 3 (piloto, copiloto y flight engineer/crew chief) |
+| Pasajeros | ≈ 33 elementos |
 
 ### Capacidad de carga
 
@@ -2156,8 +2156,8 @@ Prestaciones basadas en referencias de la familia Mi-8MT/Mi-8MTV. RHS puede ofre
 |---|---|
 | Tripulación mínima | 1 (piloto) |
 | Tripulación recomendada | 2 (piloto y copiloto) |
-| Tripulación máxima operativa | 3-4 (piloto, copiloto y artillero/equipo de misión) |
-| Pasajeros | ≈ 24 tropas según configuración |
+| Tripulación máxima | 3-4 (piloto, copiloto y artillero/equipo de misión) |
+| Pasajeros | ≈ 24 elementos |
 
 ### Capacidad de carga
 
@@ -2282,8 +2282,8 @@ Se utiliza el Mi-17V-5 como referencia moderna de prestaciones. La variante exac
 |---|---|
 | Tripulación mínima | 1 (piloto) |
 | Tripulación recomendada | 2 (piloto y copiloto) |
-| Tripulación máxima operativa | 3 (piloto, copiloto y flight engineer/crew chief) |
-| Pasajeros | Hasta 36 como referencia Mi-17V-5; la variante RHS puede ser 24 o una cifra intermedia |
+| Tripulación máxima | 3 (piloto, copiloto y flight engineer/crew chief) |
+| Pasajeros | ≈ 36 elementos |
 
 ### Capacidad de carga
 
@@ -2407,8 +2407,8 @@ Prestaciones basadas en referencias militares del Mi-24V. RHS puede ajustar masa
 |---|---|
 | Tripulación mínima | 1 (piloto) |
 | Tripulación recomendada | 2 (piloto y operador/artillero) |
-| Tripulación máxima de vuelo | 2 (piloto y operador/artillero) |
-| Pasajeros | Hasta 8 tropas |
+| Tripulación máxima | 2 (piloto y operador/artillero) |
+| Pasajeros | ≈ 8 elementos |
 
 ### Capacidad de carga
 
@@ -2535,7 +2535,7 @@ Prestaciones basadas en información pública de Rostec/Russian Helicopters para
 |---|---|
 | Tripulación mínima | 2 (piloto y operador/artillero) |
 | Tripulación recomendada | 2 (piloto y operador/artillero) |
-| Tripulación máxima de vuelo | 2 (piloto y operador/artillero) |
+| Tripulación máxima | 2 (piloto y operador/artillero) |
 | Pasajeros | 0 |
 
 ### Capacidad de carga
@@ -2665,7 +2665,7 @@ Prestaciones basadas en datos públicos de Rostec para Ka-52. RHS puede simplifi
 |---|---|
 | Tripulación mínima | 2 (piloto y operador/artillero) |
 | Tripulación recomendada | 2 (piloto y operador/artillero) |
-| Tripulación máxima de vuelo | 2 (piloto y operador/artillero) |
+| Tripulación máxima | 2 (piloto y operador/artillero) |
 | Pasajeros | 0 |
 
 ### Capacidad de carga
