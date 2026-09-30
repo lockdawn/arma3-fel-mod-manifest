@@ -76,7 +76,7 @@ Por lo tanto, las cifras de alcance, techo, velocidad y carga deben usarse para 
   - [Su-35 Flanker-E](#su35)
 
 - [6. Ala rotativa — BLUFOR](#ala-rotativa-blufor)
-  - [H-60 Series Black Hawk / Seahawk family](#h60)
+  - [H-60 Series](#h60)
   - [AH-1Z Viper](#ah1z)
   - [AH-6M Little Bird](#ah6m)
   - [MH-6M Little Bird](#mh6m)
@@ -335,7 +335,7 @@ El mod cubre variantes C-130E/H/J y J-30; por ello las prestaciones se presentan
 | Tripulación mínima | 1 (piloto) |
 | Tripulación recomendada | 2 (piloto y copiloto/loadmaster) |
 | Tripulación máxima | 3 (piloto, copiloto y loadmaster); personal de misión adicional según tarea |
-| Pasajeros / tropas | Hasta 90 tropas en E/H/J; J-30 hasta 128. Paracaidistas: hasta 64; J-30 hasta 92 |
+| Pasajeros / tropas | Hasta 94 tropas |
 
 ### Capacidad de carga
 
@@ -1197,7 +1197,7 @@ Esta sección contiene las aeronaves autorizadas de **Ala rotativa — BLUFOR**.
 
 ## Aeronaves
 
-- [H-60 Series Black Hawk / Seahawk family](#h60)
+- [H-60 Series](#h60)
 - [AH-1Z Viper](#ah1z)
 - [AH-6M Little Bird](#ah6m)
 - [MH-6M Little Bird](#mh6m)
@@ -1208,7 +1208,7 @@ Esta sección contiene las aeronaves autorizadas de **Ala rotativa — BLUFOR**.
 ---
 
 <a id="h60"></a>
-## H-60 Series Black Hawk / Seahawk family
+## H-60 Series
 
 ### Imagen
 
@@ -1251,7 +1251,7 @@ Hatchet incluye varias configuraciones de la familia H-60. Las cifras se present
 | Tripulación mínima | 1 (piloto) |
 | Tripulación recomendada | 2 (piloto y copiloto) |
 | Tripulación máxima | 4 (piloto, copiloto y crew chiefs/artilleros cuando aplique) |
-| Pasajeros | ≈ 11 elementos |
+| Pasajeros | Slick 4, Pavehawk  9, Blackhawk 10, MEDEVAC 15 |
 
 ### Capacidad de carga
 
@@ -1632,7 +1632,7 @@ Prestaciones basadas en USSOCOM para el MH-6M. RHSUSAF puede variar ligeramente 
 | Tripulación mínima | 1 (piloto) |
 | Tripulación recomendada | 2 (piloto y copiloto) |
 | Tripulación máxima | 2 (piloto y copiloto) |
-| Pasajeros | ≈ 6 elementos |
+| Pasajeros | ≈ 7 elementos |
 
 ### Capacidad de carga
 
@@ -1757,8 +1757,8 @@ Prestaciones basadas en datos del U.S. Army/Boeing para CH-47F. RHS puede ajusta
 |---|---|
 | Tripulación mínima | 1 (piloto) |
 | Tripulación recomendada | 2 (piloto y copiloto) |
-| Tripulación máxima | 3 (piloto, copiloto y flight engineer/crew chief) |
-| Pasajeros | ≈ 36 elementos |
+| Tripulación máxima | 4 (piloto, copiloto, flight engineer/crew chief y artillero) |
+| Pasajeros | ≈ 24 elementos |
 
 ### Capacidad de carga
 
@@ -1885,8 +1885,8 @@ Prestaciones basadas en documentación USMC/NAVAIR del CH-53E. Los valores de ca
 |---|---|
 | Tripulación mínima | 1 (piloto) |
 | Tripulación recomendada | 2 (piloto y copiloto) |
-| Tripulación máxima | 5 (piloto, copiloto y flight engineer/crew chief/artilleros) |
-| Pasajeros | ≈ 30 elementos |
+| Tripulación máxima | 2 (piloto y copiloto) |
+| Pasajeros | ≈ 24 elementos |
 
 ### Capacidad de carga
 
@@ -2013,8 +2013,8 @@ Prestaciones basadas en USSOCOM/Boeing para MH-47G/H-47. El mod incluye MH-47G B
 |---|---|
 | Tripulación mínima | 1 (piloto) |
 | Tripulación recomendada | 2 (piloto y copiloto) |
-| Tripulación máxima | 3 (piloto, copiloto y flight engineer/crew chief) |
-| Pasajeros | ≈ 33 elementos |
+| Tripulación máxima | 6 (piloto, copiloto, flight engineer/crew chief y artilleros) |
+| Pasajeros | ≈ 28 elementos |
 
 ### Capacidad de carga
 
@@ -2157,8 +2157,8 @@ Prestaciones basadas en referencias de la familia Mi-8MT/Mi-8MTV. RHS puede ofre
 |---|---|
 | Tripulación mínima | 1 (piloto) |
 | Tripulación recomendada | 2 (piloto y copiloto) |
-| Tripulación máxima | 3-4 (piloto, copiloto y artillero/equipo de misión) |
-| Pasajeros | ≈ 24 elementos |
+| Tripulación máxima | 4 (piloto, copiloto y artillero) |
+| Pasajeros | ≈ 14 elementos |
 
 ### Capacidad de carga
 
@@ -2528,7 +2528,7 @@ Prestaciones basadas en información pública de Rostec/Russian Helicopters para
 | Alcance de referencia | ≈ 435 km; ferry puede superar 1,000 km con configuración adecuada |
 | Carga externa de armas | ≈ 2,300 kg como orden de magnitud |
 | Tripulación | 2 |
-| Capacidad de pasajeros | 0 en misión normal |
+| Capacidad de pasajeros | 3 en misión normal |
 
 ### Tripulación y pasajeros
 
@@ -2537,7 +2537,7 @@ Prestaciones basadas en información pública de Rostec/Russian Helicopters para
 | Tripulación mínima | 2 (piloto y operador/artillero) |
 | Tripulación recomendada | 2 (piloto y operador/artillero) |
 | Tripulación máxima | 2 (piloto y operador/artillero) |
-| Pasajeros | 0 |
+| Pasajeros | 3 elementos |
 
 ### Capacidad de carga
 
