@@ -4,8 +4,8 @@
 
 **Regimiento de Operaciones Aero Navales**
 
-> **Clan:** FEL
-> **Versión:** 0.2
+> **Clan:** FEL  
+> **Versión:** 0.2  
 > **Plataforma:** Arma 3
 
 ---
