@@ -168,7 +168,7 @@ Esta sección contiene las aeronaves autorizadas de **Ala fija — BLUFOR**.
 ---
 
 <a id="a10c"></a>
-## 4.1 A-10C Thunderbolt II
+## A-10C Thunderbolt II
 
 ### Imagen
 
@@ -294,7 +294,7 @@ El mod anuncia cabina interactiva, sistema de carga dinámica, contramedidas, RW
 ---
 
 <a id="c130"></a>
-## 4.2 C-130 E/H/J Hercules Series
+## C-130 E/H/J Hercules Series
 
 ### Imagen
 
@@ -416,7 +416,7 @@ Radar meteorológico, navegación inercial/GPS y aviónica de transporte. El C-1
 ---
 
 <a id="fa18ef"></a>
-## 4.3 F/A-18E Super Hornet
+## F/A-18E Super Hornet
 
 ### Imagen
 
@@ -541,7 +541,7 @@ Radar multimodo de combate, RWR, navegación táctica, datalink y pods de design
 ---
 
 <a id="f35b"></a>
-## 4.4 F-35B Lightning II
+## F-35B Lightning II
 
 ### Imagen
 
@@ -654,7 +654,7 @@ Radar AESA, EOTS, DAS y suite de guerra electrónica/sensor fusion en la aeronav
 
 ### Observaciones ROAN
 
-- Plataforma principal de ala fija para operaciones desde LHA.
+- Plataforma principal de ala fija para operaciones desde [LHA](#lha).
 - ROAN debe entrenar por separado despegue corto, transición y aterrizaje vertical.
 - La prioridad es conservar combustible suficiente para recuperación segura.
 
@@ -669,7 +669,7 @@ Radar AESA, EOTS, DAS y suite de guerra electrónica/sensor fusion en la aeronav
 ---
 
 <a id="f35c"></a>
-## 4.5 F-35C Lightning II
+## F-Lightning II
 
 ### Imagen
 
@@ -708,9 +708,9 @@ Prestaciones basadas en datos públicos del F-35C real. El mod implementa la var
 
 | Configuración | Cantidad / criterio |
 |---|---|
-| Tripulación mínima | 1 piloto |
-| Tripulación recomendada | 1 piloto |
-| Tripulación máxima | 1 piloto |
+| Tripulación mínima | 1 (piloto) |
+| Tripulación recomendada | 1 (piloto) |
+| Tripulación máxima | 1 (piloto) |
 | Pasajeros | 0 |
 
 ### Capacidad de carga
@@ -809,7 +809,7 @@ Esta sección contiene las aeronaves autorizadas de **Ala fija — OPFOR**.
 ---
 
 <a id="mig29sm"></a>
-## 5.1 MiG-29SM Fulcrum
+## MiG-29SM Fulcrum
 
 ### Imagen
 
@@ -847,9 +847,9 @@ Prestaciones basadas en datos publicados de la modernización MiG-29SM/SMT como 
 
 | Configuración | Cantidad / criterio |
 |---|---|
-| Tripulación mínima | 1 piloto |
-| Tripulación recomendada | 1 piloto |
-| Tripulación máxima | 1 piloto |
+| Tripulación mínima | 1 (piloto) |
+| Tripulación recomendada | 1 (piloto) |
+| Tripulación máxima | 1 (piloto) |
 | Pasajeros | 0 |
 
 ### Capacidad de carga
@@ -937,7 +937,7 @@ Radar de combate, sistema electro-óptico/IRST y designación montada en casco e
 ---
 
 <a id="su34m"></a>
-## 5.2 Su-34M Fullback
+## Su-34M Fullback
 
 ### Imagen
 
@@ -977,9 +977,9 @@ Prestaciones tomadas como referencia del Su-34/Su-34E real. El mod agrega una va
 
 | Configuración | Cantidad / criterio |
 |---|---|
-| Tripulación mínima | 2 |
-| Tripulación recomendada | 2 (piloto + navegador/operador) |
-| Tripulación máxima | 2 |
+| Tripulación mínima | 2 (piloto y operador) |
+| Tripulación recomendada | 2 (piloto y operador) |
+| Tripulación máxima | 2 (piloto y operador) |
 | Pasajeros | 0 |
 
 ### Capacidad de carga
@@ -1065,7 +1065,7 @@ Radar multimodo, navegación/ataque de largo alcance, suite de guerra electróni
 ---
 
 <a id="su35"></a>
-## 5.3 Su-35 Flanker-E
+## Su-35 Flanker-E
 
 ### Imagen
 
@@ -1207,7 +1207,7 @@ Esta sección contiene las aeronaves autorizadas de **Ala rotativa — BLUFOR**.
 ---
 
 <a id="h60"></a>
-## 6.1 H-60 Series Black Hawk / Seahawk family
+## H-60 Series Black Hawk / Seahawk family
 
 ### Imagen
 
@@ -1271,7 +1271,7 @@ El Hatchet Pack se centra en cabina interactiva y una experiencia tipo simulador
 - MEDEVAC
 - Operaciones especiales nocturnas
 - Sling load ligero/medio
-- Operaciones desde LHA y buques cuando la variante sea compatible
+- Operaciones desde [LHA](#lha) y buques cuando la variante sea compatible
 
 ### Escenarios no recomendados
 
@@ -1336,7 +1336,7 @@ El Hatchet Pack se centra en cabina interactiva y una experiencia tipo simulador
 ---
 
 <a id="ah1z"></a>
-## 6.2 AH-1Z Viper
+## AH-1Z Viper
 
 ### Imagen
 
@@ -1357,7 +1357,7 @@ Prestaciones basadas en datos públicos de Bell para el AH-1Z. El mod incorpora 
 - Escolta de helicópteros de transporte
 - Reconocimiento armado
 - Defensa aire-aire de corto alcance contra helicópteros
-- Operaciones desde LHA
+- Operaciones desde [LHA](#lha)
 
 ### Características técnicas
 
@@ -1398,7 +1398,7 @@ Sistema electro-óptico/FLIR y designador láser en la plataforma real. El mod a
 - CAS
 - Ataque antitanque
 - Protección de LZ
-- Operaciones anfibias desde LHA
+- Operaciones anfibias desde [LHA](#lha)
 
 ### Escenarios no recomendados
 
@@ -1411,7 +1411,7 @@ Sistema electro-óptico/FLIR y designador láser en la plataforma real. El mod a
 - Muy buena combinación de sensores y armamento
 - Perfil estrecho y agilidad
 - Capacidad antiblindaje y aire-aire limitada
-- Compatible conceptualmente con operaciones LHA
+- Compatible conceptualmente con operaciones [LHA](#lha)
 
 ### Debilidades
 
@@ -1451,7 +1451,7 @@ Sistema electro-óptico/FLIR y designador láser en la plataforma real. El mod a
 ### Observaciones ROAN
 
 - Plataforma de ataque/escorta recomendada para el grupo anfibio ROAN.
-- Combina especialmente bien con F-35B + LHA en misiones expedicionarias.
+- Combina especialmente bien con F-35B + [LHA](#lha) en misiones expedicionarias.
 - Se recomienda vuelo NOE/terrain masking cuando el entorno lo permita.
 
 ### Fuentes de referencia
@@ -1465,7 +1465,7 @@ Sistema electro-óptico/FLIR y designador láser en la plataforma real. El mod a
 ---
 
 <a id="ah6m"></a>
-## 6.3 AH-6M Little Bird
+## AH-6M Little Bird
 
 ### Imagen
 
@@ -1592,7 +1592,7 @@ Aviónica de operaciones especiales, navegación nocturna y miras/ópticas asoci
 ---
 
 <a id="mh6m"></a>
-## 6.4 MH-6M Little Bird
+## MH-6M Little Bird
 
 ### Imagen
 
@@ -1715,7 +1715,7 @@ Navegación y equipamiento de operaciones especiales optimizado para vuelo noctu
 ---
 
 <a id="ch47f"></a>
-## 6.5 CH-47F Chinook
+## CH-47F Chinook
 
 ### Imagen
 
@@ -1841,7 +1841,7 @@ Cabina digital en CH-47F, navegación táctica, sistemas de supervivencia y conc
 ---
 
 <a id="ch53e"></a>
-## 6.6 CH-53E Super Stallion
+## CH-53E Super Stallion
 
 ### Imagen
 
@@ -1902,7 +1902,7 @@ GPS, FLIR, ANVIS-HUD, radios UHF/VHF/HF, IFF y sistemas de autoprotección como 
 ### Escenarios recomendados
 
 - Transporte de cargas que exceden H-60
-- Movimiento ship-to-shore desde LHA
+- Movimiento ship-to-shore desde [LHA](#lha)
 - Sling load de vehículos/equipos pesados
 - Asalto aéreo de gran volumen
 - Logística de campaña
@@ -1956,7 +1956,7 @@ GPS, FLIR, ANVIS-HUD, radios UHF/VHF/HF, IFF y sistemas de autoprotección como 
 ### Observaciones ROAN
 
 - ROAN debe reservarlo para cargas o movimientos que justifiquen su tamaño.
-- Es especialmente útil en combinación con LHA para operaciones anfibias.
+- Es especialmente útil en combinación con [LHA](#lha) para operaciones anfibias.
 - La escolta AH-1Z es recomendable en zonas hostiles.
 
 ### Fuentes de referencia
@@ -1971,7 +1971,7 @@ GPS, FLIR, ANVIS-HUD, radios UHF/VHF/HF, IFF y sistemas de autoprotección como 
 ---
 
 <a id="mh47g"></a>
-## 6.7 MH-47G Chinook
+## MH-47G Chinook
 
 ### Imagen
 
@@ -2116,7 +2116,7 @@ Esta sección contiene las aeronaves autorizadas de **Ala rotativa — OPFOR**.
 ---
 
 <a id="mi8mt"></a>
-## 7.1 Mi-8MT Hip
+## Mi-8MT Hip
 
 ### Imagen
 
@@ -2240,7 +2240,7 @@ Aviónica de navegación convencional, radios y equipos de autoprotección segú
 ---
 
 <a id="mi17"></a>
-## 7.2 Mi-17 Hip
+## Mi-17 Hip
 
 ### Imagen
 
@@ -2366,7 +2366,7 @@ Navegación, radios y sistemas de autoprotección variables según versión. Las
 ---
 
 <a id="mi24v"></a>
-## 7.3 Mi-24V Hind-E
+## Mi-24V Hind-E
 
 ### Imagen
 
@@ -2496,7 +2496,7 @@ Mira/óptica para operador, sistemas de navegación y autoprotección de la épo
 ---
 
 <a id="mi28n"></a>
-## 7.4 Mi-28N Havoc
+## Mi-28N Havoc
 
 ### Imagen
 
@@ -2624,7 +2624,7 @@ Sistema de puntería/observación día-noche, navegación y autoprotección. Las
 ---
 
 <a id="ka52"></a>
-## 7.5 Ka-52 Alligator
+## Ka-52 Alligator
 
 ### Imagen
 
@@ -2766,7 +2766,7 @@ Esta sección reúne las plataformas y herramientas autorizadas para soportar op
 ---
 
 <a id="nimitz"></a>
-## 8.1 Nimitz Experimental Build
+## Nimitz Experimental Build
 
 ### Imagen
 
@@ -2821,7 +2821,7 @@ Versión experimental del USS Nimitz para Arma 3. El propio Workshop la describe
 ---
 
 <a id="lha"></a>
-## 8.2 LHA
+## LHA
 
 ### Imagen
 
@@ -2880,7 +2880,7 @@ Buque de asalto anfibio basado en la clase America y con una configuración cerc
 ---
 
 <a id="airfield-logistics"></a>
-## 8.3 Airfield Logistics
+## Airfield Logistics
 
 ### Imagen
 
