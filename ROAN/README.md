@@ -4,57 +4,54 @@
 
 **Regimiento de Operaciones Aero Navales**
 
-> **Estado del documento:** Borrador inicial  
-> **Versión:** 0.1  
-> **Propósito:** Catálogo operativo de aeronaves, plataformas e infraestructura autorizadas para ROAN en Arma 3.
+> **Versión:** 0.2  
+> **Estado:** Versión funcional completa  
+> **Fecha:** 29 de septiembre de 2026  
+> **Plataforma:** Arma 3
 
 ---
 
 <a id="introduccion"></a>
 # 1. Introducción
 
-Este documento establece el inventario de aeronaves, plataformas e infraestructura aérea autorizadas para su empleo por el **Regimiento de Operaciones Aero Navales (ROAN)** dentro de **Arma 3**.
+Este documento establece el inventario de aeronaves, plataformas e infraestructura aeronaval autorizadas para su empleo por el **Regimiento de Operaciones Aero Navales (ROAN)** dentro de **Arma 3**.
 
-Su objetivo es proporcionar una referencia única y estandarizada para pilotos, copilotos, instructores, líderes de misión, Zeus y personal encargado de la construcción de escenarios, de forma que puedan identificar qué plataformas están aprobadas, cuáles son sus capacidades y en qué tipo de operaciones resulta recomendable emplearlas.
-
-El documento está organizado en cuatro categorías principales de aeronaves:
-
-- **Ala fija — OTAN**
-- **Ala fija — Rusia**
-- **Ala rotativa — OTAN**
-- **Ala rotativa — Rusia**
-
-Adicionalmente, se incluye una sección dedicada a la **infraestructura y operaciones aeronavales**, donde se documentan portaaviones, LHA y sistemas de apoyo para operaciones aéreas en tierra y cubierta.
+Su objetivo es funcionar como referencia operativa para pilotos, copilotos, artilleros/operadores de sistemas, instructores, líderes de misión, Zeus y personal encargado de diseñar escenarios. El catálogo permite identificar qué plataformas están aprobadas, qué capacidades ofrecen, qué limitaciones deben considerarse y qué mods/dependencias son necesarios.
 
 ## 1.1 Propósito
 
-Este manual busca:
-
-- Establecer un inventario oficial de aeronaves autorizadas por ROAN.
-- Estandarizar el empleo de aeronaves durante operaciones, entrenamientos y cursos.
-- Facilitar la selección de plataforma de acuerdo con el tipo de misión.
-- Documentar capacidades, limitaciones y requerimientos de cada aeronave.
-- Mantener identificados los mods y dependencias necesarias para incluir cada plataforma en una misión.
-- Servir como material de consulta para instructores y alumnos.
+- Establecer el inventario oficial de aeronaves autorizadas por ROAN.
+- Estandarizar la selección de plataforma según el tipo de misión.
+- Documentar capacidades, limitaciones, tripulación, carga, sensores y armamento.
+- Mantener una referencia de mods y dependencias.
+- Servir como material de consulta para entrenamiento, cursos y operaciones.
+- Facilitar la creación de misiones coherentes y evitar la incorporación arbitraria de aeronaves no evaluadas.
 
 ## 1.2 Alcance
 
-Las plataformas descritas en este documento podrán ser utilizadas en:
-
-- Operaciones oficiales.
-- Entrenamientos.
-- Prácticas de vuelo.
-- Cursos y certificaciones.
-- Misiones cooperativas.
-- Operaciones conjuntas.
-- Escenarios de instrucción.
-- Pruebas y evaluaciones autorizadas.
+Las plataformas del documento pueden emplearse en operaciones oficiales, entrenamientos, prácticas de vuelo, cursos, misiones cooperativas, operaciones conjuntas, pruebas y escenarios de instrucción.
 
 ## 1.3 Criterio de autorización
 
-Una aeronave que **no aparezca en este documento** no se considera parte del inventario autorizado de ROAN, salvo que exista una autorización específica para su empleo en una misión, entrenamiento, evaluación o prueba.
+Una aeronave que **no aparezca en este documento** no se considera parte del inventario autorizado de ROAN, salvo autorización específica para una misión, entrenamiento, prueba o evaluación.
 
-Las características documentadas deberán priorizar el **comportamiento y capacidades reales de la aeronave dentro de Arma 3 y del mod correspondiente**. Cuando sea útil, podrán añadirse referencias a las especificaciones de la aeronave real, diferenciándolas claramente de su implementación dentro del juego.
+## 1.4 Criterio para los datos técnicos
+
+Este manual distingue entre dos fuentes de información:
+
+1. **Datos del mod:** se utilizan cuando el Workshop o la implementación documentan explícitamente una capacidad, dependencia o sistema.
+2. **Datos reales de referencia:** cuando el mod no publica una cifra concreta, se emplean especificaciones de la aeronave real o de la variante más cercana. Esto es útil porque la mayoría de los addons buscan aproximarse al comportamiento real, pero **Arma 3 puede diferir** en velocidad, sensores, resistencia, carga, asientos o física.
+
+Por lo tanto, las cifras de alcance, techo, velocidad y carga deben usarse para **planeación ROAN**, no como garantía de que el motor de Arma 3 reproduzca exactamente cada número.
+
+## 1.5 Convenciones
+
+- **Tripulación mínima:** personal mínimo recomendado para ejecutar la misión prevista con seguridad/funcionalidad.
+- **Tripulación recomendada:** configuración ROAN que aprovecha correctamente los puestos de la aeronave.
+- **Pasajeros:** personal transportado que no forma parte de la tripulación de vuelo.
+- **Carga útil / payload:** carga, armas, combustible adicional o combinación que la plataforma puede transportar.
+- **Sling load:** carga externa suspendida bajo un helicóptero.
+- Las denominaciones OTAN/Rusia se usan para ordenar el inventario y no sustituyen la facción concreta definida por cada misión.
 
 [↑ Volver al inicio](#inicio)
 
@@ -67,27 +64,27 @@ Las características documentadas deberán priorizar el **comportamiento y capac
 - [2. Índice interactivo](#indice)
 - [3. Inventario general ROAN](#inventario-general)
 
-## Ala fija
 - [4. Ala fija — OTAN](#ala-fija-otan)
   - [A-10C Thunderbolt II](#a10c)
   - [C-130 E/H/J Hercules Series](#c130)
   - [F/A-18E/F Super Hornet](#fa18ef)
   - [F-35B Lightning II](#f35b)
   - [F-35C Lightning II](#f35c)
+
 - [5. Ala fija — Rusia](#ala-fija-rusia)
-  - [MiG-29SM](#mig29sm)
-  - [Su-34M](#su34m)
+  - [MiG-29SM Fulcrum](#mig29sm)
+  - [Su-34M Fullback](#su34m)
   - [Su-35 Flanker-E](#su35)
 
-## Ala rotativa
 - [6. Ala rotativa — OTAN](#ala-rotativa-otan)
-  - [H-60 Series](#h60)
+  - [H-60 Series Black Hawk / Seahawk family](#h60)
   - [AH-1Z Viper](#ah1z)
   - [AH-6M Little Bird](#ah6m)
   - [MH-6M Little Bird](#mh6m)
   - [CH-47F Chinook](#ch47f)
   - [CH-53E Super Stallion](#ch53e)
   - [MH-47G Chinook](#mh47g)
+
 - [7. Ala rotativa — Rusia](#ala-rotativa-rusia)
   - [Mi-8MT Hip](#mi8mt)
   - [Mi-17 Hip](#mi17)
@@ -95,7 +92,6 @@ Las características documentadas deberán priorizar el **comportamiento y capac
   - [Mi-28N Havoc](#mi28n)
   - [Ka-52 Alligator](#ka52)
 
-## Infraestructura y referencias
 - [8. Infraestructura y Operaciones Aeronavales](#infraestructura)
   - [Nimitz Experimental Build](#nimitz)
   - [LHA](#lha)
@@ -103,6 +99,7 @@ Las características documentadas deberán priorizar el **comportamiento y capac
 - [9. Matriz de Empleo Operacional](#matriz-empleo)
 - [10. Mods y Dependencias](#mods-dependencias)
 - [11. Glosario](#glosario)
+- [12. Referencias generales](#referencias)
 
 [↑ Volver al inicio](#inicio)
 
@@ -111,47 +108,47 @@ Las características documentadas deberán priorizar el **comportamiento y capac
 <a id="inventario-general"></a>
 # 3. Inventario general ROAN
 
-Esta sección presenta una vista rápida del inventario autorizado. Las capacidades detalladas de cada plataforma se documentarán en sus respectivas fichas.
+Vista rápida del inventario autorizado. Los roles detallados y limitaciones se encuentran en cada ficha.
 
-## 3.1 Ala fija — OTAN
+## Ala fija — OTAN
 
-| Modelo | Nombre | Función principal | MOD |
+| Modelo | Nombre | Rol principal | MOD |
 |---|---|---|---|
-| A-10C | Thunderbolt II | CAS / Ataque | [A-10C Thunderbolt](https://steamcommunity.com/sharedfiles/filedetails/?id=2848059590) |
-| C-130 E/H/J | Hercules Series | Transporte / Logística | [C-130 E/H/J Hercules Series](https://steamcommunity.com/sharedfiles/filedetails/?id=3122396633) |
-| F/A-18E/F | Super Hornet | Multirrol / Embarcado | [F/A-18E/F Super Hornet 2020](https://steamcommunity.com/sharedfiles/filedetails/?id=2131302796) |
-| F-35B | Lightning II | Multirrol / STOVL | [F-35B Lightning](https://steamcommunity.com/sharedfiles/filedetails/?id=3517620967) |
-| F-35C | Lightning II | Multirrol / Embarcado | [F-35C Lightning](https://steamcommunity.com/sharedfiles/filedetails/?id=3083645332) |
+| [A-10C](#a10c) | Thunderbolt II | CAS / Ataque | [A-10C Thunderbolt](https://steamcommunity.com/sharedfiles/filedetails/?id=2848059590) |
+| [C-130 E/H/J](#c130) | Hercules Series | Transporte / Logística | [C-130 E/H/J Hercules Series](https://steamcommunity.com/sharedfiles/filedetails/?id=3122396633) |
+| [F/A-18E/F](#fa18ef) | Super Hornet | Multirrol / Embarcado | [F/A-18E/F Super Hornet 2020](https://steamcommunity.com/sharedfiles/filedetails/?id=2131302796) |
+| [F-35B](#f35b) | Lightning II | Multirrol / STOVL | [F-35B Lightning](https://steamcommunity.com/sharedfiles/filedetails/?id=3517620967) |
+| [F-35C](#f35c) | Lightning II | Multirrol / Embarcado | [F-35C Lightning](https://steamcommunity.com/sharedfiles/filedetails/?id=3083645332) |
 
-## 3.2 Ala fija — Rusia
+## Ala fija — Rusia
 
-| Modelo | Nombre | Función principal | MOD |
+| Modelo | Nombre | Rol principal | MOD |
 |---|---|---|---|
-| MiG-29SM | Fulcrum | Caza / Multirrol | [Improved RHS MiG-29SM + FIR support](https://steamcommunity.com/sharedfiles/filedetails/?id=2987850906) |
-| Su-34M | Fullback | Ataque / Interdicción | [Su-34M (UMPK)](https://steamcommunity.com/sharedfiles/filedetails/?id=3137489963) |
-| Su-35 | Flanker-E | Superioridad aérea / Multirrol | [SU-35 Flanker E](https://steamcommunity.com/sharedfiles/filedetails/?id=743108251) |
+| [MiG-29SM](#mig29sm) | Fulcrum | Caza / Multirrol | [Improved RHS MiG-29SM + FIR support](https://steamcommunity.com/sharedfiles/filedetails/?id=2987850906) |
+| [Su-34M](#su34m) | Fullback | Strike / Interdicción | [Su-34M (UMPK)](https://steamcommunity.com/sharedfiles/filedetails/?id=3137489963) |
+| [Su-35](#su35) | Flanker-E | Superioridad aérea / Multirrol | [SU-35 Flanker E](https://steamcommunity.com/sharedfiles/filedetails/?id=743108251) |
 
-## 3.3 Ala rotativa — OTAN
+## Ala rotativa — OTAN
 
-| Modelo | Nombre | Función principal | MOD |
+| Modelo | Nombre | Rol principal | MOD |
 |---|---|---|---|
-| H-60 Series | Black Hawk / Seahawk family | Transporte / Utilidad / Operaciones especiales | [Hatchet H-60 Pack](https://steamcommunity.com/sharedfiles/filedetails/?id=1745501605) |
-| AH-1Z | Viper | Ataque / CAS / Escolta | [AH-1Z Viper](https://steamcommunity.com/sharedfiles/filedetails/?id=3546703780) |
-| AH-6M | Little Bird | Ataque ligero / CAS | [RHSUSAF](https://steamcommunity.com/workshop/filedetails/?id=843577117) |
-| MH-6M | Little Bird | Inserción / Operaciones especiales | [RHSUSAF](https://steamcommunity.com/workshop/filedetails/?id=843577117) |
-| CH-47F | Chinook | Transporte / Logística | [RHSUSAF](https://steamcommunity.com/workshop/filedetails/?id=843577117) |
-| CH-53E | Super Stallion | Transporte pesado / Logística | [RHSUSAF](https://steamcommunity.com/workshop/filedetails/?id=843577117) |
-| MH-47G | Chinook | Operaciones especiales / Transporte | [Pegasus Systems MH-47G](https://steamcommunity.com/sharedfiles/filedetails/?id=3805899171) |
+| [H-60 Series](#h60) | Black Hawk / Seahawk family | Transporte / Utilidad / Especiales | [Hatchet H-60 Pack](https://steamcommunity.com/sharedfiles/filedetails/?id=1745501605) |
+| [AH-1Z](#ah1z) | Viper | Ataque / CAS / Escolta | [AH-1Z Viper](https://steamcommunity.com/sharedfiles/filedetails/?id=3546703780) |
+| [AH-6M](#ah6m) | Little Bird | Ataque ligero / CAS | [RHSUSAF](https://steamcommunity.com/workshop/filedetails/?id=843577117) |
+| [MH-6M](#mh6m) | Little Bird | Inserción / Operaciones especiales | [RHSUSAF](https://steamcommunity.com/workshop/filedetails/?id=843577117) |
+| [CH-47F](#ch47f) | Chinook | Transporte pesado / Logística | [RHSUSAF](https://steamcommunity.com/workshop/filedetails/?id=843577117) |
+| [CH-53E](#ch53e) | Super Stallion | Transporte muy pesado / Anfibio | [RHSUSAF](https://steamcommunity.com/workshop/filedetails/?id=843577117) |
+| [MH-47G](#mh47g) | Chinook | Operaciones especiales / Heavy assault | [Pegasus Systems MH-47G](https://steamcommunity.com/sharedfiles/filedetails/?id=3805899171) |
 
-## 3.4 Ala rotativa — Rusia
+## Ala rotativa — Rusia
 
-| Modelo | Nombre | Función principal | MOD |
+| Modelo | Nombre | Rol principal | MOD |
 |---|---|---|---|
-| Mi-8MT | Hip | Transporte / Utilidad | [RHSAFRF](https://steamcommunity.com/workshop/filedetails/?id=843425103) |
-| Mi-17 | Hip | Transporte / Utilidad | [RHSAFRF](https://steamcommunity.com/workshop/filedetails/?id=843425103) |
-| Mi-24V | Hind-E | Ataque / Transporte armado | [RHSAFRF](https://steamcommunity.com/workshop/filedetails/?id=843425103) |
-| Mi-28N | Havoc | Ataque | [RHSAFRF](https://steamcommunity.com/workshop/filedetails/?id=843425103) |
-| Ka-52 | Alligator | Ataque / Reconocimiento | [RHSAFRF](https://steamcommunity.com/workshop/filedetails/?id=843425103) |
+| [Mi-8MT](#mi8mt) | Hip | Transporte / Utilidad | [RHSAFRF](https://steamcommunity.com/workshop/filedetails/?id=843425103) |
+| [Mi-17](#mi17) | Hip | Transporte / Utilidad | [RHSAFRF](https://steamcommunity.com/workshop/filedetails/?id=843425103) |
+| [Mi-24V](#mi24v) | Hind-E | Ataque / Transporte armado | [RHSAFRF](https://steamcommunity.com/workshop/filedetails/?id=843425103) |
+| [Mi-28N](#mi28n) | Havoc | Ataque | [RHSAFRF](https://steamcommunity.com/workshop/filedetails/?id=843425103) |
+| [Ka-52](#ka52) | Alligator | Ataque / Reconocimiento | [RHSAFRF](https://steamcommunity.com/workshop/filedetails/?id=843425103) |
 
 [↑ Volver al índice](#indice)
 
@@ -160,7 +157,7 @@ Esta sección presenta una vista rápida del inventario autorizado. Las capacida
 <a id="ala-fija-otan"></a>
 # 4. Ala fija — OTAN
 
-Esta sección contiene las aeronaves de ala fija pertenecientes al inventario OTAN autorizado para ROAN.
+Esta sección contiene las aeronaves autorizadas de **Ala fija — OTAN**.
 
 ## Aeronaves
 
@@ -173,10 +170,7 @@ Esta sección contiene las aeronaves de ala fija pertenecientes al inventario OT
 ---
 
 <a id="a10c"></a>
-
 ## 4.1 A-10C Thunderbolt II
-
-> **Estado de la ficha:** Pendiente de documentación técnica.
 
 ### Imagen
 
@@ -184,69 +178,97 @@ _Pendiente._
 
 ### Información general
 
-_Pendiente._
+Avión de ataque subsónico, bimotor y monoplaza diseñado alrededor del cañón GAU-8/A. Su función principal es el apoyo aéreo cercano (CAS), la destrucción de blindados y la permanencia prolongada sobre el área de operaciones. Su baja velocidad relativa, resistencia estructural y buena visibilidad desde cabina favorecen el trabajo coordinado con JTAC y tropas terrestres.
+
+### Base de los datos técnicos
+
+Las cifras de prestaciones son referencias del A-10C real. Los sistemas interactivos y la disponibilidad exacta de municiones se basan en la implementación del mod y pueden variar con su versión.
 
 ### Roles ROAN
 
-- CAS
-- Ataque
-- Apoyo aéreo
+- CAS — Close Air Support
+- Ataque antiblindaje
 - Interdicción táctica
+- FAC(A) / coordinación aérea avanzada cuando la misión lo requiera
+- Apoyo a CSAR y fuerzas terrestres en entornos permisivos o semi-permisivos
 
 ### Características técnicas
 
 | Característica | Valor |
 |---|---|
-| Velocidad máxima | Pendiente |
-| Velocidad de crucero | Pendiente |
-| Techo operativo | Pendiente |
-| Alcance | Pendiente |
-| Autonomía | Pendiente |
-| Peso máximo | Pendiente |
+| Velocidad máxima | ≈ 420 mph / 365 kt / 676 km/h |
+| Velocidad de crucero | ≈ 300 kt / 556 km/h, dependiente de carga y altitud |
+| Techo de servicio | ≈ 45,000 ft / 13,700 m |
+| Alcance de referencia | ≈ 800 mi / 695 NM / 1,287 km sin reabastecimiento; depende del perfil |
+| Autonomía | Variable según carga y perfil; optimizado para permanencia prolongada en CAS |
+| Peso máximo al despegue | ≈ 51,000 lb / 23,130 kg |
+| Carga bélica externa máxima | Hasta ≈ 16,000 lb / 7,260 kg |
 
-### Tripulación
+### Tripulación y pasajeros
 
-| Configuración | Cantidad |
-|---|---:|
-| Tripulación mínima | Pendiente |
-| Tripulación máxima | Pendiente |
+| Configuración | Cantidad / criterio |
+|---|---|
+| Tripulación mínima | 1 piloto |
+| Tripulación recomendada | 1 piloto |
+| Tripulación máxima | 1 piloto |
 | Pasajeros | 0 |
 
 ### Capacidad de carga
 
-_Pendiente._
+No es una plataforma de transporte. Su capacidad de carga corresponde a armamento, tanques externos y pods. La carga bélica real de referencia es de hasta aproximadamente 7.26 t, aunque en Arma 3 debe seleccionarse una configuración coherente con la misión.
 
 ### Armamento
 
-_Pendiente / Según variante o configuración._
+Cañón **GAU-8/A Avenger de 30 mm** como arma principal. Dependiendo de la configuración del mod puede emplear misiles AGM-65 Maverick, bombas convencionales, bombas guiadas por láser/GPS, cohetes, AIM-9 para autodefensa y pods de contramedidas/ECM.
 
 ### Sensores y sistemas
 
-_Pendiente._
+El mod anuncia cabina interactiva, sistema de carga dinámica, contramedidas, RWR, navegación/moving map, designación GPS y empleo de pod electro-óptico/FLIR tipo AN/AAQ-28. La aeronave real A-10C integra aviónica digital, navegación GPS/INS, datalink y capacidad de empleo de pods de designación.
 
 ### Escenarios recomendados
 
-_Pendiente._
+- CAS sobre fuerzas amigas con JTAC o control terrestre
+- Ataque contra columnas blindadas, vehículos y posiciones fortificadas
+- Interdicción de convoyes y objetivos de superficie
+- Misiones en las que se requiera permanecer sobre el AO y efectuar múltiples pasadas
+
+### Escenarios no recomendados
+
+- Superioridad aérea o CAP frente a cazas modernos
+- Penetración inicial de una red SAM intacta
+- Ataques a baja cota sobre zonas con alta densidad de MANPADS/AAA sin supresión previa
 
 ### Fortalezas
 
-_Pendiente._
+- Gran potencia de fuego contra objetivos terrestres
+- Excelente permanencia y control a baja velocidad
+- Alta resistencia al daño comparada con cazas ligeros
+- Muy eficaz en coordinación con JTAC
 
 ### Debilidades
 
-_Pendiente._
+- Velocidad baja frente a cazas
+- Firma y perfil poco adecuados para penetración furtiva
+- Vulnerable a SAM modernos, MANPADS y AAA cuando opera bajo
 
 ### Fuerte contra
 
-_Pendiente._
+- Blindados y vehículos
+- Infantería y posiciones terrestres
+- Convoyes
+- Objetivos de oportunidad con defensa aérea limitada
 
 ### Débil contra
 
-_Pendiente._
+- Cazas modernos
+- SAM de medio/largo alcance
+- MANPADS y AAA densos en vuelos bajos
 
 ### Limitaciones operativas
 
-_Pendiente._
+- Debe evitarse emplearlo como sustituto de un caza de superioridad aérea.
+- En áreas con IADS activa debe operar después de SEAD/DEAD o bajo cobertura adecuada.
+- La cantidad y tipo exactos de pilones/armas dependen de la versión del mod.
 
 ### MOD
 
@@ -254,11 +276,18 @@ _Pendiente._
 
 ### Dependencias
 
-_Pendiente de validación._
+- [Lala Peral - Vehicle Interaction System (VIS)](https://steamcommunity.com/sharedfiles/filedetails/?id=3083512801)
 
 ### Observaciones ROAN
 
-_Pendiente._
+- ROAN debe priorizar su empleo como plataforma CAS/antiblindaje.
+- Para ataques cercanos a fuerzas amigas se recomienda control JTAC y establecimiento de ejes de ataque, altitudes y zonas de seguridad.
+- No debe usarse su capacidad de carga máxima como configuración estándar: la carga debe responder al objetivo y amenazas.
+
+### Fuentes de referencia
+
+- U.S. Air Force — A-10C Thunderbolt II fact sheet
+- Steam Workshop — A-10C Thunderbolt
 
 [↑ Volver a Ala fija — OTAN](#ala-fija-otan)  
 [↑ Volver al índice](#indice)
@@ -266,10 +295,7 @@ _Pendiente._
 ---
 
 <a id="c130"></a>
-
 ## 4.2 C-130 E/H/J Hercules Series
-
-> **Estado de la ficha:** Pendiente de documentación técnica.
 
 ### Imagen
 
@@ -277,70 +303,94 @@ _Pendiente._
 
 ### Información general
 
-_Pendiente._
+Transporte táctico cuatrimotor turbohélice concebido para mover personal, carga y vehículos desde pistas relativamente cortas y austeras. Es una plataforma logística de largo alcance para inserción aerotransportada, transporte de suministros, MEDEVAC y apoyo a fuerzas desplegadas.
+
+### Base de los datos técnicos
+
+El mod cubre variantes C-130E/H/J y J-30; por ello las prestaciones se presentan por familia. Las cifras son referencias USAF y las capacidades de carga del mod se complementan con su sistema flexible de transporte.
 
 ### Roles ROAN
 
-- Transporte
-- Logística
-- Inserción
-- Lanzamiento de carga
-- Operaciones aerotransportadas
+- Transporte táctico y logístico
+- Transporte de tropas
+- Lanzamiento de paracaidistas y carga
+- MEDEVAC / evacuación aeromédica según configuración
+- Reabastecimiento logístico entre bases
 
 ### Características técnicas
 
 | Característica | Valor |
 |---|---|
-| Velocidad máxima | Pendiente |
-| Velocidad de crucero | Pendiente |
-| Techo operativo | Pendiente |
-| Alcance | Pendiente |
-| Autonomía | Pendiente |
-| Peso máximo | Pendiente |
+| Velocidad máxima / de referencia | C-130E ≈ 300 kt; C-130H ≈ 318 kt; C-130J ≈ 362 kt / 417 mph |
+| Techo con carga de referencia | E ≈ 19,000 ft; H ≈ 23,000 ft; J ≈ 28,000 ft con 42,000 lb de carga |
+| Alcance con carga normal | E ≈ 1,000 NM; H ≈ 1,050 NM; J ≈ 1,800 NM; J-30 ≈ 1,700 NM |
+| Carga útil máxima de referencia | E/H/J ≈ 42,000 lb / 19,090 kg; J-30 ≈ 44,000 lb / 19,960 kg |
+| Capacidad de pallets | E/H/J: 6 pallets; J-30: 8 pallets |
+| Peso máximo al despegue | Varía por variante; aproximadamente 70–79 t en la familia |
 
-### Tripulación
+### Tripulación y pasajeros
 
-| Configuración | Cantidad |
-|---|---:|
-| Tripulación mínima | Pendiente |
-| Tripulación máxima | Pendiente |
-| Pasajeros | Pendiente |
+| Configuración | Cantidad / criterio |
+|---|---|
+| Tripulación mínima | 3 en C-130J/J-30 (2 pilotos + loadmaster) |
+| Tripulación recomendada | 3 en J; 5 en E/H |
+| Tripulación máxima estándar | 5 en E/H; personal de misión adicional según tarea |
+| Pasajeros / tropas | Hasta 90 tropas en E/H/J; J-30 hasta 128. Paracaidistas: hasta 64; J-30 hasta 92 |
 
 ### Capacidad de carga
 
-_Pendiente._
+El mod anuncia un sistema flexible de carga que permite combinar **infantería y vehículos**. Como referencia real, la familia maneja aproximadamente 19 t de carga útil; la variante J-30 aumenta ligeramente esa capacidad y dispone de una bodega más larga.
 
 ### Armamento
 
-_Pendiente / Según variante o configuración._
+Las variantes de transporte C-130 E/H/J son normalmente **no armadas**. ROAN no debe asumir capacidad AC-130 salvo que una variante gunship sea incorporada expresamente al catálogo en el futuro.
 
 ### Sensores y sistemas
 
-_Pendiente._
+Radar meteorológico, navegación inercial/GPS y aviónica de transporte. El C-130J incorpora cabina digital y sistemas modernos de navegación/gestión de vuelo. La implementación concreta en Arma 3 depende de la variante seleccionada.
 
 ### Escenarios recomendados
 
-_Pendiente._
+- Transporte de tropas entre bases o AO distantes
+- Reabastecimiento de FOB y aeródromos
+- Inserción paracaidista
+- Movimiento de vehículos ligeros y carga paletizada
+- MEDEVAC de gran capacidad cuando el escenario lo requiera
+
+### Escenarios no recomendados
+
+- Entrar en un AO con defensa aérea enemiga activa sin escolta/supresión
+- Aterrizar en LZ improvisadas sin longitud y superficie suficientes
+- Empleo como plataforma de ataque si la variante seleccionada no lo contempla
 
 ### Fortalezas
 
-_Pendiente._
+- Gran volumen interno y flexibilidad de carga
+- Buen alcance táctico
+- Capacidad de operar desde pistas relativamente austeras
+- Excelente plataforma logística para campañas largas
 
 ### Debilidades
 
-_Pendiente._
+- Grande, lento y poco maniobrable frente a amenazas de combate
+- Firma visual/radar significativa
+- Dependencia de pista para despegue y aterrizaje
 
 ### Fuerte contra
 
-_Pendiente._
+- No aplica como plataforma de combate; su fortaleza es superar distancias y restricciones logísticas
 
 ### Débil contra
 
-_Pendiente._
+- Cazas enemigos
+- SAM de cualquier alcance
+- MANPADS/AAA durante aproximaciones y despegues
 
 ### Limitaciones operativas
 
-_Pendiente._
+- Debe planearse una ruta segura y, en zona hostil, escolta o supresión de defensas.
+- La capacidad real de asientos y vehículos en Arma 3 puede cambiar entre las variantes E/H/J/J-30 del mod.
+- No se debe sobrecargar la bodega solo porque el juego permita ubicar físicamente más objetos.
 
 ### MOD
 
@@ -348,11 +398,18 @@ _Pendiente._
 
 ### Dependencias
 
-_Pendiente de validación._
+- [FIR AWS (AirWeaponSystem)](https://steamcommunity.com/workshop/filedetails/?id=366425329)
 
 ### Observaciones ROAN
 
-_Pendiente._
+- Para ROAN su rol primario es logística y transporte, no combate.
+- El piloto debe confirmar variante, peso, longitud de pista y ruta antes de la operación.
+- En misiones de lanzamiento aéreo debe coordinarse DZ, altitud, rumbo y señal de lanzamiento.
+
+### Fuentes de referencia
+
+- U.S. Air Force — C-130 Hercules fact sheet
+- Steam Workshop — C-130 E/H/J Hercules Series
 
 [↑ Volver a Ala fija — OTAN](#ala-fija-otan)  
 [↑ Volver al índice](#indice)
@@ -360,10 +417,7 @@ _Pendiente._
 ---
 
 <a id="fa18ef"></a>
-
 ## 4.3 F/A-18E/F Super Hornet
-
-> **Estado de la ficha:** Pendiente de documentación técnica.
 
 ### Imagen
 
@@ -371,71 +425,98 @@ _Pendiente._
 
 ### Información general
 
-_Pendiente._
+Caza embarcado multirrol diseñado para operar desde portaaviones CATOBAR. Combina superioridad aérea, escolta, ataque de precisión, CAS y supresión de defensas, por lo que constituye una de las plataformas más versátiles del inventario ROAN.
+
+### Base de los datos técnicos
+
+Prestaciones basadas en el F/A-18E/F real. El mod añade una versión actualizada con cabina y funciones interactivas; la disponibilidad exacta de armas depende de la configuración del addon.
 
 ### Roles ROAN
 
-- CAP
+- CAP / superioridad aérea
+- Interceptación y escolta
 - CAS
-- Ataque
-- Interdicción
+- Ataque de precisión e interdicción
 - SEAD / DEAD
-- Operaciones embarcadas
+- Operaciones embarcadas CATOBAR
 
 ### Características técnicas
 
 | Característica | Valor |
 |---|---|
-| Velocidad máxima | Pendiente |
-| Velocidad de crucero | Pendiente |
-| Techo operativo | Pendiente |
-| Alcance | Pendiente |
-| Autonomía | Pendiente |
-| Peso máximo | Pendiente |
+| Velocidad máxima | Mach 1.8+ / aproximadamente 1,915 km/h a gran altitud |
+| Velocidad de crucero | Subsónica, normalmente ≈ Mach 0.8–0.9 según carga |
+| Techo de servicio | 50,000+ ft / 15,240+ m |
+| Alcance de referencia USN | ≈ 1,275 NM / 2,360 km |
+| Alcance de traslado | ≈ 1,660 NM / 3,070 km |
+| Peso máximo al despegue | ≈ 66,000 lb / 29,940 kg |
+| Carga externa | ≈ 17,750 lb / 8,050 kg en pilones externos |
 
-### Tripulación
+### Tripulación y pasajeros
 
-| Configuración | Cantidad |
-|---|---:|
-| Tripulación mínima | Pendiente |
-| Tripulación máxima | Pendiente |
+| Configuración | Cantidad / criterio |
+|---|---|
+| Tripulación mínima | 1 en F/A-18E; 2 en F/A-18F si se emplean ambos puestos |
+| Tripulación recomendada | E: 1; F: 2 para aprovechar piloto + WSO |
+| Tripulación máxima | 1 en E / 2 en F |
 | Pasajeros | 0 |
 
 ### Capacidad de carga
 
-_Pendiente._
+No transporta pasajeros ni carga logística. Su carga consiste en combustible externo, pods y armamento distribuido en estaciones externas.
 
 ### Armamento
 
-_Pendiente / Según variante o configuración._
+Cañón **M61A2 de 20 mm** y combinaciones de AIM-9, AIM-120, AGM-88 HARM, AGM-84/SLAM/Harpoon según integración, JDAM, JSOW, Paveway, bombas convencionales y otras municiones aire-superficie. La selección exacta debe hacerse desde las opciones disponibles en el mod.
 
 ### Sensores y sistemas
 
-_Pendiente._
+Radar multimodo de combate, RWR, navegación táctica, datalink y pods de designación. En variantes modernas el radar real es APG-79 AESA; el comportamiento exacto del radar/sensores del addon debe asumirse como el que presente la versión instalada.
 
 ### Escenarios recomendados
 
-_Pendiente._
+- CAP y defensa aérea de flota
+- Escolta de transportes/helicópteros
+- CAS y strike desde portaaviones
+- SEAD/DEAD con armamento adecuado
+- Interdicción marítima o terrestre
+
+### Escenarios no recomendados
+
+- Misiones de transporte o logística
+- Operaciones desde pistas/LHA sin infraestructura compatible CATOBAR/STOBAR
+- Ataque profundo sin considerar combustible, tanker y defensa aérea enemiga
 
 ### Fortalezas
 
-_Pendiente._
+- Multirrol genuino
+- Excelente compatibilidad con operaciones de portaaviones
+- Buena combinación de radar, armas BVR y precisión aire-superficie
+- F/A-18F permite reparto de tareas piloto/WSO
 
 ### Debilidades
 
-_Pendiente._
+- Menor alcance que plataformas dedicadas de strike de largo radio
+- Carga y autonomía se reducen con configuraciones aire-aire/aire-tierra pesadas
+- Operación embarcada exige disciplina de cubierta y recuperación
 
 ### Fuerte contra
 
-_Pendiente._
+- Cazas y aeronaves enemigas
+- Objetivos terrestres y navales
+- Emisores/radares cuando dispone de armamento SEAD
+- Blancos de precisión
 
 ### Débil contra
 
-_Pendiente._
+- IADS moderna si entra sin planificación SEAD/DEAD
+- Cazas con ventaja de detección/posición si el piloto pierde conciencia situacional
 
 ### Limitaciones operativas
 
-_Pendiente._
+- Para operaciones Nimitz debe respetarse el procedimiento de catapulta, patrón, marshal y apontaje definido por ROAN.
+- En F/A-18F se recomienda usar dos tripulantes cuando la misión implique navegación/ataque complejo.
+- La carga máxima teórica no equivale a una configuración óptima.
 
 ### MOD
 
@@ -443,11 +524,18 @@ _Pendiente._
 
 ### Dependencias
 
-_Pendiente de validación._
+- No declara dependencias obligatorias adicionales en Steam Workshop.
 
 ### Observaciones ROAN
 
-_Pendiente._
+- Plataforma preferente de ROAN para operaciones de ala fija desde Nimitz.
+- Debe priorizarse una configuración acorde con el paquete de misión: CAP, CAS, SEAD o strike.
+- El empleo de la variante F con WSO es recomendable para entrenamiento avanzado y misiones complejas.
+
+### Fuentes de referencia
+
+- U.S. Navy — F/A-18E/F Super Hornet fact file
+- Steam Workshop — F/A-18E/F Super Hornet 2020
 
 [↑ Volver a Ala fija — OTAN](#ala-fija-otan)  
 [↑ Volver al índice](#indice)
@@ -455,10 +543,7 @@ _Pendiente._
 ---
 
 <a id="f35b"></a>
-
 ## 4.4 F-35B Lightning II
-
-> **Estado de la ficha:** Pendiente de documentación técnica.
 
 ### Imagen
 
@@ -466,72 +551,99 @@ _Pendiente._
 
 ### Información general
 
-_Pendiente._
+Variante STOVL del F-35 diseñada para despegues cortos y aterrizajes verticales. Está orientada a ataque de precisión, superioridad aérea, ISR y operaciones desde buques anfibios o bases con infraestructura limitada.
+
+### Base de los datos técnicos
+
+Prestaciones basadas en datos públicos del F-35B real; los sistemas interactivos, cámaras y carga dinámica se complementan con lo anunciado por el mod.
 
 ### Roles ROAN
 
 - Multirrol
-- CAP
+- CAP / defensa aérea
+- Ataque de precisión
 - CAS
-- Ataque
 - SEAD / DEAD
-- STOVL
-- Operaciones embarcadas
+- ISR
+- Operaciones STOVL desde LHA
 
 ### Características técnicas
 
 | Característica | Valor |
 |---|---|
-| Velocidad máxima | Pendiente |
-| Velocidad de crucero | Pendiente |
-| Techo operativo | Pendiente |
-| Alcance | Pendiente |
-| Autonomía | Pendiente |
-| Peso máximo | Pendiente |
+| Velocidad máxima | Mach 1.6 / ≈ 1,930 km/h |
+| Techo de servicio | ≈ 50,000 ft / 15,240 m |
+| Alcance con combustible interno | > 900 NM / > 1,670 km |
+| Radio de combate | > 450 NM / > 830 km |
+| Carga de armas total de referencia | ≈ 15,000 lb / 6,800 kg |
+| Peso máximo al despegue | Clase de ≈ 60,000 lb / 27,200 kg |
+| Capacidad STOVL | Despegue corto y aterrizaje vertical; la carga/combustible condicionan el rendimiento vertical |
 
-### Tripulación
+### Tripulación y pasajeros
 
-| Configuración | Cantidad |
-|---|---:|
-| Tripulación mínima | Pendiente |
-| Tripulación máxima | Pendiente |
+| Configuración | Cantidad / criterio |
+|---|---|
+| Tripulación mínima | 1 piloto |
+| Tripulación recomendada | 1 piloto |
+| Tripulación máxima | 1 piloto |
 | Pasajeros | 0 |
 
 ### Capacidad de carga
 
-_Pendiente._
+No transporta personal. La carga corresponde a armamento interno/externo y combustible. Para mantener baja observabilidad real se prioriza armamento interno; en Arma 3 el efecto de firma depende de la simulación del mod.
 
 ### Armamento
 
-_Pendiente / Según variante o configuración._
+Combinaciones aire-aire y aire-superficie: AIM-120, AIM-9 en configuraciones externas, JDAM/GBU, AGM y otras municiones según la integración del mod. La variante B real no lleva cañón interno y utiliza un pod de cañón cuando se requiere.
 
 ### Sensores y sistemas
 
-_Pendiente._
+Radar AESA, EOTS, DAS y suite de guerra electrónica/sensor fusion en la aeronave real. El mod anuncia cabina interactiva, moving map, RWR, designación/cámaras para municiones, TGP y sistema de carga/contramedidas.
 
 ### Escenarios recomendados
 
-_Pendiente._
+- Operaciones desde LHA
+- Strike de precisión
+- CAP y escolta
+- SEAD/DEAD cuando la carga del mod lo permita
+- Misiones donde la flexibilidad STOVL sea decisiva
+
+### Escenarios no recomendados
+
+- Aterrizaje vertical con combustible/carga incompatibles con la maniobra
+- Operaciones logísticas o transporte
+- Uso indiscriminado de hover/VTOL en zonas con amenaza terrestre
 
 ### Fortalezas
 
-_Pendiente._
+- STOVL permite operar sin catapulta
+- Gran conciencia situacional y sensores
+- Buena combinación aire-aire/aire-tierra
+- Adecuado para operaciones anfibias
 
 ### Debilidades
 
-_Pendiente._
+- Menor alcance y carga que F-35C
+- Aterrizaje vertical exige control de peso y consumo
+- Hover lo vuelve vulnerable y consume combustible
 
 ### Fuerte contra
 
-_Pendiente._
+- Cazas
+- Objetivos terrestres de alto valor
+- Defensas aéreas y radares si se configura para SEAD/strike
+- Blancos navales según armamento disponible
 
 ### Débil contra
 
-_Pendiente._
+- Amenazas de corto alcance durante hover/vertical landing
+- IADS si se opera sin táctica ni armamento adecuados
 
 ### Limitaciones operativas
 
-_Pendiente._
+- STOVL no significa que cualquier peso pueda recuperarse verticalmente.
+- En LHA se debe utilizar la cubierta, spawner y zonas de rearmado/reparación conforme a la misión.
+- Las integraciones opcionales con USAF Missilebox no deben confundirse con dependencias obligatorias.
 
 ### MOD
 
@@ -539,11 +651,18 @@ _Pendiente._
 
 ### Dependencias
 
-_Pendiente de validación._
+- [Lala Peral - Vehicle Interaction System (VIS)](https://steamcommunity.com/sharedfiles/filedetails/?id=3083512801)
 
 ### Observaciones ROAN
 
-_Pendiente._
+- Plataforma principal de ala fija para operaciones desde LHA.
+- ROAN debe entrenar por separado despegue corto, transición y aterrizaje vertical.
+- La prioridad es conservar combustible suficiente para recuperación segura.
+
+### Fuentes de referencia
+
+- Lockheed Martin — F-35 Fast Facts
+- Steam Workshop — F-35B Lightning
 
 [↑ Volver a Ala fija — OTAN](#ala-fija-otan)  
 [↑ Volver al índice](#indice)
@@ -551,10 +670,7 @@ _Pendiente._
 ---
 
 <a id="f35c"></a>
-
 ## 4.5 F-35C Lightning II
-
-> **Estado de la ficha:** Pendiente de documentación técnica.
 
 ### Imagen
 
@@ -562,71 +678,98 @@ _Pendiente._
 
 ### Información general
 
-_Pendiente._
+Variante naval embarcada del F-35, diseñada específicamente para catapultas y cables de apontaje. Posee mayor ala y combustible interno que el F-35B, obteniendo mejor alcance y persistencia para operaciones desde portaaviones.
+
+### Base de los datos técnicos
+
+Prestaciones basadas en datos públicos del F-35C real. El mod implementa la variante embarcada CATOBAR con alas mayores/plegables y tren reforzado.
 
 ### Roles ROAN
 
-- Multirrol
-- CAP
+- CAP / superioridad aérea
+- Ataque de precisión
 - CAS
-- Ataque
 - SEAD / DEAD
-- Operaciones embarcadas
+- ISR
+- Operaciones CATOBAR
 
 ### Características técnicas
 
 | Característica | Valor |
 |---|---|
-| Velocidad máxima | Pendiente |
-| Velocidad de crucero | Pendiente |
-| Techo operativo | Pendiente |
-| Alcance | Pendiente |
-| Autonomía | Pendiente |
-| Peso máximo | Pendiente |
+| Velocidad máxima | Mach 1.6 / ≈ 1,930 km/h |
+| Techo de servicio | ≈ 50,000 ft / 15,240 m |
+| Alcance con combustible interno | > 1,200 NM / > 2,220 km |
+| Radio de combate | > 600 NM / > 1,110 km |
+| Carga de armas total de referencia | ≈ 18,000 lb / 8,160 kg |
+| Peso máximo al despegue | Clase de ≈ 70,000 lb / 31,750 kg |
+| Operación embarcada | CATOBAR; alas plegables y tren reforzado |
 
-### Tripulación
+### Tripulación y pasajeros
 
-| Configuración | Cantidad |
-|---|---:|
-| Tripulación mínima | Pendiente |
-| Tripulación máxima | Pendiente |
+| Configuración | Cantidad / criterio |
+|---|---|
+| Tripulación mínima | 1 piloto |
+| Tripulación recomendada | 1 piloto |
+| Tripulación máxima | 1 piloto |
 | Pasajeros | 0 |
 
 ### Capacidad de carga
 
-_Pendiente._
+No transporta pasajeros. La carga corresponde a armamento y combustible; su mayor ala y combustible le dan ventaja de alcance frente a la variante B.
 
 ### Armamento
 
-_Pendiente / Según variante o configuración._
+AIM-120, AIM-9 en estaciones externas, JDAM/GBU y otras armas aire-superficie compatibles con la implementación. La configuración exacta depende del menú/pilones del mod.
 
 ### Sensores y sistemas
 
-_Pendiente._
+Radar AESA, EOTS, DAS y guerra electrónica en la plataforma real; el mod integra cabina interactiva, moving map, RWR, cámaras/targeting y gestión dinámica de carga.
 
 ### Escenarios recomendados
 
-_Pendiente._
+- CAP de flota
+- Strike de largo alcance desde portaaviones
+- SEAD/DEAD
+- Escolta
+- Ataque de precisión y reconocimiento armado
+
+### Escenarios no recomendados
+
+- Operación desde LHA como sustituto del F-35B
+- Aterrizajes sin cable o pistas improvisadas no aptas
+- Uso como plataforma logística
 
 ### Fortalezas
 
-_Pendiente._
+- Mayor alcance/persistencia que F-35B
+- Optimizado para portaaviones CATOBAR
+- Sensores y conciencia situacional avanzados
+- Buena capacidad multirrol
 
 ### Debilidades
 
-_Pendiente._
+- Depende de catapulta/cables para ciclo embarcado completo
+- Mayor tamaño que F-35B
+- La carga externa compromete las ventajas de baja observabilidad real
 
 ### Fuerte contra
 
-_Pendiente._
+- Cazas
+- Objetivos de alto valor
+- Defensas aéreas cuando se emplea correctamente
+- Blancos terrestres/navales con armamento adecuado
 
 ### Débil contra
 
-_Pendiente._
+- IADS densa si se emplea sin planificación
+- Amenazas en patrón de recuperación si el carrier group no está protegido
 
 ### Limitaciones operativas
 
-_Pendiente._
+- En Nimitz debe seguirse el procedimiento CATOBAR de ROAN.
+- No debe intentarse empleo STOVL: esa capacidad corresponde al F-35B.
+- Mantener reservas de combustible para marshal, bolter y recuperación alterna.
 
 ### MOD
 
@@ -634,11 +777,18 @@ _Pendiente._
 
 ### Dependencias
 
-_Pendiente de validación._
+- [Lala Peral - Vehicle Interaction System (VIS)](https://steamcommunity.com/sharedfiles/filedetails/?id=3083512801)
 
 ### Observaciones ROAN
 
-_Pendiente._
+- Junto con el F/A-18E/F, constituye la plataforma principal para operaciones de ala fija desde Nimitz.
+- Debe entrenarse específicamente apontaje con cable y bolter.
+- Su mayor radio lo hace preferible para CAP/strike a mayor distancia del carrier.
+
+### Fuentes de referencia
+
+- Lockheed Martin — F-35 Fast Facts
+- Steam Workshop — F-35C Lightning
 
 [↑ Volver a Ala fija — OTAN](#ala-fija-otan)  
 [↑ Volver al índice](#indice)
@@ -648,7 +798,7 @@ _Pendiente._
 <a id="ala-fija-rusia"></a>
 # 5. Ala fija — Rusia
 
-Esta sección contiene las aeronaves de ala fija rusas autorizadas para su empleo por ROAN.
+Esta sección contiene las aeronaves autorizadas de **Ala fija — Rusia**.
 
 ## Aeronaves
 
@@ -659,10 +809,7 @@ Esta sección contiene las aeronaves de ala fija rusas autorizadas para su emple
 ---
 
 <a id="mig29sm"></a>
-
 ## 5.1 MiG-29SM Fulcrum
-
-> **Estado de la ficha:** Pendiente de documentación técnica.
 
 ### Imagen
 
@@ -670,69 +817,96 @@ _Pendiente._
 
 ### Información general
 
-_Pendiente._
+Caza ligero/medio de alta maniobrabilidad modernizado para ampliar la capacidad aire-superficie del MiG-29 original. El SM combina defensa aérea, interceptación y ataque de precisión, conservando buenas prestaciones de combate cercano.
+
+### Base de los datos técnicos
+
+Prestaciones basadas en datos publicados de la modernización MiG-29SM/SMT como referencia. El mod mejora el MiG-29 de RHS y agrega soporte FIR, imagen térmica y capacidad de armamento ampliada.
 
 ### Roles ROAN
 
-- Caza
-- Multirrol
-- CAP
-- Intercepción
+- CAP / superioridad aérea local
+- Interceptación
+- Escolta
+- Ataque aire-superficie
+- Interdicción táctica
 
 ### Características técnicas
 
 | Característica | Valor |
 |---|---|
-| Velocidad máxima | Pendiente |
-| Velocidad de crucero | Pendiente |
-| Techo operativo | Pendiente |
-| Alcance | Pendiente |
-| Autonomía | Pendiente |
-| Peso máximo | Pendiente |
+| Velocidad máxima a gran altitud | ≈ 2,400 km/h / Mach 2.25 |
+| Velocidad máxima a nivel del mar | ≈ 1,500 km/h |
+| Techo de servicio | ≈ 17,750 m / 58,235 ft |
+| Alcance de traslado | ≈ 1,500 km sin tanques; ≈ 2,900 km con 3 tanques; > 5,000 km con tanques + 1 reabastecimiento |
+| Peso máximo al despegue | ≈ 20,000 kg |
+| Carga externa de referencia | ≈ 4,000 kg |
+| Estaciones externas | 6 en la referencia MiG-29SM |
 
-### Tripulación
+### Tripulación y pasajeros
 
-| Configuración | Cantidad |
-|---|---:|
-| Tripulación mínima | Pendiente |
-| Tripulación máxima | Pendiente |
+| Configuración | Cantidad / criterio |
+|---|---|
+| Tripulación mínima | 1 piloto |
+| Tripulación recomendada | 1 piloto |
+| Tripulación máxima | 1 piloto |
 | Pasajeros | 0 |
 
 ### Capacidad de carga
 
-_Pendiente._
+No es transporte. Su carga útil se dedica a misiles, bombas, pods y tanques externos; el MiG-29SM real de referencia maneja alrededor de 4 t de armamento.
 
 ### Armamento
 
-_Pendiente / Según variante o configuración._
+Cañón GSh-301 de 30 mm; R-73, R-27 y RVV-AE/R-77; Kh-29, Kh-31, Kh-25 y bombas guiadas KAB-500, además de armamento no guiado según la configuración FIR/RHS disponible.
 
 ### Sensores y sistemas
 
-_Pendiente._
+Radar de combate, sistema electro-óptico/IRST y designación montada en casco en variantes modernas. El mod anuncia soporte FIR, imagen térmica y mira láser para empleo aire-superficie.
 
 ### Escenarios recomendados
 
-_Pendiente._
+- CAP de corto/medio alcance
+- Interceptación rápida
+- Combate BVR y WVR
+- Ataque táctico contra blancos terrestres
+- Adversario OPFOR para entrenamiento aire-aire ROAN
+
+### Escenarios no recomendados
+
+- Strike de muy largo alcance sin tanques/reabastecimiento
+- Penetración profunda con alta carga y sin apoyo
+- Misiones donde se requiera gran persistencia en estación
 
 ### Fortalezas
 
-_Pendiente._
+- Muy buena maniobrabilidad
+- Alta velocidad y aceleración
+- Capacidad aire-aire y aire-superficie
+- Amplia integración de armas mediante FIR
 
 ### Debilidades
 
-_Pendiente._
+- Menor alcance/persistencia que cazas pesados
+- Carga útil inferior a Su-34/Su-35
+- Dependencia fuerte del combustible en perfiles agresivos
 
 ### Fuerte contra
 
-_Pendiente._
+- Cazas y helicópteros
+- Objetivos terrestres puntuales
+- Radares/objetivos navales con armamento apropiado
 
 ### Débil contra
 
-_Pendiente._
+- Cazas con ventaja BVR/sensores si se lo detecta primero
+- SAM de medio/largo alcance sin apoyo SEAD
 
 ### Limitaciones operativas
 
-_Pendiente._
+- Planificar combustible y tanques externos antes de misiones largas.
+- La gran cantidad de dependencias debe estar presente en todos los clientes/servidor.
+- Las armas disponibles dependen de la combinación exacta RHS + FIR instalada.
 
 ### MOD
 
@@ -740,11 +914,22 @@ _Pendiente._
 
 ### Dependencias
 
-_Pendiente de validación._
+- [FIR AWS (AirWeaponSystem)](https://steamcommunity.com/workshop/filedetails/?id=366425329)
+- [RHSGREF](https://steamcommunity.com/workshop/filedetails/?id=843593391)
+- [RHSAFRF](https://steamcommunity.com/workshop/filedetails/?id=843425103)
+- [RHSSAF](https://steamcommunity.com/workshop/filedetails/?id=843632231)
+- [RHSUSAF](https://steamcommunity.com/workshop/filedetails/?id=843577117)
 
 ### Observaciones ROAN
 
-_Pendiente._
+- Excelente plataforma adversaria para prácticas BVR/WVR.
+- ROAN debe tratar la carga FIR como parte integral de la planificación de pilones.
+- Para ataque de precisión se recomienda confirmar qué sensores/municiones están funcionales en la versión del mod usada por la misión.
+
+### Fuentes de referencia
+
+- Ficha técnica pública MiG-29SM/SMT
+- Steam Workshop — Improved RHS MiG-29SM + FIR support
 
 [↑ Volver a Ala fija — Rusia](#ala-fija-rusia)  
 [↑ Volver al índice](#indice)
@@ -752,10 +937,7 @@ _Pendiente._
 ---
 
 <a id="su34m"></a>
-
 ## 5.2 Su-34M Fullback
-
-> **Estado de la ficha:** Pendiente de documentación técnica.
 
 ### Imagen
 
@@ -763,69 +945,97 @@ _Pendiente._
 
 ### Información general
 
-_Pendiente._
+Avión biplaza de ataque de largo alcance derivado de la familia Su-27. Está optimizado para strike, interdicción y ataque de precisión, con gran carga útil, autonomía y una cabina lado a lado que reparte las tareas entre piloto y navegador/operador de sistemas.
+
+### Base de los datos técnicos
+
+Prestaciones tomadas como referencia del Su-34/Su-34E real. El mod agrega una variante Su-34 con municiones UMPK y bombas del ecosistema RHS.
 
 ### Roles ROAN
 
-- Ataque
+- Strike / ataque de precisión
 - Interdicción
-- Ataque de precisión
-- Multirrol
+- Ataque contra infraestructura
+- Ataque antiblindaje
+- SEAD/DEAD según armamento disponible
+- Autodefensa aire-aire
 
 ### Características técnicas
 
 | Característica | Valor |
 |---|---|
-| Velocidad máxima | Pendiente |
-| Velocidad de crucero | Pendiente |
-| Techo operativo | Pendiente |
-| Alcance | Pendiente |
-| Autonomía | Pendiente |
-| Peso máximo | Pendiente |
+| Velocidad máxima a nivel del mar | ≈ 1,100 km/h |
+| Velocidad máxima a altitud | ≈ 1,500 km/h / Mach 1.5 |
+| Techo de servicio | ≈ 15,000 m / 49,200 ft |
+| Radio máximo con tanques externos | Hasta ≈ 1,700 km |
+| Alcance de traslado | ≈ 4,250 km |
+| Duración máxima de vuelo de referencia | Hasta ≈ 10 h, condicionada por tripulación/perfil |
+| Carga de combate máxima | ≈ 8,500 kg |
+| Peso normal al despegue | ≈ 39,500 kg |
 
-### Tripulación
+### Tripulación y pasajeros
 
-| Configuración | Cantidad |
-|---|---:|
-| Tripulación mínima | Pendiente |
-| Tripulación máxima | Pendiente |
+| Configuración | Cantidad / criterio |
+|---|---|
+| Tripulación mínima | 2 |
+| Tripulación recomendada | 2 (piloto + navegador/operador) |
+| Tripulación máxima | 2 |
 | Pasajeros | 0 |
 
 ### Capacidad de carga
 
-_Pendiente._
+Puede transportar alrededor de 8.5 t de carga de combate real de referencia. La configuración del mod incluye UMPK y otras bombas/misiles provenientes de RHS/FIR.
 
 ### Armamento
 
-_Pendiente / Según variante o configuración._
+Cañón interno GSh-30-1 de 30 mm; bombas guiadas/no guiadas, UMPK, misiles aire-superficie y aire-aire según integración. El mod se centra especialmente en munición UMPK y bombas RHS.
 
 ### Sensores y sistemas
 
-_Pendiente._
+Radar multimodo, navegación/ataque de largo alcance, suite de guerra electrónica y designación de blancos de la plataforma real. En el juego, la efectividad depende de las funciones heredadas de RHS/FIR y del addon.
 
 ### Escenarios recomendados
 
-_Pendiente._
+- Ataque de precisión a distancia
+- Interdicción de bases, puentes, depósitos y concentraciones enemigas
+- Ataques con gran carga de bombas
+- Misiones OPFOR de strike a media/larga distancia
+
+### Escenarios no recomendados
+
+- Dogfight como función principal
+- CAS muy cercano a fuerzas amigas cuando hay una plataforma más apropiada
+- Operaciones desde pistas muy cortas o portaaviones
 
 ### Fortalezas
 
-_Pendiente._
+- Gran carga bélica
+- Buen radio de acción
+- Dos tripulantes para repartir navegación/armas
+- Adecuado para ataque de precisión pesado
 
 ### Debilidades
 
-_Pendiente._
+- Grande y menos ágil que cazas puros
+- Firma elevada
+- Requiere protección/planificación en espacio aéreo fuertemente disputado
 
 ### Fuerte contra
 
-_Pendiente._
+- Infraestructura y objetivos de área
+- Blindados y posiciones fortificadas
+- Objetivos de alto valor a distancia
 
 ### Débil contra
 
-_Pendiente._
+- Cazas de superioridad aérea si entra cargado
+- SAM modernos sin escolta/SEAD
 
 ### Limitaciones operativas
 
-_Pendiente._
+- Debe operar desde aeródromos adecuados.
+- No se recomienda configurar el máximo de bombas si compromete combustible o maniobrabilidad.
+- Las UMPK y otras armas dependen de que toda la cadena de dependencias del mod esté cargada.
 
 ### MOD
 
@@ -833,11 +1043,21 @@ _Pendiente._
 
 ### Dependencias
 
-_Pendiente de validación._
+- [RHSAFRF](https://steamcommunity.com/workshop/filedetails/?id=843425103)
+- [Improved RHS MiG-29SM + FIR support](https://steamcommunity.com/sharedfiles/filedetails/?id=2987850906)
+- [FIR AWS (AirWeaponSystem)](https://steamcommunity.com/workshop/filedetails/?id=366425329)
+- Dependencias transitivas del Improved MiG-29SM: RHSGREF, RHSSAF y RHSUSAF.
 
 ### Observaciones ROAN
 
-_Pendiente._
+- ROAN debe usarlo como plataforma de strike, no como sustituto de un caza ligero.
+- En misión MP, confirmar que todos los clientes tengan la cadena completa RHS/FIR.
+- Los ataques UMPK son apropiados cuando se desea mantener mayor separación de las defensas terrestres.
+
+### Fuentes de referencia
+
+- UAC — Su-34/Su-34E flight performance
+- Steam Workshop — Su-34M (UMPK)
 
 [↑ Volver a Ala fija — Rusia](#ala-fija-rusia)  
 [↑ Volver al índice](#indice)
@@ -845,10 +1065,7 @@ _Pendiente._
 ---
 
 <a id="su35"></a>
-
 ## 5.3 Su-35 Flanker-E
-
-> **Estado de la ficha:** Pendiente de documentación técnica.
 
 ### Imagen
 
@@ -856,69 +1073,97 @@ _Pendiente._
 
 ### Información general
 
-_Pendiente._
+Caza pesado monoplaza de gran maniobrabilidad, autonomía y carga de armas. Está orientado principalmente a superioridad aérea y combate BVR/WVR, pero conserva una importante capacidad aire-superficie.
+
+### Base de los datos técnicos
+
+Prestaciones basadas en la ficha oficial de UAC para el Su-35. El mod representa el Su-35S/Flanker-E y puede simplificar algunos sensores o armas.
 
 ### Roles ROAN
 
 - Superioridad aérea
-- Caza
-- Multirrol
-- Intercepción
+- CAP
+- Interceptación
+- Escolta
+- Ataque multirrol
+- Adversario avanzado para entrenamiento ROAN
 
 ### Características técnicas
 
 | Característica | Valor |
 |---|---|
-| Velocidad máxima | Pendiente |
-| Velocidad de crucero | Pendiente |
-| Techo operativo | Pendiente |
-| Alcance | Pendiente |
-| Autonomía | Pendiente |
-| Peso máximo | Pendiente |
+| Velocidad máxima a nivel del mar | ≈ 1,400 km/h |
+| Velocidad máxima a altitud | Mach 2.25 |
+| Techo de servicio | ≈ 18,000 m / 59,055 ft |
+| Alcance práctico a baja cota | ≈ 1,580 km |
+| Alcance práctico a altitud de crucero | ≈ 3,600 km sin reabastecimiento |
+| Peso máximo al despegue | ≈ 34,500 kg |
+| Carga de combate máxima | ≈ 8,000 kg en 12 estaciones |
 
-### Tripulación
+### Tripulación y pasajeros
 
-| Configuración | Cantidad |
-|---|---:|
-| Tripulación mínima | Pendiente |
-| Tripulación máxima | Pendiente |
+| Configuración | Cantidad / criterio |
+|---|---|
+| Tripulación mínima | 1 piloto |
+| Tripulación recomendada | 1 piloto |
+| Tripulación máxima | 1 piloto |
 | Pasajeros | 0 |
 
 ### Capacidad de carga
 
-_Pendiente._
+Hasta aproximadamente 8 t de armamento externo en 12 estaciones en la aeronave real. No posee capacidad de transporte.
 
 ### Armamento
 
-_Pendiente / Según variante o configuración._
+Cañón de 30 mm y amplia familia de misiles aire-aire de corto/medio/largo alcance, además de misiles aire-superficie, antirradiación/antibuque, bombas guiadas y no guiadas según integración del mod.
 
 ### Sensores y sistemas
 
-_Pendiente._
+Radar de antena en fase con detección de blancos aéreos de hasta ~350 km en condiciones ideales de referencia; puede seguir múltiples contactos y atacar varios. Integra OLS/IRST con alcance de detección de hasta ~80 km en condiciones favorables, además de guerra electrónica.
 
 ### Escenarios recomendados
 
-_Pendiente._
+- Superioridad aérea
+- CAP de largo radio
+- Interceptación
+- Escolta de plataformas de strike
+- Entrenamiento avanzado BVR/WVR contra ROAN
+
+### Escenarios no recomendados
+
+- Transporte/logística
+- CAS lento y persistente cuando existe helicóptero/A-10
+- Operaciones embarcadas en Nimitz/LHA
 
 ### Fortalezas
 
-_Pendiente._
+- Excelente maniobrabilidad y empuje vectorial
+- Gran alcance
+- Radar y capacidad BVR potentes
+- Alta carga de armas
 
 ### Debilidades
 
-_Pendiente._
+- Gran firma física/radar frente a plataformas furtivas
+- Coste de combustible/carga alto en misiones largas
+- No está optimizado para operaciones embarcadas
 
 ### Fuerte contra
 
-_Pendiente._
+- Cazas y aeronaves de apoyo
+- Helicópteros
+- Objetivos terrestres/navales con armamento apropiado
 
 ### Débil contra
 
-_Pendiente._
+- Plataformas con ventaja de detección/stealth si no logra localizar primero
+- IADS en penetración sin supresión
 
 ### Limitaciones operativas
 
-_Pendiente._
+- La distancia de detección real en Arma 3 puede ser inferior o funcionar de manera diferente a la cifra real.
+- No debe considerarse invulnerable por su maniobrabilidad; la gestión BVR sigue siendo prioritaria.
+- Las armas exactas dependen del addon instalado.
 
 ### MOD
 
@@ -926,11 +1171,18 @@ _Pendiente._
 
 ### Dependencias
 
-_Pendiente de validación._
+- No declara dependencias obligatorias adicionales en Steam Workshop.
 
 ### Observaciones ROAN
 
-_Pendiente._
+- Plataforma OPFOR ideal para pruebas de superioridad aérea.
+- ROAN puede emplearlo para instrucción sobre amenazas de gran maniobrabilidad y largo alcance.
+- En misiones PvE puede reservarse para adversarios de alto nivel.
+
+### Fuentes de referencia
+
+- UAC — Su-35 official specifications
+- Steam Workshop — SU-35 Flanker E
 
 [↑ Volver a Ala fija — Rusia](#ala-fija-rusia)  
 [↑ Volver al índice](#indice)
@@ -940,7 +1192,7 @@ _Pendiente._
 <a id="ala-rotativa-otan"></a>
 # 6. Ala rotativa — OTAN
 
-Esta sección contiene las aeronaves de ala rotativa OTAN autorizadas para ROAN.
+Esta sección contiene las aeronaves autorizadas de **Ala rotativa — OTAN**.
 
 ## Aeronaves
 
@@ -955,10 +1207,7 @@ Esta sección contiene las aeronaves de ala rotativa OTAN autorizadas para ROAN.
 ---
 
 <a id="h60"></a>
-
 ## 6.1 H-60 Series Black Hawk / Seahawk family
-
-> **Estado de la ficha:** Pendiente de documentación técnica.
 
 ### Imagen
 
@@ -966,73 +1215,99 @@ _Pendiente._
 
 ### Información general
 
-_Pendiente._
+Familia de helicópteros medianos utilitarios y de operaciones especiales. El Hatchet H-60 Pack busca una experiencia de mayor fidelidad con cabina interactiva y procedimientos de arranque/operación. Dependiendo de la variante puede cubrir transporte, asalto aéreo, MEDEVAC, operaciones navales y apoyo armado.
+
+### Base de los datos técnicos
+
+Hatchet incluye varias configuraciones de la familia H-60. Las cifras se presentan con el UH-60M como referencia de rendimiento/carga y deben interpretarse como baseline, no como un valor idéntico para cada variante del pack.
 
 ### Roles ROAN
 
-- Transporte
-- Utilidad
-- Inserción
-- Extracción
+- Transporte táctico
+- Inserción y extracción
 - MEDEVAC / CASEVAC
 - Operaciones especiales
-- Operaciones aeronavales
+- Logística y sling load
+- SAR/CSAR según variante
+- Operaciones aeronavales según variante
 
 ### Características técnicas
 
 | Característica | Valor |
 |---|---|
-| Velocidad máxima | Pendiente |
-| Velocidad de crucero | Pendiente |
-| Techo operativo | Pendiente |
-| Alcance | Pendiente |
-| Autonomía | Pendiente |
-| Carga máxima | Pendiente |
+| Velocidad máxima/crucero de referencia UH-60M | ≈ 151 kt / 280 km/h |
+| Techo de servicio de referencia | ≈ 15,000 ft / 4,570 m |
+| Alcance de referencia | ≈ 276 NM / 511 km; ampliable con tanques en variantes equipadas |
+| Peso máximo al despegue UH-60M | ≈ 22,000 lb / 9,979 kg |
+| Carga externa por gancho | Hasta ≈ 9,000 lb / 4,080 kg |
+| Carga interna de referencia UH-60M | ≈ 3,190 lb / 1,447 kg en configuración militar tradicional |
+| Capacidad de tropas | ≈ 11 tropas equipadas como baseline UH-60M |
 
-### Tripulación
+### Tripulación y pasajeros
 
-| Configuración | Cantidad |
-|---|---:|
-| Tripulación mínima | Pendiente |
-| Tripulación recomendada | Pendiente |
-| Tripulación máxima | Pendiente |
-| Pasajeros | Pendiente |
+| Configuración | Cantidad / criterio |
+|---|---|
+| Tripulación mínima | 2 pilotos |
+| Tripulación recomendada | 4: 2 pilotos + 2 crew chiefs/artilleros cuando aplique |
+| Tripulación máxima operativa | 4 en configuración utility típica; algunas variantes pueden usar personal de misión adicional |
+| Pasajeros | ≈ 11 tropas equipadas como referencia; cambia por variante/configuración |
 
 ### Capacidad de carga
 
-_Pendiente._
+Como baseline UH-60M: hasta ~4.08 t en gancho externo. La carga interna y el número de asientos cambian entre UH/MH/HH/SH y según tanques, camillas o equipos de misión.
 
 ### Armamento
 
-_Pendiente / Según variante o configuración._
+Depende de la variante. Puede incluir M240/M134 u otras armas de puerta y, en configuraciones armadas/DAP, armamento ofensivo adicional. No debe asumirse que toda variante H-60 posee la misma carga.
 
 ### Sensores y sistemas
 
-_Pendiente._
+El Hatchet Pack se centra en cabina interactiva y una experiencia tipo simulador. Las variantes reales pueden incluir FLIR, radar meteorológico, RWR/MAWS, GPS/INS, sistemas de navegación táctica y equipos de misión naval/especial.
 
 ### Escenarios recomendados
 
-_Pendiente._
+- Asalto aéreo
+- Inserción/extracción de escuadras
+- MEDEVAC
+- Operaciones especiales nocturnas
+- Sling load ligero/medio
+- Operaciones desde LHA y buques cuando la variante sea compatible
+
+### Escenarios no recomendados
+
+- Transporte de cargas muy pesadas que requieran CH-47/CH-53
+- Ataque frontal contra posiciones AA preparadas
+- Operación monotripulada en prácticas ROAN de alta fidelidad
 
 ### Fortalezas
 
-_Pendiente._
+- Muy versátil
+- Tamaño adecuado para LZ relativamente pequeñas
+- Buena combinación de velocidad, carga y maniobrabilidad
+- Hatchet permite entrenamiento de procedimientos y cabina
 
 ### Debilidades
 
-_Pendiente._
+- Carga inferior a helicópteros pesados
+- Vulnerable a MANPADS/AAA
+- La complejidad del Hatchet eleva la carga de trabajo de la tripulación
 
 ### Fuerte contra
 
-_Pendiente._
+- No es una plataforma de ataque primaria; en variantes armadas es eficaz contra infantería/vehículos ligeros y como escolta cercana
 
 ### Débil contra
 
-_Pendiente._
+- MANPADS
+- AAA
+- Armas ligeras concentradas durante hover/LZ
+- Cazas enemigos
 
 ### Limitaciones operativas
 
-_Pendiente._
+- Las cifras de esta ficha son baseline UH-60M; la variante seleccionada en Eden manda sobre asientos, sensores y armamento.
+- ROAN debe emplear al menos dos pilotos en entrenamiento de procedimientos Hatchet.
+- Para sling load debe verificarse que la masa del objeto esté dentro del límite de la variante.
 
 ### MOD
 
@@ -1040,11 +1315,20 @@ _Pendiente._
 
 ### Dependencias
 
-_Pendiente de validación._
+- [Hatchet Interaction Framework - Stable Version](https://steamcommunity.com/workshop/filedetails/?id=2941986336)
+- [ACE3](https://steamcommunity.com/workshop/filedetails/?id=463939057)
+- [CBA_A3](https://steamcommunity.com/workshop/filedetails/?id=450814997) — dependencia transitiva de Hatchet/ACE
 
 ### Observaciones ROAN
 
-_Pendiente._
+- Es la familia de helicópteros de entrenamiento avanzado recomendada para ROAN cuando se desee fidelidad de cabina.
+- La distribución piloto/copiloto debe seguir el manual ROAN de H-60 cuando aplique.
+- Antes de una misión, el líder aéreo debe indicar la variante exacta y su función.
+
+### Fuentes de referencia
+
+- U.S. Army / Sikorsky — UH-60M reference data
+- Steam Workshop — Hatchet H-60 Pack
 
 [↑ Volver a Ala rotativa — OTAN](#ala-rotativa-otan)  
 [↑ Volver al índice](#indice)
@@ -1052,10 +1336,7 @@ _Pendiente._
 ---
 
 <a id="ah1z"></a>
-
 ## 6.2 AH-1Z Viper
-
-> **Estado de la ficha:** Pendiente de documentación técnica.
 
 ### Imagen
 
@@ -1063,69 +1344,100 @@ _Pendiente._
 
 ### Información general
 
-_Pendiente._
+Helicóptero de ataque bimotor del USMC, diseñado para CAS, escolta y destrucción de blindados. Comparte arquitectura con el UH-1Y y está adaptado a operaciones expedicionarias y embarcadas.
+
+### Base de los datos técnicos
+
+Prestaciones basadas en datos públicos de Bell para el AH-1Z. El mod incorpora cabina interactiva, carga dinámica, moving map, RWR y sistema de daño revisado.
 
 ### Roles ROAN
 
-- Ataque
 - CAS
-- Escolta
-- Anti-blindaje
+- Ataque antiblindaje
+- Escolta de helicópteros de transporte
+- Reconocimiento armado
+- Defensa aire-aire de corto alcance contra helicópteros
+- Operaciones desde LHA
 
 ### Características técnicas
 
 | Característica | Valor |
 |---|---|
-| Velocidad máxima | Pendiente |
-| Velocidad de crucero | Pendiente |
-| Techo operativo | Pendiente |
-| Alcance | Pendiente |
-| Autonomía | Pendiente |
-| Carga máxima | Pendiente |
+| Velocidad máxima | ≈ 200 KIAS / 370 km/h |
+| Velocidad de crucero | ≈ 139 KTAS / 257 km/h |
+| Techo práctico | ≈ 14,000 ft / 4,270 m |
+| Radio de combate | ≈ 131 NM / 243 km |
+| Alcance máximo | ≈ 310 NM / 574 km |
+| Peso máximo al despegue | ≈ 18,500 lb / 8,390 kg |
+| Carga útil máxima de referencia | ≈ 5,764 lb / 2,614 kg |
 
-### Tripulación
+### Tripulación y pasajeros
 
-| Configuración | Cantidad |
-|---|---:|
-| Tripulación mínima | Pendiente |
-| Tripulación máxima | Pendiente |
-| Pasajeros | Pendiente |
+| Configuración | Cantidad / criterio |
+|---|---|
+| Tripulación mínima | 2 |
+| Tripulación recomendada | 2: piloto + artillero/operador |
+| Tripulación máxima | 2 |
+| Pasajeros | 0 |
 
 ### Capacidad de carga
 
-_Pendiente._
+No transporta tropas ni sling load. La carga útil está destinada a combustible, sensores y armamento.
 
 ### Armamento
 
-_Pendiente / Según variante o configuración._
+Cañón M197 de 20 mm; cohetes de 70 mm; AGM-114 Hellfire y AIM-9 Sidewinder, además de otras combinaciones que permita el mod.
 
 ### Sensores y sistemas
 
-_Pendiente._
+Sistema electro-óptico/FLIR y designador láser en la plataforma real. El mod agrega cabina interactiva, dynamic loadout, moving map, RWR y contramedidas.
 
 ### Escenarios recomendados
 
-_Pendiente._
+- Escolta de UH-60/CH-47/CH-53
+- CAS
+- Ataque antitanque
+- Protección de LZ
+- Operaciones anfibias desde LHA
+
+### Escenarios no recomendados
+
+- Transporte
+- Permanecer estacionario dentro del alcance de MANPADS/AAA
+- Ataque contra SAM de medio/largo alcance sin apoyo
 
 ### Fortalezas
 
-_Pendiente._
+- Muy buena combinación de sensores y armamento
+- Perfil estrecho y agilidad
+- Capacidad antiblindaje y aire-aire limitada
+- Compatible conceptualmente con operaciones LHA
 
 ### Debilidades
 
-_Pendiente._
+- Sin capacidad de transporte
+- Vulnerable a defensa aérea de corto alcance durante hover
+- Menor persistencia/carga que plataformas de ala fija
 
 ### Fuerte contra
 
-_Pendiente._
+- Blindados
+- Vehículos
+- Infantería y posiciones
+- Helicópteros/aviones lentos con AAM
 
 ### Débil contra
 
-_Pendiente._
+- MANPADS
+- AAA
+- SAM de medio/largo alcance
+- Cazas
 
 ### Limitaciones operativas
 
-_Pendiente._
+- Requiere coordinación estrecha piloto/artillero para aprovechar sensores.
+- No debe usarse como artillería estática en hover sobre el objetivo.
+- La carga exacta depende de las armas habilitadas por el mod.
 
 ### MOD
 
@@ -1133,11 +1445,18 @@ _Pendiente._
 
 ### Dependencias
 
-_Pendiente de validación._
+- [Lala Peral - Vehicle Interaction System (VIS)](https://steamcommunity.com/sharedfiles/filedetails/?id=3083512801)
 
 ### Observaciones ROAN
 
-_Pendiente._
+- Plataforma de ataque/escorta recomendada para el grupo anfibio ROAN.
+- Combina especialmente bien con F-35B + LHA en misiones expedicionarias.
+- Se recomienda vuelo NOE/terrain masking cuando el entorno lo permita.
+
+### Fuentes de referencia
+
+- Bell — AH-1Z Viper reference data
+- Steam Workshop — AH-1Z Viper
 
 [↑ Volver a Ala rotativa — OTAN](#ala-rotativa-otan)  
 [↑ Volver al índice](#indice)
@@ -1145,10 +1464,7 @@ _Pendiente._
 ---
 
 <a id="ah6m"></a>
-
 ## 6.3 AH-6M Little Bird
-
-> **Estado de la ficha:** Pendiente de documentación técnica.
 
 ### Imagen
 
@@ -1156,69 +1472,98 @@ _Pendiente._
 
 ### Información general
 
-_Pendiente._
+Helicóptero ligero de ataque de operaciones especiales. Su pequeño tamaño, agilidad y baja huella logística lo hacen útil para escolta, reconocimiento armado y apoyo cercano en zonas urbanas o LZ reducidas.
+
+### Base de los datos técnicos
+
+Prestaciones basadas en datos USSOCOM/Boeing para la familia AH-6M/AH-6. La configuración exacta de armas corresponde a RHSUSAF.
 
 ### Roles ROAN
 
-- Ataque ligero
-- CAS
+- CAS ligero
 - Escolta
 - Reconocimiento armado
+- Ataque contra blancos ligeros
+- Apoyo a fuerzas especiales
 
 ### Características técnicas
 
 | Característica | Valor |
 |---|---|
-| Velocidad máxima | Pendiente |
-| Velocidad de crucero | Pendiente |
-| Techo operativo | Pendiente |
-| Alcance | Pendiente |
-| Autonomía | Pendiente |
-| Carga máxima | Pendiente |
+| Velocidad máxima de referencia USSOCOM | ≈ 143 mph / 230 km/h |
+| Velocidad máxima de crucero Boeing AH-6 | ≈ 126 kt / 233 km/h |
+| Alcance de referencia | ≈ 250 mi / 402 km (USSOCOM); Boeing publica 179 NM / 332 km para AH-6 |
+| Autonomía Boeing AH-6 | ≈ 2.1 h |
+| Techo de servicio | Hasta ≈ 20,000 ft / 6,096 m |
+| Carga de transporte | No transporta tropas en configuración AH-6M; la capacidad útil se dedica a armas/combustible |
 
-### Tripulación
+### Tripulación y pasajeros
 
-| Configuración | Cantidad |
-|---|---:|
-| Tripulación mínima | Pendiente |
-| Tripulación máxima | Pendiente |
-| Pasajeros | Pendiente |
+| Configuración | Cantidad / criterio |
+|---|---|
+| Tripulación mínima | 2 según configuración operacional USSOCOM |
+| Tripulación recomendada | 2 |
+| Tripulación máxima | 2 |
+| Pasajeros | 0 en configuración de ataque |
 
 ### Capacidad de carga
 
-_Pendiente._
+No es helicóptero de carga. Su capacidad útil se emplea en sistemas de armas; no debe asignársele sling load/logística.
 
 ### Armamento
 
-_Pendiente / Según variante o configuración._
+Según configuración: M134 Minigun de 7.62 mm o GAU-19 de 12.7 mm, pods de cohetes de 70 mm y AGM-114 Hellfire; RHS puede ofrecer combinaciones concretas diferentes.
 
 ### Sensores y sistemas
 
-_Pendiente._
+Aviónica de operaciones especiales, navegación nocturna y miras/ópticas asociadas a armas. En RHS la funcionalidad depende de la variante y del modelo de sensores del juego.
 
 ### Escenarios recomendados
 
-_Pendiente._
+- CAS de precisión en zonas estrechas
+- Escolta de MH-6/H-60
+- Reconocimiento armado
+- Operaciones urbanas
+- Ataques rápidos desde enmascaramiento del terreno
+
+### Escenarios no recomendados
+
+- Ataque contra una red AA densa
+- Transporte/logística
+- Combate prolongado sobre un objetivo defendido
 
 ### Fortalezas
 
-_Pendiente._
+- Muy pequeño y ágil
+- Excelente para LZ urbanas/reducidas
+- Rápida respuesta
+- Buena potencia de fuego para su tamaño
 
 ### Debilidades
 
-_Pendiente._
+- Protección y supervivencia limitadas
+- Poca carga y autonomía frente a helicópteros mayores
+- Muy vulnerable si queda expuesto
 
 ### Fuerte contra
 
-_Pendiente._
+- Infantería
+- Vehículos ligeros
+- Posiciones
+- Blindados aislados si equipa Hellfire
 
 ### Débil contra
 
-_Pendiente._
+- MANPADS
+- AAA
+- Armas ligeras concentradas
+- Helicópteros de ataque pesados/cazas
 
 ### Limitaciones operativas
 
-_Pendiente._
+- Debe evitar hover prolongado en línea de vista del enemigo.
+- No tiene capacidad de pasajeros en la variante AH.
+- La carga de misiles/cohetes debe balancearse con maniobrabilidad.
 
 ### MOD
 
@@ -1226,11 +1571,19 @@ _Pendiente._
 
 ### Dependencias
 
-_Pendiente de validación._
+- RHSUSAF no declara dependencias obligatorias adicionales en Steam Workshop.
 
 ### Observaciones ROAN
 
-_Pendiente._
+- Ideal para instrucción de vuelo táctico bajo y ataque ligero.
+- Debe operar aprovechando velocidad, terreno y sorpresa.
+- No sustituye a AH-1Z/Mi-28/Ka-52 para ataque sostenido pesado.
+
+### Fuentes de referencia
+
+- USSOCOM Fact Book — AH-6M
+- Boeing — AH-6 Little Bird
+- RHSUSAF
 
 [↑ Volver a Ala rotativa — OTAN](#ala-rotativa-otan)  
 [↑ Volver al índice](#indice)
@@ -1238,10 +1591,7 @@ _Pendiente._
 ---
 
 <a id="mh6m"></a>
-
 ## 6.4 MH-6M Little Bird
-
-> **Estado de la ficha:** Pendiente de documentación técnica.
 
 ### Imagen
 
@@ -1249,70 +1599,94 @@ _Pendiente._
 
 ### Información general
 
-_Pendiente._
+Variante de transporte ligero de operaciones especiales de la familia Little Bird. Está diseñada para insertar o extraer pequeños equipos en zonas donde un helicóptero mayor no podría operar con facilidad.
+
+### Base de los datos técnicos
+
+Prestaciones basadas en USSOCOM para el MH-6M. RHSUSAF puede variar ligeramente velocidad/asientos por configuración.
 
 ### Roles ROAN
 
-- Inserción
-- Extracción
-- Operaciones especiales
+- Inserción y extracción SOF
 - Transporte ligero
+- Asalto urbano
+- Reconocimiento / enlace
+- Operaciones en LZ extremadamente pequeñas
 
 ### Características técnicas
 
 | Característica | Valor |
 |---|---|
-| Velocidad máxima | Pendiente |
-| Velocidad de crucero | Pendiente |
-| Techo operativo | Pendiente |
-| Alcance | Pendiente |
-| Autonomía | Pendiente |
-| Carga máxima | Pendiente |
+| Velocidad máxima | ≈ 143 mph / 230 km/h |
+| Alcance | ≈ 250 mi / 402 km |
+| Techo de servicio de referencia | ≈ 18,700–20,000 ft / 5,700–6,100 m según fuente/configuración |
+| Capacidad de pasajeros | Hasta 6 operadores en bancos externos |
+| Carga logística | Muy limitada; no es plataforma de carga pesada |
 
-### Tripulación
+### Tripulación y pasajeros
 
-| Configuración | Cantidad |
-|---|---:|
-| Tripulación mínima | Pendiente |
-| Tripulación recomendada | Pendiente |
-| Tripulación máxima | Pendiente |
-| Pasajeros | Pendiente |
+| Configuración | Cantidad / criterio |
+|---|---|
+| Tripulación mínima | 2 en operación USSOCOM |
+| Tripulación recomendada | 2 |
+| Tripulación máxima | 2 de vuelo |
+| Pasajeros | Hasta 6 operadores |
 
 ### Capacidad de carga
 
-_Pendiente._
+Su principal 'carga' son hasta seis operadores externos. No se recomienda para sling load ni para suministros pesados.
 
 ### Armamento
 
-_Pendiente / Según variante o configuración._
+La variante MH es principalmente de transporte; puede disponer de armas ligeras/autoprotección según configuración de RHS, pero no debe asumirse la misma carga que AH-6M.
 
 ### Sensores y sistemas
 
-_Pendiente._
+Navegación y equipamiento de operaciones especiales optimizado para vuelo nocturno y a baja cota. La simulación exacta depende de RHS.
 
 ### Escenarios recomendados
 
-_Pendiente._
+- Inserción/extracción de equipos pequeños
+- Operaciones urbanas
+- Techos, claros y LZ reducidas
+- Movimientos rápidos de SOF
+
+### Escenarios no recomendados
+
+- Mover escuadras grandes
+- MEDEVAC masivo
+- Carga externa pesada
+- Entrar en una LZ con fuego AA sostenido
 
 ### Fortalezas
 
-_Pendiente._
+- Huella muy pequeña
+- Gran agilidad
+- Puede colocar tropas en lugares inaccesibles para helicópteros medianos
+- Excelente para SOF
 
 ### Debilidades
 
-_Pendiente._
+- Solo 6 pasajeros
+- Tripulantes/pasajeros externos están muy expuestos
+- Poca autonomía/carga comparada con H-60/CH-47
 
 ### Fuerte contra
 
-_Pendiente._
+- No aplica como plataforma de combate primaria; su fortaleza es la inserción precisa y rápida
 
 ### Débil contra
 
-_Pendiente._
+- Armas ligeras
+- MANPADS
+- AAA
+- Cualquier fuego concentrado durante inserción
 
 ### Limitaciones operativas
 
-_Pendiente._
+- El equipo transportado debe ser pequeño y ligero.
+- No mantener hover innecesario sobre la LZ.
+- La aproximación debe priorizar enmascaramiento y exposición mínima.
 
 ### MOD
 
@@ -1320,11 +1694,19 @@ _Pendiente._
 
 ### Dependencias
 
-_Pendiente de validación._
+- RHSUSAF no declara dependencias obligatorias adicionales en Steam Workshop.
 
 ### Observaciones ROAN
 
-_Pendiente._
+- Plataforma preferente para inserciones de 2–6 operadores.
+- Puede combinarse con AH-6M como pareja transporte/escort.
+- La extracción debe planearse con señal, rumbo y punto de escape antes de entrar.
+
+### Fuentes de referencia
+
+- USSOCOM Fact Book — MH-6M
+- U.S. Army 160th SOAR public data
+- RHSUSAF
 
 [↑ Volver a Ala rotativa — OTAN](#ala-rotativa-otan)  
 [↑ Volver al índice](#indice)
@@ -1332,10 +1714,7 @@ _Pendiente._
 ---
 
 <a id="ch47f"></a>
-
 ## 6.5 CH-47F Chinook
-
-> **Estado de la ficha:** Pendiente de documentación técnica.
 
 ### Imagen
 
@@ -1343,71 +1722,97 @@ _Pendiente._
 
 ### Información general
 
-_Pendiente._
+Helicóptero de transporte pesado de rotores en tándem. Está diseñado para asalto aéreo, movimiento de tropas, logística y sling load pesado. Su combinación de velocidad y carga lo convierte en una plataforma central para despliegues a distancia.
+
+### Base de los datos técnicos
+
+Prestaciones basadas en datos del U.S. Army/Boeing para CH-47F. RHS puede ajustar masas/asientos por modelo.
 
 ### Roles ROAN
 
-- Transporte
-- Logística
-- Inserción
-- Extracción
+- Transporte de tropas
+- Asalto aéreo
+- Logística pesada
 - Sling load
+- MEDEVAC
+- Reabastecimiento de FOB
 
 ### Características técnicas
 
 | Característica | Valor |
 |---|---|
-| Velocidad máxima | Pendiente |
-| Velocidad de crucero | Pendiente |
-| Techo operativo | Pendiente |
-| Alcance | Pendiente |
-| Autonomía | Pendiente |
-| Carga máxima | Pendiente |
+| Velocidad máxima | ≈ 170 kt / 315 km/h |
+| Velocidad de crucero | ≈ 157–160 kt / 291–296 km/h |
+| Techo de servicio | ≈ 20,000 ft / 6,096 m |
+| Radio de misión Boeing | ≈ 165 NM / 306 km |
+| Peso máximo al despegue CH-47F de referencia | ≈ 50,000 lb / 22,680 kg |
+| Carga útil de referencia | Hasta ≈ 24,000–27,700 lb / 10,900–12,565 kg según bloque/perfil |
+| Sling load | Centro: 26,000 lb / 11,793 kg; delantero/trasero: 17,000 lb / 7,711 kg; tandem: 25,000 lb / 11,340 kg |
 
-### Tripulación
+### Tripulación y pasajeros
 
-| Configuración | Cantidad |
-|---|---:|
-| Tripulación mínima | Pendiente |
-| Tripulación recomendada | Pendiente |
-| Tripulación máxima | Pendiente |
-| Pasajeros | Pendiente |
+| Configuración | Cantidad / criterio |
+|---|---|
+| Tripulación mínima | 3: piloto, copiloto y flight engineer |
+| Tripulación recomendada | 5 en entorno táctico: 2 pilotos + flight engineer/crew chief + artilleros según misión |
+| Tripulación máxima operativa | Habitualmente 5 según armamento/función |
+| Pasajeros | 33 tropas, además de 3 tripulantes en la cifra doctrinal de 36 plazas |
 
 ### Capacidad de carga
 
-_Pendiente._
+Excelente para carga interna y sling load. Puede mover piezas de artillería, vehículos ligeros, pallets y suministros. El límite exacto en Arma 3 debe respetar la masa configurada por RHS.
 
 ### Armamento
 
-_Pendiente / Según variante o configuración._
+Ametralladoras de puerta/rampa para autodefensa según variante. No es plataforma de ataque dedicada.
 
 ### Sensores y sistemas
 
-_Pendiente._
+Cabina digital en CH-47F, navegación táctica, sistemas de supervivencia y conciencia situacional. RHS representa un subconjunto de estas funciones.
 
 ### Escenarios recomendados
 
-_Pendiente._
+- Mover escuadras completas
+- Sling load de vehículos/equipos
+- Reabastecimiento de FOB
+- Inserciones masivas
+- Evacuación de personal
+
+### Escenarios no recomendados
+
+- LZ muy pequeñas o rodeadas de obstáculos
+- Ataque directo contra posiciones enemigas
+- Vuelo estacionario prolongado en zonas con MANPADS/AAA
 
 ### Fortalezas
 
-_Pendiente._
+- Gran carga
+- Alta velocidad para un helicóptero pesado
+- Excelente desempeño logístico
+- Rampa trasera facilita embarque/desembarque
 
 ### Debilidades
 
-_Pendiente._
+- Gran tamaño y firma
+- Necesita LZ mayor
+- Vulnerable durante aproximación/hover
 
 ### Fuerte contra
 
-_Pendiente._
+- No es plataforma de ataque; su fortaleza es superar restricciones logísticas y de movilidad
 
 ### Débil contra
 
-_Pendiente._
+- MANPADS
+- AAA
+- Armas automáticas pesadas
+- Cazas
 
 ### Limitaciones operativas
 
-_Pendiente._
+- Verificar obstáculos y diámetro requerido por los dos rotores.
+- Para sling load, no exceder capacidades del hook ni la masa configurada del mod.
+- La LZ debe permitir una salida clara sin tener que permanecer estacionario.
 
 ### MOD
 
@@ -1415,11 +1820,19 @@ _Pendiente._
 
 ### Dependencias
 
-_Pendiente de validación._
+- RHSUSAF no declara dependencias obligatorias adicionales en Steam Workshop.
 
 ### Observaciones ROAN
 
-_Pendiente._
+- Plataforma logística pesada preferente cuando CH-53E no sea necesario o disponible.
+- Para asalto se recomienda aproximación con escolta en AO hostil.
+- El loadmaster/flight engineer debe participar en la decisión de carga y LZ.
+
+### Fuentes de referencia
+
+- U.S. Army — CH-47F
+- Boeing — H-47 Chinook
+- RHSUSAF
 
 [↑ Volver a Ala rotativa — OTAN](#ala-rotativa-otan)  
 [↑ Volver al índice](#indice)
@@ -1427,10 +1840,7 @@ _Pendiente._
 ---
 
 <a id="ch53e"></a>
-
 ## 6.6 CH-53E Super Stallion
-
-> **Estado de la ficha:** Pendiente de documentación técnica.
 
 ### Imagen
 
@@ -1438,71 +1848,101 @@ _Pendiente._
 
 ### Información general
 
-_Pendiente._
+Helicóptero pesado de tres motores del USMC, concebido para transportar tropas, vehículos, artillería y suministros desde buques anfibios hacia tierra. Es una de las plataformas de mayor capacidad de carga de ROAN.
+
+### Base de los datos técnicos
+
+Prestaciones basadas en documentación USMC/NAVAIR del CH-53E. Los valores de carga varían mucho con temperatura, altitud y perfil; se muestran cifras de planificación y máximos publicados.
 
 ### Roles ROAN
 
-- Transporte pesado
-- Logística
-- Inserción
-- Extracción
-- Sling load
+- Heavy lift
+- Transporte anfibio ship-to-shore
+- Logística pesada
+- Sling load pesado
+- Asalto aéreo
+- MEDEVAC de gran capacidad
 
 ### Características técnicas
 
 | Característica | Valor |
 |---|---|
-| Velocidad máxima | Pendiente |
-| Velocidad de crucero | Pendiente |
-| Techo operativo | Pendiente |
-| Alcance | Pendiente |
-| Autonomía | Pendiente |
-| Carga máxima | Pendiente |
+| Velocidad máxima | ≈ 150 kt / 278 km/h |
+| Velocidad de crucero | ≈ 130 kt / 241 km/h |
+| Alcance de referencia | ≈ 480–540 NM / 890–1,000 km según configuración |
+| Radio de misión pesado de referencia | ≈ 110 NM con carga externa en condiciones definidas por USMC |
+| Techo de servicio aproximado | ≈ 18,500 ft / 5,640 m |
+| Peso máximo bruto | ≈ 73,500 lb / 33,340 kg en documentación USMC |
+| Carga interna útil de referencia | ≈ 13,200 lb / 5,987 kg |
+| Carga externa | Hasta ≈ 36,000 lb / 16,330 kg como capacidad máxima publicada; la carga operativa depende fuertemente de condiciones |
+| Pasajeros | 30 en configuración estándar moderna; configuraciones históricas han permitido 37–55 |
 
-### Tripulación
+### Tripulación y pasajeros
 
-| Configuración | Cantidad |
-|---|---:|
-| Tripulación mínima | Pendiente |
-| Tripulación recomendada | Pendiente |
-| Tripulación máxima | Pendiente |
-| Pasajeros | Pendiente |
+| Configuración | Cantidad / criterio |
+|---|---|
+| Tripulación mínima | 4: piloto, copiloto, crew chief y mechanic/gunner según NAVAIR |
+| Tripulación recomendada | 4–5 según puestos de armas y misión |
+| Tripulación máxima operativa | 5 como referencia para misión armada |
+| Pasajeros | 30 estándar; hasta 55 en configuración de alta densidad histórica si la implementación lo permite |
 
 ### Capacidad de carga
 
-_Pendiente._
+Especialista en carga pesada. Puede transportar internamente pallets/equipos y externamente vehículos/cargas de varias toneladas. Para ROAN debe usarse un margen conservador, especialmente en mapas de gran altitud o clima caliente.
 
 ### Armamento
 
-_Pendiente / Según variante o configuración._
+Hasta tres ametralladoras GAU-21 calibre .50 como kit defensivo en la aeronave real; RHS puede representar una configuración específica.
 
 ### Sensores y sistemas
 
-_Pendiente._
+GPS, FLIR, ANVIS-HUD, radios UHF/VHF/HF, IFF y sistemas de autoprotección como DIRCM/AAR-47/ALE-47/APR-39 en configuraciones modernas.
 
 ### Escenarios recomendados
 
-_Pendiente._
+- Transporte de cargas que exceden H-60
+- Movimiento ship-to-shore desde LHA
+- Sling load de vehículos/equipos pesados
+- Asalto aéreo de gran volumen
+- Logística de campaña
+
+### Escenarios no recomendados
+
+- LZ urbanas pequeñas
+- Misiones donde solo se transporten pocos pasajeros
+- Entrar sin escolta en zonas con defensa aérea activa
 
 ### Fortalezas
 
-_Pendiente._
+- Enorme capacidad de carga
+- Autonomía elevada
+- Apto para operaciones anfibias
+- Puede mover equipo que otros helicópteros no pueden
 
 ### Debilidades
 
-_Pendiente._
+- Muy grande
+- LZ y cubierta requieren espacio
+- Alto consumo y menor agilidad
+- Objetivo visible para amenazas AA
 
 ### Fuerte contra
 
-_Pendiente._
+- No es plataforma ofensiva; su ventaja es el transporte estratégico/táctico de cargas muy pesadas
 
 ### Débil contra
 
-_Pendiente._
+- MANPADS
+- AAA
+- SAM
+- Cazas
+- Obstáculos/LZ confinadas
 
 ### Limitaciones operativas
 
-_Pendiente._
+- Aplicar margen de peso: temperatura y elevación reducen notablemente la carga real.
+- No usar cifras máximas como carga habitual.
+- Coordinar cuidadosamente deck handling y LZ por tamaño/rotor.
 
 ### MOD
 
@@ -1510,11 +1950,19 @@ _Pendiente._
 
 ### Dependencias
 
-_Pendiente de validación._
+- RHSUSAF no declara dependencias obligatorias adicionales en Steam Workshop.
 
 ### Observaciones ROAN
 
-_Pendiente._
+- ROAN debe reservarlo para cargas o movimientos que justifiquen su tamaño.
+- Es especialmente útil en combinación con LHA para operaciones anfibias.
+- La escolta AH-1Z es recomendable en zonas hostiles.
+
+### Fuentes de referencia
+
+- USMC Aviation Plan — CH-53E
+- NAVAIR/U.S. Navy — CH-53E
+- RHSUSAF
 
 [↑ Volver a Ala rotativa — OTAN](#ala-rotativa-otan)  
 [↑ Volver al índice](#indice)
@@ -1522,10 +1970,7 @@ _Pendiente._
 ---
 
 <a id="mh47g"></a>
-
 ## 6.7 MH-47G Chinook
-
-> **Estado de la ficha:** Pendiente de documentación técnica.
 
 ### Imagen
 
@@ -1533,71 +1978,99 @@ _Pendiente._
 
 ### Información general
 
-_Pendiente._
+Variante de operaciones especiales del Chinook con navegación avanzada, capacidad de reabastecimiento en vuelo, sensores/autoprotección y mayor alcance para infiltración/exfiltración clandestina. Está diseñado para heavy assault, resupply y sling load en apoyo a SOF.
+
+### Base de los datos técnicos
+
+Prestaciones basadas en USSOCOM/Boeing para MH-47G/H-47. El mod incluye MH-47G Block I y II con alta fidelidad Hatchet, MFD y CDU interactivos.
 
 ### Roles ROAN
 
-- Operaciones especiales
-- Inserción
-- Extracción
-- Transporte
-- Logística
+- Infiltración/exfiltración SOF
+- Heavy assault
+- Transporte de largo alcance
+- Sling load
+- Reabastecimiento
+- Operaciones nocturnas y de baja cota
 
 ### Características técnicas
 
 | Característica | Valor |
 |---|---|
-| Velocidad máxima | Pendiente |
-| Velocidad de crucero | Pendiente |
-| Techo operativo | Pendiente |
-| Alcance | Pendiente |
-| Autonomía | Pendiente |
-| Carga máxima | Pendiente |
+| Velocidad máxima USSOCOM | ≈ 195 mph / 314 km/h |
+| Velocidad de crucero USSOCOM | ≈ 132 mph / 212 km/h |
+| Alcance sin reabastecimiento | ≈ 604 mi / 972 km |
+| Techo de servicio de referencia H-47 | ≈ 20,000 ft / 6,096 m |
+| Carga útil de referencia H-47 | ≈ 27,700 lb / 12,565 kg; depende de combustible/equipos SOF |
+| Sling load de referencia | Centro hasta ≈ 26,000 lb / 11,793 kg en familia Chinook |
+| Reabastecimiento en vuelo | Sí en MH-47G real; permite extender significativamente el alcance |
 
-### Tripulación
+### Tripulación y pasajeros
 
-| Configuración | Cantidad |
-|---|---:|
-| Tripulación mínima | Pendiente |
-| Tripulación recomendada | Pendiente |
-| Tripulación máxima | Pendiente |
-| Pasajeros | Pendiente |
+| Configuración | Cantidad / criterio |
+|---|---|
+| Tripulación mínima | 3 para mover la aeronave de forma básica |
+| Tripulación recomendada / combate | 6 según USSOCOM |
+| Tripulación máxima operativa | 6 como crew de combate de referencia |
+| Pasajeros | ≈ 33 combatientes como planificación tradicional; puede reducirse por tanques/equipamiento SOF |
 
 ### Capacidad de carga
 
-_Pendiente._
+Comparte gran capacidad de carga del Chinook, pero el equipo y combustible adicional de operaciones especiales pueden reducir el payload disponible. Es apto para sling load pesado.
 
 ### Armamento
 
-_Pendiente / Según variante o configuración._
+M134 Minigun y M240 de 7.62 mm para defensa, según configuración real; el mod puede implementar puestos concretos.
 
 ### Sensores y sistemas
 
-_Pendiente._
+El MH-47G real integra navegación de precisión, sensores de vuelo nocturno/FLIR, autoprotección, comunicaciones y reabastecimiento en vuelo. Pegasus/Hatchet anuncia cabina de alta fidelidad, MFD, CDU y procedimientos interactivos.
 
 ### Escenarios recomendados
 
-_Pendiente._
+- SOF a larga distancia
+- Infiltración nocturna
+- Rescate/CSAR complejo
+- Heavy assault
+- Sling load en terreno difícil
+- Misiones donde se requiera entrenamiento de cabina avanzado
+
+### Escenarios no recomendados
+
+- Misiones simples que no justifican su complejidad
+- LZ extremadamente confinadas
+- Ataque frontal sin escolta
 
 ### Fortalezas
 
-_Pendiente._
+- Muy largo alcance
+- Gran carga
+- Capacidad SOF y reabastecimiento en vuelo
+- Alta fidelidad del mod para entrenamiento
 
 ### Debilidades
 
-_Pendiente._
+- Complejo de operar
+- Grande y visible
+- Carga útil puede reducirse por combustible/equipos adicionales
 
 ### Fuerte contra
 
-_Pendiente._
+- No es ataque primario; su fortaleza es la movilidad SOF de largo alcance y heavy lift
 
 ### Débil contra
 
-_Pendiente._
+- MANPADS
+- AAA
+- SAM
+- Cazas
+- LZ pequeñas/obstáculos
 
 ### Limitaciones operativas
 
-_Pendiente._
+- La tripulación ROAN debe estar familiarizada con Hatchet antes de una operación compleja.
+- Planificar combustible, carga y altura de densidad; no sumar máximos teóricos.
+- Requiere más coordinación interna que CH-47F RHS.
 
 ### MOD
 
@@ -1605,11 +2078,21 @@ _Pendiente._
 
 ### Dependencias
 
-_Pendiente de validación._
+- [Hatchet Interaction Framework - Stable Version](https://steamcommunity.com/workshop/filedetails/?id=2941986336)
+- [ACE3](https://steamcommunity.com/workshop/filedetails/?id=463939057)
+- [CBA_A3](https://steamcommunity.com/workshop/filedetails/?id=450814997) — dependencia transitiva de Hatchet/ACE
 
 ### Observaciones ROAN
 
-_Pendiente._
+- Es la opción ROAN de Chinook de alta fidelidad y operaciones especiales.
+- Para prácticas básicas/logísticas puede preferirse CH-47F RHS; para procedimientos avanzados, MH-47G Pegasus.
+- Se recomienda crew completo en operaciones oficiales.
+
+### Fuentes de referencia
+
+- USSOCOM Fact Book — MH-47G
+- Boeing — H-47 Chinook
+- Steam Workshop — Pegasus Systems MH-47G
 
 [↑ Volver a Ala rotativa — OTAN](#ala-rotativa-otan)  
 [↑ Volver al índice](#indice)
@@ -1619,7 +2102,7 @@ _Pendiente._
 <a id="ala-rotativa-rusia"></a>
 # 7. Ala rotativa — Rusia
 
-Esta sección contiene las aeronaves de ala rotativa rusas autorizadas para ROAN.
+Esta sección contiene las aeronaves autorizadas de **Ala rotativa — Rusia**.
 
 ## Aeronaves
 
@@ -1632,10 +2115,7 @@ Esta sección contiene las aeronaves de ala rotativa rusas autorizadas para ROAN
 ---
 
 <a id="mi8mt"></a>
-
 ## 7.1 Mi-8MT Hip
-
-> **Estado de la ficha:** Pendiente de documentación técnica.
 
 ### Imagen
 
@@ -1643,71 +2123,96 @@ _Pendiente._
 
 ### Información general
 
-_Pendiente._
+Helicóptero medio multipropósito ampliamente empleado para transporte de tropas, carga, asalto aéreo y apoyo armado. Es robusto, relativamente sencillo y puede operar desde zonas no preparadas.
+
+### Base de los datos técnicos
+
+Prestaciones basadas en referencias de la familia Mi-8MT/Mi-8MTV. RHS puede ofrecer subvariantes con armamento, asientos o tanques diferentes.
 
 ### Roles ROAN
 
-- Transporte
-- Utilidad
-- Inserción
-- Extracción
+- Transporte de tropas
+- Inserción/extracción
 - Logística
+- MEDEVAC según variante
+- Apoyo armado según configuración
 
 ### Características técnicas
 
 | Característica | Valor |
 |---|---|
-| Velocidad máxima | Pendiente |
-| Velocidad de crucero | Pendiente |
-| Techo operativo | Pendiente |
-| Alcance | Pendiente |
-| Autonomía | Pendiente |
-| Carga máxima | Pendiente |
+| Velocidad máxima | ≈ 250 km/h |
+| Velocidad de crucero | ≈ 220–230 km/h |
+| Alcance de referencia | ≈ 500 km con combustible estándar; aumenta con tanques auxiliares |
+| Techo de servicio | ≈ 5,000 m como referencia operativa |
+| Peso máximo al despegue | ≈ 13,000 kg |
+| Carga interna/externa | Hasta ≈ 4,000 kg |
+| Tropas | Hasta ≈ 24 en configuraciones Mi-8MT tradicionales |
 
-### Tripulación
+### Tripulación y pasajeros
 
-| Configuración | Cantidad |
-|---|---:|
-| Tripulación mínima | Pendiente |
-| Tripulación recomendada | Pendiente |
-| Tripulación máxima | Pendiente |
-| Pasajeros | Pendiente |
+| Configuración | Cantidad / criterio |
+|---|---|
+| Tripulación mínima | 3 como referencia militar |
+| Tripulación recomendada | 3 |
+| Tripulación máxima operativa | 3–4 según artillero/equipo de misión |
+| Pasajeros | ≈ 24 tropas según configuración |
 
 ### Capacidad de carga
 
-_Pendiente._
+Puede transportar aproximadamente 4 t internamente o en gancho externo en configuraciones de referencia. En RHS debe verificarse el límite concreto de sling load de la variante.
 
 ### Armamento
 
-_Pendiente / Según variante o configuración._
+Algunas variantes pueden portar ametralladoras, pods de cohetes S-8/S-5, pods de cañón y otras armas. La configuración de transporte puede ir desarmada.
 
 ### Sensores y sistemas
 
-_Pendiente._
+Aviónica de navegación convencional, radios y equipos de autoprotección según subvariante. RHS representa distintas versiones soviéticas/rusas con niveles diferentes de equipamiento.
 
 ### Escenarios recomendados
 
-_Pendiente._
+- Transporte OPFOR
+- Asalto aéreo
+- Logística
+- Sling load medio
+- Escenarios de fuerzas rusas convencionales
+
+### Escenarios no recomendados
+
+- CAS pesado como función primaria
+- Operación sin escolta en zonas con defensa AA
+- Carga que exceda ~4 t
 
 ### Fortalezas
 
-_Pendiente._
+- Robusto y versátil
+- Buena capacidad de tropas/carga
+- Puede operar desde LZ austeras
+- Amplia variedad de configuraciones
 
 ### Debilidades
 
-_Pendiente._
+- Firma grande
+- Velocidad moderada
+- Protección/sensores varían mucho por versión
 
 ### Fuerte contra
 
-_Pendiente._
+- En variantes armadas: infantería, posiciones y vehículos ligeros
 
 ### Débil contra
 
-_Pendiente._
+- MANPADS
+- AAA
+- Cazas
+- SAM
 
 ### Limitaciones operativas
 
-_Pendiente._
+- Confirmar la variante RHS antes de asumir armamento o número de asientos.
+- No confundir Mi-8MT con Mi-17 moderno: capacidades pueden solaparse, pero no son idénticas.
+- Planificar salida inmediata de la LZ en ambiente hostil.
 
 ### MOD
 
@@ -1715,11 +2220,18 @@ _Pendiente._
 
 ### Dependencias
 
-_Pendiente de validación._
+- RHSAFRF no declara dependencias obligatorias adicionales en Steam Workshop.
 
 ### Observaciones ROAN
 
-_Pendiente._
+- Útil como plataforma OPFOR de transporte general.
+- ROAN puede usarlo para prácticas de adaptación a cabinas/handling distintos a OTAN.
+- En misiones mixtas, identificar claramente callsign y variante para evitar confusión con Mi-17.
+
+### Fuentes de referencia
+
+- Datos públicos familia Mi-8MT
+- RHSAFRF
 
 [↑ Volver a Ala rotativa — Rusia](#ala-rotativa-rusia)  
 [↑ Volver al índice](#indice)
@@ -1727,10 +2239,7 @@ _Pendiente._
 ---
 
 <a id="mi17"></a>
-
 ## 7.2 Mi-17 Hip
-
-> **Estado de la ficha:** Pendiente de documentación técnica.
 
 ### Imagen
 
@@ -1738,71 +2247,98 @@ _Pendiente._
 
 ### Información general
 
-_Pendiente._
+Evolución/exportación de la familia Mi-8 con motores y mejoras adaptadas a transporte, asalto, carga y operaciones en altura. Mantiene gran cabina y capacidad de carga interna/externa.
+
+### Base de los datos técnicos
+
+Se utiliza el Mi-17V-5 como referencia moderna de prestaciones. La variante exacta de RHSAFRF puede tener menos asientos o configuración distinta.
 
 ### Roles ROAN
 
-- Transporte
-- Utilidad
-- Inserción
-- Extracción
+- Transporte de tropas
+- Asalto aéreo
 - Logística
+- Sling load
+- MEDEVAC
+- Apoyo armado según variante
 
 ### Características técnicas
 
 | Característica | Valor |
 |---|---|
-| Velocidad máxima | Pendiente |
-| Velocidad de crucero | Pendiente |
-| Techo operativo | Pendiente |
-| Alcance | Pendiente |
-| Autonomía | Pendiente |
-| Carga máxima | Pendiente |
+| Velocidad máxima | ≈ 250 km/h |
+| Velocidad de crucero | ≈ 220–230 km/h |
+| Alcance con tanques principales | ≈ 675 km |
+| Alcance con 2 tanques internos auxiliares | ≈ 1,180 km |
+| Techo de servicio | ≈ 6,000 m |
+| Peso máximo al despegue | ≈ 13,000 kg |
+| Carga útil | Hasta ≈ 4,000 kg |
+| Paracaidistas/tropas de referencia Mi-17V-5 | Hasta 36; otras variantes suelen transportar menos |
 
-### Tripulación
+### Tripulación y pasajeros
 
-| Configuración | Cantidad |
-|---|---:|
-| Tripulación mínima | Pendiente |
-| Tripulación recomendada | Pendiente |
-| Tripulación máxima | Pendiente |
-| Pasajeros | Pendiente |
+| Configuración | Cantidad / criterio |
+|---|---|
+| Tripulación mínima | 3 |
+| Tripulación recomendada | 3 |
+| Tripulación máxima operativa | 3–4 según configuración |
+| Pasajeros | Hasta 36 como referencia Mi-17V-5; la variante RHS puede ser 24 o una cifra intermedia |
 
 ### Capacidad de carga
 
-_Pendiente._
+Hasta aproximadamente 4 t de carga en la familia moderna, internamente o mediante gancho. El límite real de Arma 3 depende de la clase RHS seleccionada.
 
 ### Armamento
 
-_Pendiente / Según variante o configuración._
+Puede montar pods de cohetes, ametralladoras y otras armas en variantes armadas; una configuración utility/transporte puede no tener armamento ofensivo.
 
 ### Sensores y sistemas
 
-_Pendiente._
+Navegación, radios y sistemas de autoprotección variables según versión. Las variantes recientes pueden integrar aviónica más moderna que Mi-8MT.
 
 ### Escenarios recomendados
 
-_Pendiente._
+- Transporte OPFOR de mayor capacidad
+- Asalto aéreo
+- MEDEVAC
+- Sling load
+- Operaciones de montaña comparadas con variantes más antiguas
+
+### Escenarios no recomendados
+
+- Entrar sobre objetivo con defensa AA activa
+- Ataque dedicado contra blindados pesados
+- LZ demasiado pequeñas para el rotor/tamaño
 
 ### Fortalezas
 
-_Pendiente._
+- Carga/tropas elevadas
+- Buena versatilidad
+- Robusto
+- Mayor alcance en variantes con tanques auxiliares
 
 ### Debilidades
 
-_Pendiente._
+- Grande y relativamente lento
+- Vulnerable durante hover
+- Configuraciones muy variables
 
 ### Fuerte contra
 
-_Pendiente._
+- En versión armada: infantería, vehículos ligeros y posiciones
 
 ### Débil contra
 
-_Pendiente._
+- MANPADS
+- AAA
+- SAM
+- Cazas
 
 ### Limitaciones operativas
 
-_Pendiente._
+- La cifra de 36 tropas corresponde a Mi-17V-5 real; comprobar asientos disponibles de la clase RHS antes de planificar.
+- No exceder 4 t de sling load de referencia.
+- La selección de carga/armas debe respetar el rol asignado.
 
 ### MOD
 
@@ -1810,11 +2346,18 @@ _Pendiente._
 
 ### Dependencias
 
-_Pendiente de validación._
+- RHSAFRF no declara dependencias obligatorias adicionales en Steam Workshop.
 
 ### Observaciones ROAN
 
-_Pendiente._
+- Alternativa OPFOR al H-60/CH-47 para transporte medio.
+- Adecuado para escenarios donde ROAN deba operar material no occidental.
+- Puede utilizarse para entrenamiento de navegación/approach con instrumentación rusa.
+
+### Fuentes de referencia
+
+- Rosoboronexport — Mi-17V-5
+- RHSAFRF
 
 [↑ Volver a Ala rotativa — Rusia](#ala-rotativa-rusia)  
 [↑ Volver al índice](#indice)
@@ -1822,10 +2365,7 @@ _Pendiente._
 ---
 
 <a id="mi24v"></a>
-
 ## 7.3 Mi-24V Hind-E
-
-> **Estado de la ficha:** Pendiente de documentación técnica.
 
 ### Imagen
 
@@ -1833,70 +2373,102 @@ _Pendiente._
 
 ### Información general
 
-_Pendiente._
+Helicóptero de ataque pesado con una característica poco común: conserva una cabina de transporte para un pequeño grupo de tropas. Está concebido para apoyo de fuego, ataque antiblindaje, escolta y asalto armado.
+
+### Base de los datos técnicos
+
+Prestaciones basadas en referencias militares del Mi-24V. RHS puede ajustar masa, munición y asientos.
 
 ### Roles ROAN
 
-- Ataque
 - CAS
-- Transporte armado
+- Ataque antiblindaje
 - Escolta
+- Reconocimiento armado
+- Transporte limitado de tropas
+- Asalto armado
 
 ### Características técnicas
 
 | Característica | Valor |
 |---|---|
-| Velocidad máxima | Pendiente |
-| Velocidad de crucero | Pendiente |
-| Techo operativo | Pendiente |
-| Alcance | Pendiente |
-| Autonomía | Pendiente |
-| Carga máxima | Pendiente |
+| Velocidad máxima | ≈ 310 km/h |
+| Velocidad de crucero | ≈ 260 km/h |
+| Alcance máximo de referencia | ≈ 750 km |
+| Radio táctico de referencia | ≈ 160 km según carga/perfil |
+| Techo de servicio | ≈ 4,500 m |
+| Peso máximo al despegue | ≈ 12,500 kg |
+| Carga externa/armamento | Hasta ≈ 2,400 kg de referencia |
+| Tropas | Hasta 8 |
 
-### Tripulación
+### Tripulación y pasajeros
 
-| Configuración | Cantidad |
-|---|---:|
-| Tripulación mínima | Pendiente |
-| Tripulación recomendada | Pendiente |
-| Tripulación máxima | Pendiente |
-| Pasajeros | Pendiente |
+| Configuración | Cantidad / criterio |
+|---|---|
+| Tripulación mínima | 2: piloto + operador/artillero |
+| Tripulación recomendada | 2 |
+| Tripulación máxima de vuelo | 2 |
+| Pasajeros | Hasta 8 tropas |
 
 ### Capacidad de carga
 
-_Pendiente._
+Puede transportar hasta 8 soldados además de su armamento. Esa combinación reduce rendimiento y no convierte al Hind en sustituto de Mi-8/Mi-17.
 
 ### Armamento
 
-_Pendiente / Según variante o configuración._
+Ametralladora Yak-B de 12.7 mm en torreta en Mi-24V, misiles antitanque Shturm-V, pods de cohetes y otras cargas no guiadas/cañones según configuración RHS.
 
 ### Sensores y sistemas
 
-_Pendiente._
+Mira/óptica para operador, sistemas de navegación y autoprotección de la época. Las capacidades nocturnas y de adquisición son inferiores a helicópteros modernos como Mi-28N/Ka-52.
 
 ### Escenarios recomendados
 
-_Pendiente._
+- CAS y antiblindaje
+- Escolta de Mi-8/Mi-17
+- Ataque de posiciones
+- Inserción armada pequeña
+- Escenarios soviéticos/rusos
+
+### Escenarios no recomendados
+
+- ISR nocturno avanzado
+- Hover prolongado contra MANPADS
+- Transportar tropas cuando se necesita gran capacidad
 
 ### Fortalezas
 
-_Pendiente._
+- Velocidad alta para helicóptero de ataque
+- Blindaje considerable
+- Combina fuego y pequeña capacidad de tropas
+- Buena potencia contra blindados
 
 ### Debilidades
 
-_Pendiente._
+- Grande y menos ágil en hover que plataformas más modernas
+- Sensores antiguos
+- La doble función ataque/transporte obliga a compromisos
 
 ### Fuerte contra
 
-_Pendiente._
+- Blindados
+- Vehículos
+- Infantería
+- Posiciones fortificadas
 
 ### Débil contra
 
-_Pendiente._
+- MANPADS
+- AAA
+- SAM
+- Cazas
+- Helicópteros modernos con mejor sensor/armas si detectan primero
 
 ### Limitaciones operativas
 
-_Pendiente._
+- Las 8 plazas no deben justificar sobrecargar una misión de ataque con pasajeros innecesarios.
+- Aprovechar ataques en pasada y terreno; evitar hover estático.
+- Confirmar misil/pod exacto de la clase RHS.
 
 ### MOD
 
@@ -1904,11 +2476,18 @@ _Pendiente._
 
 ### Dependencias
 
-_Pendiente de validación._
+- RHSAFRF no declara dependencias obligatorias adicionales en Steam Workshop.
 
 ### Observaciones ROAN
 
-_Pendiente._
+- Plataforma híbrida útil para entrenamiento de doctrina OPFOR.
+- En ROAN puede cubrir ataque y una extracción de emergencia pequeña, pero su rol primario seguirá siendo combate.
+- Para tropas regulares, Mi-8/Mi-17 son más apropiados.
+
+### Fuentes de referencia
+
+- Czech MoD / datos públicos Mi-24V
+- RHSAFRF
 
 [↑ Volver a Ala rotativa — Rusia](#ala-rotativa-rusia)  
 [↑ Volver al índice](#indice)
@@ -1916,10 +2495,7 @@ _Pendiente._
 ---
 
 <a id="mi28n"></a>
-
 ## 7.4 Mi-28N Havoc
-
-> **Estado de la ficha:** Pendiente de documentación técnica.
 
 ### Imagen
 
@@ -1927,69 +2503,100 @@ _Pendiente._
 
 ### Información general
 
-_Pendiente._
+Helicóptero de ataque pesado biplaza, diseñado para destruir tanques, vehículos, infantería y objetivos aéreos lentos de día o noche. Prioriza blindaje, supervivencia y potencia de fuego.
+
+### Base de los datos técnicos
+
+Prestaciones basadas en información pública de Rostec/Russian Helicopters para Mi-28N/NE. RHS puede variar armamento y sensores disponibles.
 
 ### Roles ROAN
 
-- Ataque
+- Ataque antiblindaje
 - CAS
-- Anti-blindaje
 - Escolta
+- Reconocimiento armado
+- Ataque nocturno
 
 ### Características técnicas
 
 | Característica | Valor |
 |---|---|
-| Velocidad máxima | Pendiente |
-| Velocidad de crucero | Pendiente |
-| Techo operativo | Pendiente |
-| Alcance | Pendiente |
-| Autonomía | Pendiente |
-| Carga máxima | Pendiente |
+| Velocidad máxima | ≈ 300 km/h |
+| Velocidad de crucero | ≈ 270 km/h como referencia |
+| Techo dinámico | ≈ 5,600 m |
+| Alcance de referencia | ≈ 435 km; ferry puede superar 1,000 km con configuración adecuada |
+| Carga externa de armas | ≈ 2,300 kg como orden de magnitud |
+| Tripulación | 2 |
+| Capacidad de pasajeros | 0 en misión normal |
 
-### Tripulación
+### Tripulación y pasajeros
 
-| Configuración | Cantidad |
-|---|---:|
-| Tripulación mínima | Pendiente |
-| Tripulación máxima | Pendiente |
-| Pasajeros | Pendiente |
+| Configuración | Cantidad / criterio |
+|---|---|
+| Tripulación mínima | 2 |
+| Tripulación recomendada | 2: piloto + operador |
+| Tripulación máxima | 2 |
+| Pasajeros | 0 |
 
 ### Capacidad de carga
 
-_Pendiente._
+No transporta carga ni tropas. La capacidad externa está dedicada a armas y tanques/pods compatibles.
 
 ### Armamento
 
-_Pendiente / Según variante o configuración._
+Cañón móvil 2A42 de 30 mm; misiles antitanque Ataka-V y otras familias según variante; cohetes S-8/S-13; posibilidad de armas aire-aire de corto alcance y bombas/pods en algunas configuraciones.
 
 ### Sensores y sistemas
 
-_Pendiente._
+Sistema de puntería/observación día-noche, navegación y autoprotección. Las versiones avanzadas integran radar/sensores mejorados; utilizar solo las funciones efectivamente presentes en la clase RHS.
 
 ### Escenarios recomendados
 
-_Pendiente._
+- Ataque antitanque
+- CAS
+- Escolta de transportes rusos
+- Operaciones nocturnas
+- Defensa contra helicópteros/objetivos lentos
+
+### Escenarios no recomendados
+
+- Transporte
+- Penetración contra SAM de medio/largo alcance
+- Hover expuesto en entornos MANPADS
 
 ### Fortalezas
 
-_Pendiente._
+- Blindaje y supervivencia
+- Cañón potente
+- Gran capacidad antiblindaje
+- Operación día/noche
 
 ### Debilidades
 
-_Pendiente._
+- Sin pasajeros
+- Grande y detectable
+- Menos rápido que ala fija ante amenazas SAM
 
 ### Fuerte contra
 
-_Pendiente._
+- Tanques
+- IFV/APC
+- Infantería
+- Posiciones
+- Helicópteros/objetivos lentos
 
 ### Débil contra
 
-_Pendiente._
+- SAM
+- MANPADS si se expone
+- AAA pesada
+- Cazas
 
 ### Limitaciones operativas
 
-_Pendiente._
+- Priorizar stand-off con ATGM y exposición corta.
+- No entrar en zona de SAM solo por disponer de blindaje.
+- La capacidad exacta de radar/FLIR depende de RHS.
 
 ### MOD
 
@@ -1997,11 +2604,18 @@ _Pendiente._
 
 ### Dependencias
 
-_Pendiente de validación._
+- RHSAFRF no declara dependencias obligatorias adicionales en Steam Workshop.
 
 ### Observaciones ROAN
 
-_Pendiente._
+- Helicóptero de ataque OPFOR pesado para escenarios modernos.
+- Útil para comparar procedimientos de piloto/operador con AH-1Z.
+- Debe operar con reconocimiento y rutas de enmascaramiento.
+
+### Fuentes de referencia
+
+- Rostec — Mi-28N/NE
+- RHSAFRF
 
 [↑ Volver a Ala rotativa — Rusia](#ala-rotativa-rusia)  
 [↑ Volver al índice](#indice)
@@ -2009,10 +2623,7 @@ _Pendiente._
 ---
 
 <a id="ka52"></a>
-
 ## 7.5 Ka-52 Alligator
-
-> **Estado de la ficha:** Pendiente de documentación técnica.
 
 ### Imagen
 
@@ -2020,69 +2631,101 @@ _Pendiente._
 
 ### Información general
 
-_Pendiente._
+Helicóptero de ataque/reconocimiento de rotores coaxiales y cabina biplaza lado a lado. Su configuración le proporciona alta maniobrabilidad y capacidad para operar en condiciones exigentes, además de coordinación de grupos de helicópteros.
+
+### Base de los datos técnicos
+
+Prestaciones basadas en datos públicos de Rostec para Ka-52. RHS puede simplificar sensores/armamento.
 
 ### Roles ROAN
 
-- Ataque
+- Ataque antiblindaje
 - CAS
 - Reconocimiento armado
-- Anti-blindaje
+- Designación/coordinación de blancos
+- Escolta
+- Ataque contra helicópteros/objetivos lentos
 
 ### Características técnicas
 
 | Característica | Valor |
 |---|---|
-| Velocidad máxima | Pendiente |
-| Velocidad de crucero | Pendiente |
-| Techo operativo | Pendiente |
-| Alcance | Pendiente |
-| Autonomía | Pendiente |
-| Carga máxima | Pendiente |
+| Velocidad máxima | ≈ 300 km/h |
+| Velocidad de crucero | ≈ 260 km/h |
+| Techo de vuelo | Más de 5,000 m; referencia práctica ≈ 5,500 m |
+| Techo estático | ≈ 4,000 m |
+| Alcance práctico de referencia | ≈ 460 km; ferry puede rondar 1,100 km según configuración |
+| Peso máximo al despegue | ≈ 10,800 kg como referencia |
+| Carga de combate | ≈ 2,000 kg |
+| Puntos de suspensión | 6 |
 
-### Tripulación
+### Tripulación y pasajeros
 
-| Configuración | Cantidad |
-|---|---:|
-| Tripulación mínima | Pendiente |
-| Tripulación máxima | Pendiente |
-| Pasajeros | Pendiente |
+| Configuración | Cantidad / criterio |
+|---|---|
+| Tripulación mínima | 2 |
+| Tripulación recomendada | 2 |
+| Tripulación máxima | 2 |
+| Pasajeros | 0 |
 
 ### Capacidad de carga
 
-_Pendiente._
+No transporta personal. Hasta aproximadamente 2 t de carga de combate en seis puntos externos según datos publicados.
 
 ### Armamento
 
-_Pendiente / Según variante o configuración._
+Cañón 2A42 de 30 mm, misiles guiados antitanque, cohetes no guiados, misiles aire-aire y bombas/tanques externos según configuración.
 
 ### Sensores y sistemas
 
-_Pendiente._
+Suite día/noche, navegación, electro-óptica y sistemas de autoprotección. El Ka-52 real está concebido también para reconocimiento y designación/coordinación de blancos.
 
 ### Escenarios recomendados
 
-_Pendiente._
+- Ataque antiblindaje
+- Reconocimiento armado
+- CAS
+- Escolta
+- Operaciones en terreno montañoso o donde la maniobrabilidad sea útil
+
+### Escenarios no recomendados
+
+- Transporte
+- Hover expuesto frente a MANPADS/AAA
+- Penetración en IADS sin supresión
 
 ### Fortalezas
 
-_Pendiente._
+- Excelente maniobrabilidad por rotores coaxiales
+- Cabina lado a lado facilita coordinación
+- Cañón/ATGM potentes
+- Buena función de reconocimiento/ataque
 
 ### Debilidades
 
-_Pendiente._
+- Sin capacidad de transporte
+- Perfil de ataque sigue siendo vulnerable a AA
+- Complejidad de coordinación de sensores/armas
 
 ### Fuerte contra
 
-_Pendiente._
+- Blindados
+- Vehículos
+- Infantería
+- Helicópteros y objetivos aéreos lentos
 
 ### Débil contra
 
-_Pendiente._
+- MANPADS
+- AAA
+- SAM
+- Cazas
 
 ### Limitaciones operativas
 
-_Pendiente._
+- La capacidad de sensores del Ka-52 real no implica que todas las funciones estén modeladas en RHS.
+- Usar terreno y alcance de misiles, no hover sobre la línea de frente.
+- La configuración de 2 t es máxima de referencia, no carga obligatoria.
 
 ### MOD
 
@@ -2090,11 +2733,18 @@ _Pendiente._
 
 ### Dependencias
 
-_Pendiente de validación._
+- RHSAFRF no declara dependencias obligatorias adicionales en Steam Workshop.
 
 ### Observaciones ROAN
 
-_Pendiente._
+- Plataforma OPFOR recomendada para ataque/reconocimiento avanzado.
+- Puede emplearse como amenaza de alto nivel en ejercicios ROAN.
+- Su disposición de tripulación lado a lado cambia la coordinación respecto a AH-1Z/Mi-28.
+
+### Fuentes de referencia
+
+- Rostec — Ka-52 Alligator
+- RHSAFRF
 
 [↑ Volver a Ala rotativa — Rusia](#ala-rotativa-rusia)  
 [↑ Volver al índice](#indice)
@@ -2104,7 +2754,7 @@ _Pendiente._
 <a id="infraestructura"></a>
 # 8. Infraestructura y Operaciones Aeronavales
 
-Esta sección documenta las plataformas e instrumentos utilizados para soportar operaciones aéreas y aeronavales de ROAN.
+Esta sección reúne las plataformas y herramientas autorizadas para soportar operaciones embarcadas y de aeródromo de ROAN.
 
 ## Elementos
 
@@ -2117,37 +2767,38 @@ Esta sección documenta las plataformas e instrumentos utilizados para soportar 
 <a id="nimitz"></a>
 ## 8.1 Nimitz Experimental Build
 
-### Tipo
-
-Portaaviones / Plataforma de operaciones aeronavales.
-
 ### Imagen
 
 _Pendiente._
 
+### Tipo
+
+Portaaviones CATOBAR / infraestructura aeronaval
+
 ### Información general
 
-_Pendiente._
+Versión experimental del USS Nimitz para Arma 3. El propio Workshop la describe como una rama de desarrollo con cambios nuevos y no probados, destinada a usuarios que aceptan una experiencia 'bleeding edge'. Permite recrear operaciones de ala fija embarcada con catapultas y cables de apontaje.
 
-### Aeronaves ROAN compatibles
+### Capacidades principales
 
-_Pendiente de validación._
-
-### Sistemas y capacidades
-
-- Catapultas.
-- Cables de apontaje.
-- Operaciones de cubierta.
-- Elevadores.
-- Soporte para aeronaves embarcadas.
+- Cubierta de vuelo para operaciones de ala fija y helicópteros.
+- Catapultas para lanzamiento de aeronaves compatibles.
+- Cables de apontaje/arresting gear para recuperación.
+- Elementos de cubierta, estacionamiento y operación aeronaval.
+- Integración especialmente adecuada con F/A-18E/F y F-35C del catálogo ROAN.
 
 ### Escenarios recomendados
 
-_Pendiente._
+- Prácticas de apontaje y despegue por catapulta
+- Operaciones de carrier air wing
+- CAP/strike desde mar
+- Entrenamiento de procedimientos de cubierta
 
 ### Limitaciones operativas
 
-_Pendiente._
+- Es una build experimental: pueden existir bugs de catapulta, cables o scripts.
+- No debe asumirse compatibilidad perfecta con cada aeronave sin prueba previa.
+- Para eventos oficiales conviene validar la versión del mod antes de publicar la misión.
 
 ### MOD
 
@@ -2155,11 +2806,13 @@ _Pendiente._
 
 ### Dependencias
 
-_Pendiente de validación._
+- [CBA_A3](https://steamcommunity.com/workshop/filedetails/?id=450814997)
 
 ### Observaciones ROAN
 
-_Pendiente._
+- ROAN debe tratarlo como la plataforma principal para F/A-18E/F y F-35C.
+- Se recomienda mantener procedimientos estandarizados de taxi, catapulta, patrón y apontaje.
+- Airfield Logistics puede complementar el movimiento de aeronaves en cubierta, sujeto a compatibilidad.
 
 [↑ Volver a Infraestructura](#infraestructura)  
 [↑ Volver al índice](#indice)
@@ -2169,38 +2822,42 @@ _Pendiente._
 <a id="lha"></a>
 ## 8.2 LHA
 
-### Tipo
-
-Landing Helicopter Assault / Plataforma anfibia y aeronaval.
-
 ### Imagen
 
 _Pendiente._
 
+### Tipo
+
+Landing Helicopter Assault / buque anfibio con cubierta de vuelo
+
 ### Información general
 
-_Pendiente._
+Buque de asalto anfibio basado en la clase America y con una configuración cercana al USS Bougainville (LHA-8). Incluye cubierta ampliada, dos elevadores de borde y well deck, y está pensado como base de operaciones para un Marine Air Ground Task Force.
 
-### Aeronaves ROAN compatibles
+### Capacidades principales
 
-_Pendiente de validación._
-
-### Sistemas y capacidades
-
-- Operaciones con helicópteros.
-- Operaciones STOVL / VTOL.
-- Elevadores.
-- Cubierta de vuelo.
-- Operaciones anfibias.
-- Well deck, cuando aplique.
+- Spawner de aeronaves con seis pads; el autor cita compatibilidad con F-35B y AH-1Z de Peral, entre otros.
+- Spawner/lanzador de botes en dos bahías.
+- Spawner de vehículos en well deck con seis pads.
+- La cubierta funciona como zona de rearmado y reparación para aeronaves configuradas.
+- Mangueras de reabastecimiento de combustible en cubierta.
+- Cuatro torretas de defensa aérea NATO del juego base.
+- Número de identificación del buque editable en Eden.
+- Briefing room, puente, torre de observación, medical bay y vehicle bay.
 
 ### Escenarios recomendados
 
-_Pendiente._
+- Operaciones F-35B STOVL
+- Operaciones de helicópteros H-60/AH-1Z/CH-53
+- Asalto anfibio
+- Base avanzada aeronaval
+- Entrenamiento de deck operations
 
 ### Limitaciones operativas
 
-_Pendiente._
+- El autor lo identifica como WIP; funciones adicionales siguen en desarrollo.
+- Las aeronaves compatibles con spawner/rearm/repair dependen de configuración del mod.
+- No sustituye a un carrier CATOBAR para F/A-18E/F o F-35C.
 
 ### MOD
 
@@ -2208,11 +2865,13 @@ _Pendiente._
 
 ### Dependencias
 
-_Pendiente de validación._
+- No declara dependencias obligatorias adicionales en Steam Workshop.
 
 ### Observaciones ROAN
 
-_Pendiente._
+- Plataforma ROAN preferente para F-35B y helicópteros en operaciones anfibias.
+- F-35C/F/A-18E/F deben mantenerse en Nimitz salvo pruebas específicas.
+- Planificar segregación entre spots de helicópteros y operaciones STOVL.
 
 [↑ Volver a Infraestructura](#infraestructura)  
 [↑ Volver al índice](#indice)
@@ -2222,33 +2881,41 @@ _Pendiente._
 <a id="airfield-logistics"></a>
 ## 8.3 Airfield Logistics
 
-### Tipo
-
-Soporte logístico para operaciones aéreas en tierra y cubierta.
-
 ### Imagen
 
 _Pendiente._
 
+### Tipo
+
+Soporte de tierra y cubierta para aeronaves
+
 ### Información general
 
-_Pendiente._
+Mod de apoyo que agrega tractores de remolque y activos de aeródromo para mover y organizar aeronaves en bases y cubiertas. Está orientado a mejorar el handling de aeronaves en tierra y la ambientación/operación logística.
 
-### Capacidades
+### Capacidades principales
 
-- Remolque de aeronaves.
-- Operaciones de plataforma.
-- Manejo de aeronaves.
-- Soporte logístico.
-- Apoyo para operaciones en portaaviones y bases aéreas.
+- Tractores de remolque A/S32A y B-600.
+- Capacidad de remolcar aviones y helicópteros en tierra y en entorno marítimo/cubierta.
+- Forklifts capaces de levantar y mover objetos compatibles.
+- Aircraft Carrier Crash Crane para mover o retirar aeronaves.
+- Helicopter dollies remolcables.
+- Generador de luz remolcable.
+- Módulo 'attach to forklift' para habilitar objetos adicionales.
 
 ### Escenarios recomendados
 
-_Pendiente._
+- Organización de parking y cubierta
+- Remolque de aeronaves sin encender motores
+- Mantenimiento/ambientación de base aérea
+- Recuperación de aeronaves que bloqueen cubierta
+- Logística visual y funcional en Nimitz/LHA
 
 ### Limitaciones operativas
 
-_Pendiente._
+- No todos los aviones de terceros son necesariamente towable sin compatibilidad adicional.
+- La grúa/forklift tiene listas y límites de objetos compatibles.
+- No debe usarse para mover aeronaves durante fases activas de despegue/aterrizaje.
 
 ### MOD
 
@@ -2256,11 +2923,13 @@ _Pendiente._
 
 ### Dependencias
 
-_Pendiente de validación._
+- No declara dependencias obligatorias adicionales en Steam Workshop.
 
 ### Observaciones ROAN
 
-_Pendiente._
+- Recomendado para misiones con operaciones de cubierta detalladas.
+- El instructor/Zeus debe probar previamente compatibilidad con cada addon de aeronave.
+- No es un portaaviones: complementa aeródromos, Nimitz y LHA.
 
 [↑ Volver a Infraestructura](#infraestructura)  
 [↑ Volver al índice](#indice)
@@ -2268,41 +2937,49 @@ _Pendiente._
 ---
 
 <a id="matriz-empleo"></a>
-
 # 9. Matriz de Empleo Operacional
 
-Esta matriz permitirá seleccionar rápidamente una plataforma de acuerdo con el tipo de misión.
+La matriz resume para qué misiones resulta apropiada cada plataforma. No sustituye la ficha detallada.
 
-> **Nota:** La clasificación definitiva se completará después de validar cada aeronave dentro de Arma 3.
+**Leyenda:** ✅ recomendado · ⚠️ capaz/condicional · ❌ no corresponde al rol
 
-| Aeronave | CAP | CAS | Ataque | Transporte | Logística | Inserción | SEAD/DEAD | Embarcada |
-|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| A-10C | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ⚠️ | ❌ |
-| C-130 E/H/J | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ |
-| F/A-18E/F | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ |
-| F-35B | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ |
-| F-35C | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ |
-| MiG-29SM | ✅ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ⚠️ | ❌ |
-| Su-34M | ⚠️ | ✅ | ✅ | ❌ | ❌ | ❌ | ⚠️ | ❌ |
-| Su-35 | ✅ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ⚠️ | ❌ |
-| H-60 Series | ❌ | ⚠️ | ⚠️ | ✅ | ✅ | ✅ | ❌ | ✅ |
-| AH-1Z | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ |
-| AH-6M | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| MH-6M | ❌ | ⚠️ | ❌ | ⚠️ | ❌ | ✅ | ❌ | ❌ |
-| CH-47F | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ |
-| CH-53E | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ |
-| MH-47G | ❌ | ⚠️ | ⚠️ | ✅ | ✅ | ✅ | ❌ | ❌ |
-| Mi-8MT | ❌ | ⚠️ | ⚠️ | ✅ | ✅ | ✅ | ❌ | ❌ |
-| Mi-17 | ❌ | ⚠️ | ⚠️ | ✅ | ✅ | ✅ | ❌ | ❌ |
-| Mi-24V | ❌ | ✅ | ✅ | ⚠️ | ❌ | ⚠️ | ❌ | ❌ |
-| Mi-28N | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Ka-52 | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Aeronave | CAP | CAS | Strike | Anti-blindaje | Transporte | Logística | SOF / Inserción | SEAD/DEAD | Embarcada |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| A-10C | ❌ | ✅ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ⚠️ | ❌ |
+| C-130 E/H/J | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ |
+| F/A-18E/F | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ |
+| F-35B | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ (LHA) |
+| F-35C | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ (CATOBAR) |
+| MiG-29SM | ✅ | ⚠️ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ⚠️ | ❌ |
+| Su-34M | ⚠️ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅/⚠️ | ❌ |
+| Su-35 | ✅ | ⚠️ | ✅ | ✅ | ❌ | ❌ | ❌ | ⚠️ | ❌ |
+| H-60 Series | ❌ | ⚠️ | ⚠️ | ⚠️ | ✅ | ✅ | ✅ | ❌ | ✅ |
+| AH-1Z | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ (LHA) |
+| AH-6M | ❌ | ✅ | ⚠️ | ⚠️ | ❌ | ❌ | ⚠️ | ❌ | ⚠️ |
+| MH-6M | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ✅ | ❌ | ⚠️ |
+| CH-47F | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ⚠️ |
+| CH-53E | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ (LHA) |
+| MH-47G | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ⚠️ |
+| Mi-8MT | ❌ | ⚠️ | ⚠️ | ⚠️ | ✅ | ✅ | ✅ | ❌ | ❌ |
+| Mi-17 | ❌ | ⚠️ | ⚠️ | ⚠️ | ✅ | ✅ | ✅ | ❌ | ❌ |
+| Mi-24V | ❌ | ✅ | ✅ | ✅ | ⚠️ | ❌ | ⚠️ | ❌ | ❌ |
+| Mi-28N | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Ka-52 | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
-### Leyenda
+## 9.1 Selección rápida por necesidad
 
-- ✅ **Recomendado**
-- ⚠️ **Capaz / Uso circunstancial**
-- ❌ **No recomendado / No aplicable**
+| Necesidad | Plataformas preferentes |
+|---|---|
+| CAP / superioridad aérea | F/A-18E/F, F-35C, F-35B, Su-35, MiG-29SM |
+| CAS ala fija | A-10C, F/A-18E/F, F-35B/C, Su-34M |
+| CAS helicóptero | AH-1Z, AH-6M, Mi-24V, Mi-28N, Ka-52 |
+| Transporte ligero SOF | MH-6M, H-60 |
+| Transporte medio | H-60, Mi-8MT, Mi-17 |
+| Transporte pesado | CH-47F, MH-47G, CH-53E |
+| Sling load pesado | CH-47F, MH-47G, CH-53E |
+| Strike de largo alcance | F-35C, F/A-18E/F, Su-34M, Su-35 |
+| Operación Nimitz | F/A-18E/F, F-35C |
+| Operación LHA | F-35B, AH-1Z, H-60, CH-53E |
 
 [↑ Volver al índice](#indice)
 
@@ -2311,30 +2988,42 @@ Esta matriz permitirá seleccionar rápidamente una plataforma de acuerdo con el
 <a id="mods-dependencias"></a>
 # 10. Mods y Dependencias
 
-Esta sección centraliza los mods principales utilizados por las aeronaves y plataformas autorizadas.
+Resumen centralizado de addons principales y sus dependencias conocidas de Steam Workshop.
 
-| MOD | Tipo | Aeronaves / Función | Steam Workshop |
+| MOD | Uso ROAN | Dependencias conocidas | Workshop |
 |---|---|---|---|
-| Hatchet H-60 Pack | Aeronaves | H-60 Series | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1745501605) |
-| AH-1Z Viper | Aeronave | AH-1Z | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3546703780) |
-| RHSUSAF | Aeronaves | AH-6M, MH-6M, CH-47F, CH-53E | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=843577117) |
-| Pegasus Systems MH-47G | Aeronave | MH-47G | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3805899171) |
-| F/A-18E/F Super Hornet 2020 | Aeronave | F/A-18E/F | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2131302796) |
-| F-35B Lightning | Aeronave | F-35B | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3517620967) |
-| F-35C Lightning | Aeronave | F-35C | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3083645332) |
-| A-10C Thunderbolt | Aeronave | A-10C | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2848059590) |
-| C-130 E/H/J Hercules Series | Aeronave | C-130 E/H/J | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3122396633) |
-| Improved RHS MiG-29SM + FIR support | Aeronave | MiG-29SM | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2987850906) |
-| Su-34M (UMPK) | Aeronave | Su-34M | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3137489963) |
-| SU-35 Flanker E | Aeronave | Su-35 | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=743108251) |
-| RHSAFRF | Aeronaves | Mi-8MT, Mi-17, Mi-24V, Mi-28N, Ka-52 | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=843425103) |
-| Airfield Logistics | Infraestructura | Soporte aéreo y de cubierta | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3048131698) |
-| Nimitz Experimental Build | Infraestructura | Portaaviones | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1697731012) |
-| LHA | Infraestructura | LHA / Operaciones anfibias | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3596653038) |
+| Hatchet H-60 Pack | H-60 Series | Hatchet Interaction Framework; ACE3; CBA_A3 (transitiva) | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1745501605) |
+| AH-1Z Viper | AH-1Z | Lala Peral - Vehicle Interaction System | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3546703780) |
+| RHSUSAF | AH-6M, MH-6M, CH-47F, CH-53E | Sin dependencia obligatoria adicional declarada en Workshop | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=843577117) |
+| Pegasus Systems MH-47G | MH-47G | Hatchet Interaction Framework; ACE3; CBA_A3 (transitiva) | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3805899171) |
+| F/A-18E/F Super Hornet 2020 | F/A-18E/F | Sin dependencia obligatoria adicional declarada en Workshop | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2131302796) |
+| F-35B Lightning | F-35B | Lala Peral - Vehicle Interaction System | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3517620967) |
+| F-35C Lightning | F-35C | Lala Peral - Vehicle Interaction System | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3083645332) |
+| A-10C Thunderbolt | A-10C | Lala Peral - Vehicle Interaction System | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2848059590) |
+| C-130 E/H/J Hercules Series | C-130 E/H/J/J-30 | FIR AWS | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3122396633) |
+| Improved RHS MiG-29SM + FIR support | MiG-29SM | FIR AWS; RHSGREF; RHSAFRF; RHSSAF; RHSUSAF | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2987850906) |
+| Su-34M (UMPK) | Su-34M | RHSAFRF; Improved RHS MiG-29SM + FIR support; FIR AWS (+ dependencias transitivas del MiG mod) | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3137489963) |
+| SU-35 Flanker E | Su-35 | Sin dependencia obligatoria adicional declarada en Workshop | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=743108251) |
+| RHSAFRF | Mi-8MT, Mi-17, Mi-24V, Mi-28N, Ka-52 | Sin dependencia obligatoria adicional declarada en Workshop | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=843425103) |
+| Airfield Logistics | Soporte de aeródromo/cubierta | Sin dependencia obligatoria adicional declarada en Workshop | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3048131698) |
+| Nimitz Experimental Build | Portaaviones | CBA_A3 | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1697731012) |
+| LHA | Buque anfibio | Sin dependencia obligatoria adicional declarada en Workshop | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3596653038) |
 
-## 10.1 Dependencias
+## 10.1 Dependencias auxiliares
 
-Las dependencias específicas de cada mod se documentarán después de validarlas directamente en sus respectivas páginas de Steam Workshop y en pruebas dentro de Arma 3.
+| Dependencia | Workshop |
+|---|---|
+| CBA_A3 | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=450814997) |
+| ACE3 | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=463939057) |
+| Hatchet Interaction Framework | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=2941986336) |
+| FIR AWS | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=366425329) |
+| RHSGREF | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=843593391) |
+| RHSAFRF | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=843425103) |
+| RHSSAF | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=843632231) |
+| RHSUSAF | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=843577117) |
+| Lala Peral - Vehicle Interaction System | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3083512801) |
+
+> **Nota ROAN:** una compatibilidad opcional (por ejemplo, un missilebox alternativo) no se considera dependencia obligatoria salvo que la misión la utilice de forma explícita.
 
 [↑ Volver al índice](#indice)
 
@@ -2346,17 +3035,70 @@ Las dependencias específicas de cada mod se documentarán después de validarla
 
 | Término | Significado |
 |---|---|
+| AAA | Anti-Aircraft Artillery |
+| BVR | Beyond Visual Range |
 | CAP | Combat Air Patrol |
 | CAS | Close Air Support |
 | CASEVAC | Casualty Evacuation |
+| CATOBAR | Catapult Assisted Take-Off But Arrested Recovery |
+| CSAR | Combat Search and Rescue |
 | DEAD | Destruction of Enemy Air Defenses |
+| FAC(A) | Forward Air Controller (Airborne) |
+| FLIR | Forward Looking Infrared |
+| IADS | Integrated Air Defense System |
 | ISR | Intelligence, Surveillance and Reconnaissance |
+| JTAC | Joint Terminal Attack Controller |
 | LHA | Landing Helicopter Assault |
+| LZ | Landing Zone |
+| MANPADS | Man-Portable Air-Defense System |
 | MEDEVAC | Medical Evacuation |
+| NOE | Nap-of-the-Earth |
+| RWR | Radar Warning Receiver |
+| SAM | Surface-to-Air Missile |
 | SEAD | Suppression of Enemy Air Defenses |
+| SOF | Special Operations Forces |
 | STOVL | Short Take-Off and Vertical Landing |
+| TGP | Targeting Pod |
 | VTOL | Vertical Take-Off and Landing |
-| Sling Load | Transporte de carga externa suspendida por una aeronave de ala rotativa |
+| WSO | Weapon Systems Officer |
+| Sling Load | Carga externa suspendida bajo un helicóptero |
+
+[↑ Volver al índice](#indice)
+
+---
+
+<a id="referencias"></a>
+
+# 12. Referencias generales
+
+Las páginas de Steam Workshop enlazadas en cada ficha son la referencia principal para **mods y dependencias**. Para prestaciones no documentadas por los addons se utilizaron datos reales de fabricantes u organismos militares, entre ellos:
+
+- U.S. Air Force — fichas del A-10C y C-130.
+- U.S. Navy / NAVAIR / USMC — F/A-18E/F y CH-53E.
+- Lockheed Martin — F-35 y UH-60M.
+- Boeing — AH-6 y H-47 Chinook.
+- USSOCOM Fact Books — AH-6M, MH-6M y MH-47G.
+- Bell — AH-1Z Viper.
+- United Aircraft Corporation (UAC) — Su-34 y Su-35.
+- Rostec / Russian Helicopters — Mi-28 y Ka-52.
+- Rosoboronexport — Mi-17V-5.
+- Documentación militar pública de la familia Mi-24 y Mi-8.
+
+## 12.1 Criterio de uso de cifras
+
+Los valores de carga, techo, alcance y velocidad pueden cambiar por:
+
+- Variante específica del avión/helicóptero.
+- Peso real de despegue.
+- Combustible.
+- Configuración de armas.
+- Temperatura y altitud.
+- Daños.
+- Modelo de vuelo de Arma 3.
+- Advanced Flight Model.
+- Versión del mod.
+
+Por ello, antes de una operación que dependa de un límite exacto —por ejemplo sling load cercano al máximo o recuperación vertical del F-35B— se recomienda realizar una prueba en el mismo modset y mapa de la misión.
 
 ---
 
@@ -2365,8 +3107,9 @@ Las dependencias específicas de cada mod se documentarán después de validarla
 | Campo | Valor |
 |---|---|
 | Documento | Aeronaves Autorizadas ROAN |
-| Versión | 0.1 |
-| Estado | Borrador inicial |
+| Versión | 0.2 |
+| Estado | Versión funcional completa |
+| Fecha | 29 de septiembre de 2026 |
 | Organización | Regimiento de Operaciones Aero Navales |
 | Plataforma | Arma 3 |
 
