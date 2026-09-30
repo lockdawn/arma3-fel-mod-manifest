@@ -1104,9 +1104,9 @@ Prestaciones basadas en la ficha oficial de UAC para el Su-35. El mod representa
 
 | Configuración | Cantidad / criterio |
 |---|---|
-| Tripulación mínima | 1 piloto |
-| Tripulación recomendada | 1 piloto |
-| Tripulación máxima | 1 piloto |
+| Tripulación mínima | 1 (piloto) |
+| Tripulación recomendada | 1 (piloto) |
+| Tripulación máxima | 1 (piloto) |
 | Pasajeros | 0 |
 
 ### Capacidad de carga
@@ -1247,9 +1247,9 @@ Hatchet incluye varias configuraciones de la familia H-60. Las cifras se present
 
 | Configuración | Cantidad / criterio |
 |---|---|
-| Tripulación mínima | 2 pilotos |
-| Tripulación recomendada | 4: 2 pilotos + 2 crew chiefs/artilleros cuando aplique |
-| Tripulación máxima operativa | 4 en configuración utility típica; algunas variantes pueden usar personal de misión adicional |
+| Tripulación mínima | 1 (piloto) |
+| Tripulación recomendada | 2 (piloto y copiloto) |
+| Tripulación máxima operativa | 4 (piloto, copiloto y crew chiefs/artilleros cuando aplique) |
 | Pasajeros | ≈ 11 tropas equipadas como referencia; cambia por variante/configuración |
 
 ### Capacidad de carga
@@ -1375,9 +1375,9 @@ Prestaciones basadas en datos públicos de Bell para el AH-1Z. El mod incorpora 
 
 | Configuración | Cantidad / criterio |
 |---|---|
-| Tripulación mínima | 2 |
-| Tripulación recomendada | 2: piloto + artillero/operador |
-| Tripulación máxima | 2 |
+| Tripulación mínima | 2 (piloto y artillero/operador) |
+| Tripulación recomendada | 2 (piloto y artillero/operador) |
+| Tripulación máxima | 2 (piloto y artillero/operador) |
 | Pasajeros | 0 |
 
 ### Capacidad de carga
@@ -1502,10 +1502,10 @@ Prestaciones basadas en datos USSOCOM/Boeing para la familia AH-6M/AH-6. La conf
 
 | Configuración | Cantidad / criterio |
 |---|---|
-| Tripulación mínima | 2 según configuración operacional USSOCOM |
-| Tripulación recomendada | 2 |
-| Tripulación máxima | 2 |
-| Pasajeros | 0 en configuración de ataque |
+| Tripulación mínima | 1 (piloto) |
+| Tripulación recomendada | 2 (piloto y copiloto) |
+| Tripulación máxima | 2 (piloto y copiloto) |
+| Pasajeros | 1 operador |
 
 ### Capacidad de carga
 
@@ -1563,7 +1563,7 @@ Aviónica de operaciones especiales, navegación nocturna y miras/ópticas asoci
 ### Limitaciones operativas
 
 - Debe evitar hover prolongado en línea de vista del enemigo.
-- No tiene capacidad de pasajeros en la variante AH.
+- Tiene capacidad para 1 pasajero en la variante AH.
 - La carga de misiles/cohetes debe balancearse con maniobrabilidad.
 
 ### MOD
@@ -1628,9 +1628,9 @@ Prestaciones basadas en USSOCOM para el MH-6M. RHSUSAF puede variar ligeramente 
 
 | Configuración | Cantidad / criterio |
 |---|---|
-| Tripulación mínima | 2 en operación USSOCOM |
-| Tripulación recomendada | 2 |
-| Tripulación máxima | 2 de vuelo |
+| Tripulación mínima | 1 (piloto) |
+| Tripulación recomendada | 2 (piloto y copiloto) |
+| Tripulación máxima | 2 (piloto y copiloto) |
 | Pasajeros | Hasta 6 operadores |
 
 ### Capacidad de carga
@@ -1754,10 +1754,10 @@ Prestaciones basadas en datos del U.S. Army/Boeing para CH-47F. RHS puede ajusta
 
 | Configuración | Cantidad / criterio |
 |---|---|
-| Tripulación mínima | 3: piloto, copiloto y flight engineer |
-| Tripulación recomendada | 5 en entorno táctico: 2 pilotos + flight engineer/crew chief + artilleros según misión |
-| Tripulación máxima operativa | Habitualmente 5 según armamento/función |
-| Pasajeros | 33 tropas, además de 3 tripulantes en la cifra doctrinal de 36 plazas |
+| Tripulación mínima | 1 (piloto) |
+| Tripulación recomendada | 2 (piloto y copiloto) |
+| Tripulación máxima operativa | 3 (piloto, copiloto y flight engineer/crew chief) |
+| Pasajeros | 36 tropas |
 
 ### Capacidad de carga
 
@@ -1882,10 +1882,10 @@ Prestaciones basadas en documentación USMC/NAVAIR del CH-53E. Los valores de ca
 
 | Configuración | Cantidad / criterio |
 |---|---|
-| Tripulación mínima | 4: piloto, copiloto, crew chief y mechanic/gunner según NAVAIR |
-| Tripulación recomendada | 4–5 según puestos de armas y misión |
-| Tripulación máxima operativa | 5 como referencia para misión armada |
-| Pasajeros | 30 estándar; hasta 55 en configuración de alta densidad histórica si la implementación lo permite |
+| Tripulación mínima | 1 (piloto) |
+| Tripulación recomendada | 2 (piloto y copiloto) |
+| Tripulación máxima operativa | 5 (piloto, copiloto y flight engineer/crew chief/artilleros) |
+| Pasajeros | 30 tropas |
 
 ### Capacidad de carga
 
@@ -2010,10 +2010,10 @@ Prestaciones basadas en USSOCOM/Boeing para MH-47G/H-47. El mod incluye MH-47G B
 
 | Configuración | Cantidad / criterio |
 |---|---|
-| Tripulación mínima | 3 para mover la aeronave de forma básica |
-| Tripulación recomendada / combate | 6 según USSOCOM |
-| Tripulación máxima operativa | 6 como crew de combate de referencia |
-| Pasajeros | ≈ 33 combatientes como planificación tradicional; puede reducirse por tanques/equipamiento SOF |
+| Tripulación mínima | 1 (piloto) |
+| Tripulación recomendada | 2 (piloto y copiloto) |
+| Tripulación máxima operativa | 3 (piloto, copiloto y flight engineer/crew chief) |
+| Pasajeros | 33 tropas |
 
 ### Capacidad de carga
 
@@ -2154,9 +2154,9 @@ Prestaciones basadas en referencias de la familia Mi-8MT/Mi-8MTV. RHS puede ofre
 
 | Configuración | Cantidad / criterio |
 |---|---|
-| Tripulación mínima | 3 como referencia militar |
-| Tripulación recomendada | 3 |
-| Tripulación máxima operativa | 3–4 según artillero/equipo de misión |
+| Tripulación mínima | 1 (piloto) |
+| Tripulación recomendada | 2 (piloto y copiloto) |
+| Tripulación máxima operativa | 3-4 (piloto, copiloto y artillero/equipo de misión) |
 | Pasajeros | ≈ 24 tropas según configuración |
 
 ### Capacidad de carga
@@ -2280,9 +2280,9 @@ Se utiliza el Mi-17V-5 como referencia moderna de prestaciones. La variante exac
 
 | Configuración | Cantidad / criterio |
 |---|---|
-| Tripulación mínima | 3 |
-| Tripulación recomendada | 3 |
-| Tripulación máxima operativa | 3–4 según configuración |
+| Tripulación mínima | 1 (piloto) |
+| Tripulación recomendada | 2 (piloto y copiloto) |
+| Tripulación máxima operativa | 3 (piloto, copiloto y flight engineer/crew chief) |
 | Pasajeros | Hasta 36 como referencia Mi-17V-5; la variante RHS puede ser 24 o una cifra intermedia |
 
 ### Capacidad de carga
@@ -2337,7 +2337,6 @@ Navegación, radios y sistemas de autoprotección variables según versión. Las
 
 ### Limitaciones operativas
 
-- La cifra de 36 tropas corresponde a Mi-17V-5 real; comprobar asientos disponibles de la clase RHS antes de planificar.
 - No exceder 4 t de sling load de referencia.
 - La selección de carga/armas debe respetar el rol asignado.
 
@@ -2406,9 +2405,9 @@ Prestaciones basadas en referencias militares del Mi-24V. RHS puede ajustar masa
 
 | Configuración | Cantidad / criterio |
 |---|---|
-| Tripulación mínima | 2: piloto + operador/artillero |
-| Tripulación recomendada | 2 |
-| Tripulación máxima de vuelo | 2 |
+| Tripulación mínima | 1 (piloto) |
+| Tripulación recomendada | 2 (piloto y operador/artillero) |
+| Tripulación máxima de vuelo | 2 (piloto y operador/artillero) |
 | Pasajeros | Hasta 8 tropas |
 
 ### Capacidad de carga
@@ -2534,9 +2533,9 @@ Prestaciones basadas en información pública de Rostec/Russian Helicopters para
 
 | Configuración | Cantidad / criterio |
 |---|---|
-| Tripulación mínima | 2 |
-| Tripulación recomendada | 2: piloto + operador |
-| Tripulación máxima | 2 |
+| Tripulación mínima | 2 (piloto y operador/artillero) |
+| Tripulación recomendada | 2 (piloto y operador/artillero) |
+| Tripulación máxima de vuelo | 2 (piloto y operador/artillero) |
 | Pasajeros | 0 |
 
 ### Capacidad de carga
@@ -2664,9 +2663,9 @@ Prestaciones basadas en datos públicos de Rostec para Ka-52. RHS puede simplifi
 
 | Configuración | Cantidad / criterio |
 |---|---|
-| Tripulación mínima | 2 |
-| Tripulación recomendada | 2 |
-| Tripulación máxima | 2 |
+| Tripulación mínima | 2 (piloto y operador/artillero) |
+| Tripulación recomendada | 2 (piloto y operador/artillero) |
+| Tripulación máxima de vuelo | 2 (piloto y operador/artillero) |
 | Pasajeros | 0 |
 
 ### Capacidad de carga
