@@ -2967,7 +2967,7 @@ La matriz resume para qué misiones resulta apropiada cada plataforma. No sustit
 | Mi-28N | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Ka-52 | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
-## 9.1 Selección rápida por necesidad
+## 9.1 Selección rápida
 
 | Necesidad | Plataformas preferentes |
 |---|---|
@@ -2993,22 +2993,22 @@ Resumen centralizado de addons principales y sus dependencias conocidas de Steam
 
 | MOD | Uso ROAN | Dependencias conocidas | Workshop |
 |---|---|---|---|
-| Hatchet H-60 Pack | H-60 Series | Hatchet Interaction Framework; ACE3; CBA_A3 (transitiva) | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1745501605) |
+| A-10C Thunderbolt | A-10C | Lala Peral - Vehicle Interaction System | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2848059590) |
 | AH-1Z Viper | AH-1Z | Lala Peral - Vehicle Interaction System | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3546703780) |
-| RHSUSAF | AH-6M, MH-6M, CH-47F, CH-53E | Sin dependencia obligatoria adicional declarada en Workshop | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=843577117) |
-| Pegasus Systems MH-47G | MH-47G | Hatchet Interaction Framework; ACE3; CBA_A3 (transitiva) | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3805899171) |
+| Airfield Logistics | Soporte de aeródromo/cubierta | Sin dependencia obligatoria adicional declarada en Workshop | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3048131698) |
+| C-130 E/H/J Hercules Series | C-130 E/H/J/J-30 | FIR AWS | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3122396633) |
 | F/A-18E/F Super Hornet 2020 | F/A-18E/F | Sin dependencia obligatoria adicional declarada en Workshop | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2131302796) |
 | F-35B Lightning | F-35B | Lala Peral - Vehicle Interaction System | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3517620967) |
 | F-35C Lightning | F-35C | Lala Peral - Vehicle Interaction System | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3083645332) |
-| A-10C Thunderbolt | A-10C | Lala Peral - Vehicle Interaction System | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2848059590) |
-| C-130 E/H/J Hercules Series | C-130 E/H/J/J-30 | FIR AWS | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3122396633) |
+| Hatchet H-60 Pack | H-60 Series | Hatchet Interaction Framework; ACE3; CBA_A3 (transitiva) | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1745501605) |
 | Improved RHS MiG-29SM + FIR support | MiG-29SM | FIR AWS; RHSGREF; RHSAFRF; RHSSAF; RHSUSAF | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2987850906) |
+| LHA | Buque anfibio | Sin dependencia obligatoria adicional declarada en Workshop | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3596653038) |
+| Nimitz Experimental Build | Portaaviones | CBA_A3 | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1697731012) |
+| Pegasus Systems MH-47G | MH-47G | Hatchet Interaction Framework; ACE3; CBA_A3 (transitiva) | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3805899171) |
+| RHSAFRF | Mi-8MT, Mi-17, Mi-24V, Mi-28N, Ka-52 | Sin dependencia obligatoria adicional declarada en Workshop | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=843425103) |
+| RHSUSAF | AH-6M, MH-6M, CH-47F, CH-53E | Sin dependencia obligatoria adicional declarada en Workshop | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=843577117) |
 | Su-34M (UMPK) | Su-34M | RHSAFRF; Improved RHS MiG-29SM + FIR support; FIR AWS (+ dependencias transitivas del MiG mod) | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3137489963) |
 | SU-35 Flanker E | Su-35 | Sin dependencia obligatoria adicional declarada en Workshop | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=743108251) |
-| RHSAFRF | Mi-8MT, Mi-17, Mi-24V, Mi-28N, Ka-52 | Sin dependencia obligatoria adicional declarada en Workshop | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=843425103) |
-| Airfield Logistics | Soporte de aeródromo/cubierta | Sin dependencia obligatoria adicional declarada en Workshop | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3048131698) |
-| Nimitz Experimental Build | Portaaviones | CBA_A3 | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1697731012) |
-| LHA | Buque anfibio | Sin dependencia obligatoria adicional declarada en Workshop | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3596653038) |
 
 ## 10.1 Dependencias auxiliares
 
