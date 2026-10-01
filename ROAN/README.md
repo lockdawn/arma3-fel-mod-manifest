@@ -82,7 +82,6 @@ Por lo tanto, las cifras de alcance, techo, velocidad y carga deben usarse para 
   - [AH-1Z Viper](#ah1z)
   - [AH-6M Little Bird](#ah6m)
   - [MH-6M Little Bird](#mh6m)
-  - [CH-47F Chinook](#ch47f)
   - [CH-53E Super Stallion](#ch53e)
   - [MH-47G Chinook](#mh47g)
 
@@ -135,7 +134,6 @@ Vista rápida del inventario autorizado. Los roles detallados y limitaciones se 
 | [AH-1Z](#ah1z) | Viper | Ataque / CAS / Escolta | [AH-1Z Viper](https://steamcommunity.com/sharedfiles/filedetails/?id=3546703780) |
 | [AH-6M](#ah6m) | Little Bird | Ataque ligero / CAS | [RHSUSAF](https://steamcommunity.com/workshop/filedetails/?id=843577117) |
 | [MH-6M](#mh6m) | Little Bird | Inserción / Operaciones especiales | [RHSUSAF](https://steamcommunity.com/workshop/filedetails/?id=843577117) |
-| [CH-47F](#ch47f) | Chinook | Transporte pesado / Logística | [RHSUSAF](https://steamcommunity.com/workshop/filedetails/?id=843577117) |
 | [CH-53E](#ch53e) | Super Stallion | Transporte muy pesado / Anfibio | [RHSUSAF](https://steamcommunity.com/workshop/filedetails/?id=843577117) |
 | [MH-47G](#mh47g) | Chinook | Operaciones especiales / Heavy assault | [Pegasus Systems MH-47G](https://steamcommunity.com/sharedfiles/filedetails/?id=3805899171) |
 
@@ -173,7 +171,6 @@ La matriz resume para qué misiones resulta apropiada cada plataforma. No sustit
 | AH-1Z | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ (LHA) |
 | AH-6M | ❌ | ✅ | ⚠️ | ⚠️ | ❌ | ❌ | ⚠️ | ❌ | ⚠️ |
 | MH-6M | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ✅ | ❌ | ⚠️ |
-| CH-47F | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ⚠️ |
 | CH-53E | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ (LHA) |
 | MH-47G | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ⚠️ |
 | Mi-8MT | ❌ | ⚠️ | ⚠️ | ⚠️ | ✅ | ✅ | ✅ | ❌ | ❌ |
@@ -190,8 +187,8 @@ La matriz resume para qué misiones resulta apropiada cada plataforma. No sustit
 | CAS helicóptero | AH-1Z, AH-6M, Mi-24V, Mi-28N, Ka-52 |
 | Transporte ligero SOF | MH-6M, H-60 |
 | Transporte medio | H-60, Mi-8MT |
-| Transporte pesado | CH-47F, MH-47G, CH-53E |
-| Sling load pesado | CH-47F, MH-47G, CH-53E |
+| Transporte pesado | MH-47G, CH-53E |
+| Sling load pesado | MH-47G, CH-53E |
 | Strike de largo alcance | F-35C, F/A-18E, Su-34M, Su-35 |
 | Operación Nimitz | F/A-18E, F-35C |
 | Operación LHA | F-35B, AH-1Z, H-60, CH-53E |
@@ -220,7 +217,7 @@ Resumen centralizado de addons principales y sus dependencias conocidas de Steam
 | Nimitz Experimental Build | Portaaviones | CBA_A3 | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1697731012) |
 | Pegasus Systems MH-47G | MH-47G | Hatchet Interaction Framework; ACE3; CBA_A3 (transitiva) | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3805899171) |
 | RHSAFRF | Mi-8MT, Mi-24V, Mi-28N, Ka-52 | Sin dependencia obligatoria adicional declarada en Workshop | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=843425103) |
-| RHSUSAF | AH-6M, MH-6M, CH-47F, CH-53E | Sin dependencia obligatoria adicional declarada en Workshop | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=843577117) |
+| RHSUSAF | AH-6M, MH-6M, CH-53E | Sin dependencia obligatoria adicional declarada en Workshop | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=843577117) |
 | Su-34M (UMPK) | Su-34M | RHSAFRF; Improved RHS MiG-29SM + FIR support; FIR AWS (+ dependencias transitivas del MiG mod) | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3137489963) |
 | SU-35 Flanker E | Su-35 | Sin dependencia obligatoria adicional declarada en Workshop | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=743108251) |
 
@@ -376,10 +373,6 @@ El mod anuncia cabina interactiva, sistema de carga dinámica, contramedidas, RW
 - Para ataques cercanos a fuerzas amigas se recomienda control JTAC y establecimiento de ejes de ataque, altitudes y zonas de seguridad.
 - No debe usarse su capacidad de carga máxima como configuración estándar: la carga debe responder al objetivo y amenazas.
 
-### Fuentes de referencia
-
-- U.S. Air Force — A-10C Thunderbolt II fact sheet
-- Steam Workshop — A-10C Thunderbolt
 
 [↑ Volver a Ala fija — BLUFOR](#ala-fija-blufor)  
 [↑ Volver al índice](#indice)
@@ -497,11 +490,6 @@ Radar meteorológico, navegación inercial/GPS y aviónica de transporte. El C-1
 - Para ROAN su rol primario es logística y transporte, no combate.
 - El piloto debe confirmar variante, peso, longitud de pista y ruta antes de la operación.
 - En misiones de lanzamiento aéreo debe coordinarse DZ, altitud, rumbo y señal de lanzamiento.
-
-### Fuentes de referencia
-
-- U.S. Air Force — C-130 Hercules fact sheet
-- Steam Workshop — C-130 E/H/J Hercules Series
 
 [↑ Volver a Ala fija — BLUFOR](#ala-fija-blufor)  
 [↑ Volver al índice](#indice)
@@ -622,11 +610,6 @@ Radar multimodo de combate, RWR, navegación táctica, datalink y pods de design
 - Plataforma preferente de ROAN para operaciones de ala fija desde [Nimitz](#nimitz).
 - Debe priorizarse una configuración acorde con el paquete de misión: CAP, CAS, SEAD o strike.
 - El empleo de la variante F **SOLO** es recomendable para entrenamiento.
-
-### Fuentes de referencia
-
-- U.S. Navy — F/A-18E Super Hornet fact file
-- Steam Workshop — F/A-18E/F Super Hornet 2020
 
 [↑ Volver a Ala fija — BLUFOR](#ala-fija-blufor)  
 [↑ Volver al índice](#indice)
@@ -751,11 +734,6 @@ Radar AESA, EOTS, DAS y suite de guerra electrónica/sensor fusion en la aeronav
 - ROAN debe entrenar por separado despegue corto, transición y aterrizaje vertical.
 - La prioridad es conservar combustible suficiente para recuperación segura.
 
-### Fuentes de referencia
-
-- Lockheed Martin — F-35 Fast Facts
-- Steam Workshop — F-35B Lightning
-
 [↑ Volver a Ala fija — BLUFOR](#ala-fija-blufor)  
 [↑ Volver al índice](#indice)
 
@@ -877,11 +855,6 @@ Radar AESA, EOTS, DAS y guerra electrónica en la plataforma real; el mod integr
 - Junto con el F/A-18E, constituye la plataforma principal para operaciones de ala fija desde Nimitz.
 - Debe entrenarse específicamente apontaje con cable y bolter.
 - Su mayor radio lo hace preferible para CAP/strike a mayor distancia del carrier.
-
-### Fuentes de referencia
-
-- Lockheed Martin — F-35 Fast Facts
-- Steam Workshop — F-35C Lightning
 
 [↑ Volver a Ala fija — BLUFOR](#ala-fija-blufor)  
 [↑ Volver al índice](#indice)
@@ -1019,11 +992,6 @@ Radar de combate, sistema electro-óptico/IRST y designación montada en casco e
 - ROAN debe tratar la carga FIR como parte integral de la planificación de pilones.
 - Para ataque de precisión se recomienda confirmar qué sensores/municiones están funcionales en la versión del mod usada por la misión.
 
-### Fuentes de referencia
-
-- Ficha técnica pública MiG-29SM/SMT
-- Steam Workshop — Improved RHS MiG-29SM + FIR support
-
 [↑ Volver a Ala fija — OPFOR](#ala-fija-opfor)  
 [↑ Volver al índice](#indice)
 
@@ -1147,11 +1115,6 @@ Radar multimodo, navegación/ataque de largo alcance, suite de guerra electróni
 - En misión MP, confirmar que todos los clientes tengan la cadena completa RHS/FIR.
 - Los ataques UMPK son apropiados cuando se desea mantener mayor separación de las defensas terrestres.
 
-### Fuentes de referencia
-
-- UAC — Su-34/Su-34E flight performance
-- Steam Workshop — Su-34M (UMPK)
-
 [↑ Volver a Ala fija — OPFOR](#ala-fija-opfor)  
 [↑ Volver al índice](#indice)
 
@@ -1272,11 +1235,6 @@ Radar de antena en fase con detección de blancos aéreos de hasta ~350 km en co
 - ROAN puede emplearlo para instrucción sobre amenazas de gran maniobrabilidad y largo alcance.
 - En misiones PvE puede reservarse para adversarios de alto nivel.
 
-### Fuentes de referencia
-
-- UAC — Su-35 official specifications
-- Steam Workshop — SU-35 Flanker E
-
 [↑ Volver a Ala fija — OPFOR](#ala-fija-opfor)  
 [↑ Volver al índice](#indice)
 
@@ -1293,7 +1251,6 @@ Esta sección contiene las aeronaves autorizadas de **Ala rotativa — BLUFOR**.
 - [AH-1Z Viper](#ah1z)
 - [AH-6M Little Bird](#ah6m)
 - [MH-6M Little Bird](#mh6m)
-- [CH-47F Chinook](#ch47f)
 - [CH-53E Super Stallion](#ch53e)
 - [MH-47G Chinook](#mh47g)
 
@@ -1417,11 +1374,6 @@ El Hatchet Pack se centra en cabina interactiva y una experiencia tipo simulador
 - Es la familia de helicópteros de entrenamiento avanzado recomendada para ROAN cuando se desee fidelidad de cabina.
 - La distribución piloto/copiloto debe seguir el manual ROAN de H-60 cuando aplique.
 - Antes de una misión, el líder aéreo debe indicar la variante exacta y su función.
-
-### Fuentes de referencia
-
-- U.S. Army / Sikorsky — UH-60M reference data
-- Steam Workshop — Hatchet H-60 Pack
 
 [↑ Volver a Ala rotativa — BLUFOR](#ala-rotativa-blufor)  
 [↑ Volver al índice](#indice)
@@ -1547,11 +1499,6 @@ Sistema electro-óptico/FLIR y designador láser en la plataforma real. El mod a
 - Combina especialmente bien con F-35B + [LHA](#lha) en misiones expedicionarias.
 - Se recomienda vuelo NOE/terrain masking cuando el entorno lo permita.
 
-### Fuentes de referencia
-
-- Bell — AH-1Z Viper reference data
-- Steam Workshop — AH-1Z Viper
-
 [↑ Volver a Ala rotativa — BLUFOR](#ala-rotativa-blufor)  
 [↑ Volver al índice](#indice)
 
@@ -1673,12 +1620,6 @@ Aviónica de operaciones especiales, navegación nocturna y miras/ópticas asoci
 - Debe operar aprovechando velocidad, terreno y sorpresa.
 - No sustituye a AH-1Z/Mi-28/Ka-52 para ataque sostenido pesado.
 
-### Fuentes de referencia
-
-- USSOCOM Fact Book — AH-6M
-- Boeing — AH-6 Little Bird
-- RHSUSAF
-
 [↑ Volver a Ala rotativa — BLUFOR](#ala-rotativa-blufor)  
 [↑ Volver al índice](#indice)
 
@@ -1795,138 +1736,6 @@ Navegación y equipamiento de operaciones especiales optimizado para vuelo noctu
 - Plataforma preferente para inserciones de 2–6 operadores.
 - Puede combinarse con AH-6M como pareja transporte/escort.
 - La extracción debe planearse con señal, rumbo y punto de escape antes de entrar.
-
-### Fuentes de referencia
-
-- USSOCOM Fact Book — MH-6M
-- U.S. Army 160th SOAR public data
-- RHSUSAF
-
-[↑ Volver a Ala rotativa — BLUFOR](#ala-rotativa-blufor)  
-[↑ Volver al índice](#indice)
-
----
-
-<a id="ch47f"></a>
-## CH-47F Chinook
-
-### Imagen
-
-<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/0c2dd2b0-15e9-4a1e-99b6-68e957485f73" />
-
-### Información general
-
-Helicóptero de transporte pesado de rotores en tándem. Está diseñado para asalto aéreo, movimiento de tropas, logística y sling load pesado. Su combinación de velocidad y carga lo convierte en una plataforma central para despliegues a distancia.
-
-### Base de los datos técnicos
-
-Prestaciones basadas en datos del U.S. Army/Boeing para CH-47F. RHS puede ajustar masas/asientos por modelo.
-
-### Roles ROAN
-
-- Transporte de tropas
-- Asalto aéreo
-- Logística pesada
-- Sling load
-- MEDEVAC
-- Reabastecimiento de FOB
-
-### Características técnicas
-
-| Característica | Valor |
-|---|---|
-| Velocidad máxima | ≈ 170 kt / 315 km/h |
-| Velocidad de crucero | ≈ 157–160 kt / 291–296 km/h |
-| Techo de servicio | ≈ 20,000 ft / 6,096 m |
-| Radio de misión Boeing | ≈ 165 NM / 306 km |
-| Peso máximo al despegue CH-47F de referencia | ≈ 50,000 lb / 22,680 kg |
-| Carga útil de referencia | Hasta ≈ 24,000–27,700 lb / 10,900–12,565 kg según bloque/perfil |
-| Sling load | Centro: 26,000 lb / 11,793 kg; delantero/trasero: 17,000 lb / 7,711 kg; tandem: 25,000 lb / 11,340 kg |
-
-### Tripulación y pasajeros
-
-| Configuración | Cantidad / criterio |
-|---|---|
-| Tripulación mínima | 1 (piloto) |
-| Tripulación recomendada | 2 (piloto y copiloto) |
-| Tripulación máxima | 4 (piloto, copiloto, flight engineer/crew chief y artillero) |
-| Pasajeros | ≈ 24 elementos |
-
-### Capacidad de carga
-
-Excelente para carga interna y sling load. Puede mover piezas de artillería, vehículos ligeros, pallets y suministros. El límite exacto en Arma 3 debe respetar la masa configurada por RHS.
-
-### Armamento
-
-Ametralladoras de puerta/rampa para autodefensa según variante. No es plataforma de ataque dedicada.
-
-### Sensores y sistemas
-
-Cabina digital en CH-47F, navegación táctica, sistemas de supervivencia y conciencia situacional. RHS representa un subconjunto de estas funciones.
-
-### Escenarios recomendados
-
-- Mover escuadras completas
-- Sling load de vehículos/equipos
-- Reabastecimiento de FOB
-- Inserciones masivas
-- Evacuación de personal
-
-### Escenarios no recomendados
-
-- LZ muy pequeñas o rodeadas de obstáculos
-- Ataque directo contra posiciones enemigas
-- Vuelo estacionario prolongado en zonas con MANPADS/AAA
-
-### Fortalezas
-
-- Gran carga
-- Alta velocidad para un helicóptero pesado
-- Excelente desempeño logístico
-- Rampa trasera facilita embarque/desembarque
-
-### Debilidades
-
-- Gran tamaño y firma
-- Necesita LZ mayor
-- Vulnerable durante aproximación/hover
-
-### Fuerte contra
-
-- No es plataforma de ataque; su fortaleza es superar restricciones logísticas y de movilidad
-
-### Débil contra
-
-- MANPADS
-- AAA
-- Armas automáticas pesadas
-- Cazas
-
-### Limitaciones operativas
-
-- Verificar obstáculos y diámetro requerido por los dos rotores.
-- Para sling load, no exceder capacidades del hook ni la masa configurada del mod.
-- La LZ debe permitir una salida clara sin tener que permanecer estacionario.
-
-### MOD
-
-[RHSUSAF](https://steamcommunity.com/workshop/filedetails/?id=843577117)
-
-### Dependencias
-
-- RHSUSAF no declara dependencias obligatorias adicionales en Steam Workshop.
-
-### Observaciones ROAN
-
-- Plataforma logística pesada preferente cuando CH-53E no sea necesario o disponible.
-- Para asalto se recomienda aproximación con escolta en AO hostil.
-- El loadmaster/flight engineer debe participar en la decisión de carga y LZ.
-
-### Fuentes de referencia
-
-- U.S. Army — CH-47F
-- Boeing — H-47 Chinook
-- RHSUSAF
 
 [↑ Volver a Ala rotativa — BLUFOR](#ala-rotativa-blufor)  
 [↑ Volver al índice](#indice)
@@ -2052,12 +1861,6 @@ GPS, FLIR, ANVIS-HUD, radios UHF/VHF/HF, IFF y sistemas de autoprotección como 
 - Es especialmente útil en combinación con [LHA](#lha) para operaciones anfibias.
 - La escolta AH-1Z es recomendable en zonas hostiles.
 
-### Fuentes de referencia
-
-- USMC Aviation Plan — CH-53E
-- NAVAIR/U.S. Navy — CH-53E
-- RHSUSAF
-
 [↑ Volver a Ala rotativa — BLUFOR](#ala-rotativa-blufor)  
 [↑ Volver al índice](#indice)
 
@@ -2179,14 +1982,7 @@ El MH-47G real integra navegación de precisión, sensores de vuelo nocturno/FLI
 ### Observaciones ROAN
 
 - Es la opción ROAN de Chinook de alta fidelidad y operaciones especiales.
-- Para prácticas básicas/logísticas puede preferirse CH-47F RHS; para procedimientos avanzados, MH-47G Pegasus.
 - Se recomienda crew completo en operaciones oficiales.
-
-### Fuentes de referencia
-
-- USSOCOM Fact Book — MH-47G
-- Boeing — H-47 Chinook
-- Steam Workshop — Pegasus Systems MH-47G
 
 [↑ Volver a Ala rotativa — BLUFOR](#ala-rotativa-blufor)  
 [↑ Volver al índice](#indice)
@@ -2321,11 +2117,6 @@ Aviónica de navegación convencional, radios y equipos de autoprotección segú
 - ROAN puede usarlo para prácticas de adaptación a cabinas/handling distintos a BLUFOR.
 - En misiones mixtas, identificar claramente callsign y variante para evitar confusión con Mi-17.
 
-### Fuentes de referencia
-
-- Datos públicos familia Mi-8MT
-- RHSAFRF
-
 [↑ Volver a Ala rotativa — OPFOR](#ala-rotativa-opfor)  
 [↑ Volver al índice](#indice)
 
@@ -2451,11 +2242,6 @@ Mira/óptica para operador, sistemas de navegación y autoprotección de la épo
 - En ROAN puede cubrir ataque y una extracción de emergencia pequeña, pero su rol primario seguirá siendo combate.
 - Para tropas regulares, Mi-8/Mi-17 son más apropiados.
 
-### Fuentes de referencia
-
-- Czech MoD / datos públicos Mi-24V
-- RHSAFRF
-
 [↑ Volver a Ala rotativa — OPFOR](#ala-rotativa-opfor)  
 [↑ Volver al índice](#indice)
 
@@ -2578,11 +2364,6 @@ Sistema de puntería/observación día-noche, navegación y autoprotección. Las
 - Helicóptero de ataque OPFOR pesado para escenarios modernos.
 - Útil para comparar procedimientos de piloto/operador con AH-1Z.
 - Debe operar con reconocimiento y rutas de enmascaramiento.
-
-### Fuentes de referencia
-
-- Rostec — Mi-28N/NE
-- RHSAFRF
 
 [↑ Volver a Ala rotativa — OPFOR](#ala-rotativa-opfor)  
 [↑ Volver al índice](#indice)
@@ -2707,11 +2488,6 @@ Suite día/noche, navegación, electro-óptica y sistemas de autoprotección. El
 - Plataforma OPFOR recomendada para ataque/reconocimiento avanzado.
 - Puede emplearse como amenaza de alto nivel en ejercicios ROAN.
 - Su disposición de tripulación lado a lado cambia la coordinación respecto a AH-1Z/Mi-28.
-
-### Fuentes de referencia
-
-- Rostec — Ka-52 Alligator
-- RHSAFRF
 
 [↑ Volver a Ala rotativa — OPFOR](#ala-rotativa-opfor)  
 [↑ Volver al índice](#indice)
@@ -2945,17 +2721,40 @@ Mod de apoyo que agrega tractores de remolque y activos de aeródromo para mover
 
 # 12. Referencias generales
 
-Las páginas de Steam Workshop enlazadas en cada ficha son la referencia principal para **mods y dependencias**. Para prestaciones no documentadas por los addons se utilizaron datos reales de fabricantes u organismos militares, entre ellos:
+Las páginas de Steam Workshop enlazadas en cada ficha son la referencia principal para **mods y dependencias**. Para prestaciones no documentadas por los addons se utilizaron datos reales publicados por fabricantes, fuerzas armadas y organismos oficiales, entre ellos:
 
-- U.S. Air Force — fichas del A-10C y C-130.
-- U.S. Navy / NAVAIR / USMC — F/A-18E y CH-53E.
-- Lockheed Martin — F-35 y UH-60M.
-- Boeing — AH-6 y H-47 Chinook.
-- USSOCOM Fact Books — AH-6M, MH-6M y MH-47G.
-- Bell — AH-1Z Viper.
-- United Aircraft Corporation (UAC) — Su-34 y Su-35.
-- Rostec / Russian Helicopters — Mi-28 y Ka-52.
-- Documentación militar pública de la familia Mi-24 y Mi-8.
+- **U.S. Air Force**
+  - [A-10C Thunderbolt II — Fact Sheet](https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104490/a-10c-thunderbolt-ii/)
+  - [C-130 Hercules — Fact Sheet](https://www.af.mil/About-Us/Fact-Sheets/Display/Article/1555054/c-130-hercules/)
+
+- **U.S. Navy / NAVAIR / USMC**
+  - [F/A-18A-D Hornet and F/A-18E/F Super Hornet — U.S. Navy Fact File](https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2383479/fa-18a-d-hornet-and-fa-18ef-super-hornet-strike-fighter/)
+  - [CH-53E Super Stallion — U.S. Navy Fact File](https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2166570/ch-53e-super-stallion/ch-53e-super-stallion/)
+
+- **Lockheed Martin / Sikorsky**
+  - [F-35 Lightning II — Fast Facts](https://www.f35.com/content/dam/lockheed-martin/aero/f35/documents/F-35%20Fast%20Facts%20-%20March%202021.pdf)
+  - [UH-60M Black Hawk — Technical Brochure](https://lockheedmartin.com/content/dam/lockheed-martin/rms/documents/black-hawk/sikorsky-UH60M-brochure.pdf)
+
+- **Boeing**
+  - [AH-6 Little Bird](https://www.boeing.com/defense/military-rotorcraft/ah-6-little-bird)
+  - [H-47 Chinook](https://www.boeing.com/defense/military-rotorcraft/h-47-chinook)
+
+- **U.S. Special Operations Command (USSOCOM)**
+  - [USSOCOM 2026 Fact Book — AH-6M, MH-6M y MH-47G](https://www.socom.mil/FactBook/2026%20Fact%20Book.pdf)
+
+- **Bell**
+  - [AH-1Z Viper — Official Specifications](https://www.bellflight.com/products/bell-ah-1z)
+
+- **United Aircraft Corporation (UAC)**
+  - [Su-34 — Official Specifications](https://uacrussia.ru/en/aircraft/lineup/lineup/su-34/)
+  - [Su-35 — Official Specifications](https://uacrussia.ru/en/aircraft/lineup/lineup/su-35/)
+
+- **Rostec / Russian Helicopters**
+  - [Ka-52 Alligator y Mi-28NE — Russian Military Helicopters](https://rostec.ru/en/media/pressrelease/rosoboronexport-to-showcase-upgraded-russian-military-helicopters-at-helirussia-2022/)
+  - [Mi-8/17 Family — Helicopter of 100 Professions](https://rostec.ru/en/media/news/helicopter-of-100-professions-eight-facts-about-the-mi-8/)
+
+- **Ministry of Defence & Armed Forces of the Czech Republic**
+  - [Mi-24 / Mi-24V Hind — Technical Data](https://acr.mo.gov.cz/en/armed-forces/equipment/air-force/helicopters/mil-mi-24---nato-code%3A-hind-38157/)
 
 ## 12.1 Criterio de uso de cifras
 
