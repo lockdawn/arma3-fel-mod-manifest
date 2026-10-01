@@ -1,6 +1,6 @@
 <a id="inicio"></a>
 
-# Aeronaves Autorizadas ROAN
+# Catálogo Operacional de Aeronaves
 
 **Regimiento de Operaciones Aero Navales**
 
