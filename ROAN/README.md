@@ -265,7 +265,7 @@ Esta sección contiene las aeronaves autorizadas de **Ala fija — BLUFOR**.
 
 ### Imagen
 
-_Pendiente._
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/520a71da-3f1e-433d-9971-1e2984bd9176" />
 
 ### Información general
 
@@ -391,7 +391,7 @@ El mod anuncia cabina interactiva, sistema de carga dinámica, contramedidas, RW
 
 ### Imagen
 
-_Pendiente._
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/116272ba-16fa-4181-881a-b7888ef4e32a" />
 
 ### Información general
 
@@ -513,7 +513,7 @@ Radar meteorológico, navegación inercial/GPS y aviónica de transporte. El C-1
 
 ### Imagen
 
-_Pendiente._
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/26907094-c9b2-42cf-85c2-93e1e71ea612" />
 
 ### Información general
 
@@ -638,7 +638,7 @@ Radar multimodo de combate, RWR, navegación táctica, datalink y pods de design
 
 ### Imagen
 
-_Pendiente._
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/efdda857-6f08-41cc-bd87-9b763cc79c45" />
 
 ### Información general
 
@@ -766,7 +766,7 @@ Radar AESA, EOTS, DAS y suite de guerra electrónica/sensor fusion en la aeronav
 
 ### Imagen
 
-_Pendiente._
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/e24e8a4e-0eac-4ada-8775-61f945506541" />
 
 ### Información general
 
@@ -906,7 +906,7 @@ Esta sección contiene las aeronaves autorizadas de **Ala fija — OPFOR**.
 
 ### Imagen
 
-_Pendiente._
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/207910c8-fa2f-4b43-933c-01f6eae08608" />
 
 ### Información general
 
@@ -1034,7 +1034,7 @@ Radar de combate, sistema electro-óptico/IRST y designación montada en casco e
 
 ### Imagen
 
-_Pendiente._
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/1efa819f-549c-4b79-9377-13d43efdf25c" />
 
 ### Información general
 
@@ -1162,7 +1162,7 @@ Radar multimodo, navegación/ataque de largo alcance, suite de guerra electróni
 
 ### Imagen
 
-_Pendiente._
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/d60d8a47-0f67-48b0-a67d-2e5d9804ecf9" />
 
 ### Información general
 
@@ -1304,7 +1304,7 @@ Esta sección contiene las aeronaves autorizadas de **Ala rotativa — BLUFOR**.
 
 ### Imagen
 
-_Pendiente._
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/775041be-6593-4fe6-8374-8345b8e1ae3f" />
 
 ### Información general
 
@@ -1433,7 +1433,7 @@ El Hatchet Pack se centra en cabina interactiva y una experiencia tipo simulador
 
 ### Imagen
 
-_Pendiente._
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/9c1bea33-4606-4a86-a40b-34533e8479f6" />
 
 ### Información general
 
@@ -1562,7 +1562,7 @@ Sistema electro-óptico/FLIR y designador láser en la plataforma real. El mod a
 
 ### Imagen
 
-_Pendiente._
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/d9c7470b-8a44-41e5-afc9-d7ff04d957e1" />
 
 ### Información general
 
@@ -1689,7 +1689,7 @@ Aviónica de operaciones especiales, navegación nocturna y miras/ópticas asoci
 
 ### Imagen
 
-_Pendiente._
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/33630a90-50d9-4b24-8b12-39f8e0872978" />
 
 ### Información general
 
@@ -1812,7 +1812,7 @@ Navegación y equipamiento de operaciones especiales optimizado para vuelo noctu
 
 ### Imagen
 
-_Pendiente._
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/0c2dd2b0-15e9-4a1e-99b6-68e957485f73" />
 
 ### Información general
 
@@ -1938,7 +1938,7 @@ Cabina digital en CH-47F, navegación táctica, sistemas de supervivencia y conc
 
 ### Imagen
 
-_Pendiente._
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/b8fcc3a1-186a-4182-8b79-6b053d68999f" />
 
 ### Información general
 
@@ -2068,7 +2068,7 @@ GPS, FLIR, ANVIS-HUD, radios UHF/VHF/HF, IFF y sistemas de autoprotección como 
 
 ### Imagen
 
-_Pendiente._
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/b5afbf79-fee4-4df2-9aad-2fbf7883adad" />
 
 ### Información general
 
@@ -2212,7 +2212,7 @@ Esta sección contiene las aeronaves autorizadas de **Ala rotativa — OPFOR**.
 
 ### Imagen
 
-_Pendiente._
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/5eda0712-691b-464d-b619-55fb17c81908" />
 
 ### Información general
 
@@ -2336,7 +2336,7 @@ Aviónica de navegación convencional, radios y equipos de autoprotección segú
 
 ### Imagen
 
-_Pendiente._
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/6169234d-d299-4e08-8dd5-832e63756d05" />
 
 ### Información general
 
@@ -2466,7 +2466,7 @@ Mira/óptica para operador, sistemas de navegación y autoprotección de la épo
 
 ### Imagen
 
-_Pendiente._
+<img width="1448" height="1086" alt="image" src="https://github.com/user-attachments/assets/0092d0f7-4cf6-45fd-9e3c-c954c6a5cae9" />
 
 ### Información general
 
@@ -2594,7 +2594,7 @@ Sistema de puntería/observación día-noche, navegación y autoprotección. Las
 
 ### Imagen
 
-_Pendiente._
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/fda09f51-2746-4977-a1b5-a657a80a88d1" />
 
 ### Información general
 
