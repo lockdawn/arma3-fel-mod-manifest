@@ -2718,7 +2718,7 @@ Suite día/noche, navegación, electro-óptica y sistemas de autoprotección. El
 ---
 
 <a id="infraestructura"></a>
-# 12. Infraestructura y Operaciones Aeronavales
+# 10. Infraestructura y Operaciones Aeronavales
 
 Esta sección reúne las plataformas y herramientas autorizadas para soportar operaciones embarcadas y de aeródromo de ROAN.
 
@@ -2904,7 +2904,7 @@ Mod de apoyo que agrega tractores de remolque y activos de aeródromo para mover
 
 <a id="glosario"></a>
 
-# 13. Glosario
+# 11. Glosario
 
 | Término | Significado |
 |---|---|
