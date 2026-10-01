@@ -68,7 +68,7 @@ Por lo tanto, las cifras de alcance, techo, velocidad y carga deben usarse para 
 - [6. Ala fija — BLUFOR](#ala-fija-blufor)
   - [A-10C Thunderbolt II](#a10c)
   - [C-130 E/H/J Hercules Series](#c130)
-  - [F/A-18E/F Super Hornet](#fa18ef)
+  - [F/A-18E Super Hornet](#fa18ef)
   - [F-35B Lightning II](#f35b)
   - [F-35C Lightning II](#f35c)
 
@@ -115,7 +115,7 @@ Vista rápida del inventario autorizado. Los roles detallados y limitaciones se 
 |---|---|---|---|
 | [A-10C](#a10c) | Thunderbolt II | CAS / Ataque | [A-10C Thunderbolt](https://steamcommunity.com/sharedfiles/filedetails/?id=2848059590) |
 | [C-130 E/H/J](#c130) | Hercules Series | Transporte / Logística | [C-130 E/H/J Hercules Series](https://steamcommunity.com/sharedfiles/filedetails/?id=3122396633) |
-| [F/A-18E/F](#fa18ef) | Super Hornet | Multirrol / Embarcado | [F/A-18E/F Super Hornet 2020](https://steamcommunity.com/sharedfiles/filedetails/?id=2131302796) |
+| [F/A-18E](#fa18ef) | Super Hornet | Multirrol / Embarcado | [F/A-18E/F Super Hornet 2020](https://steamcommunity.com/sharedfiles/filedetails/?id=2131302796) |
 | [F-35B](#f35b) | Lightning II | Multirrol / STOVL | [F-35B Lightning](https://steamcommunity.com/sharedfiles/filedetails/?id=3517620967) |
 | [F-35C](#f35c) | Lightning II | Multirrol / Embarcado | [F-35C Lightning](https://steamcommunity.com/sharedfiles/filedetails/?id=3083645332) |
 
@@ -163,7 +163,7 @@ La matriz resume para qué misiones resulta apropiada cada plataforma. No sustit
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | A-10C | ❌ | ✅ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ⚠️ | ❌ |
 | C-130 E/H/J | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ |
-| F/A-18E/F | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ |
+| F/A-18E | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ |
 | F-35B | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ (LHA) |
 | F-35C | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ (CATOBAR) |
 | MiG-29SM | ✅ | ⚠️ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ⚠️ | ❌ |
@@ -185,15 +185,15 @@ La matriz resume para qué misiones resulta apropiada cada plataforma. No sustit
 
 | Necesidad | Plataformas preferentes |
 |---|---|
-| CAP / superioridad aérea | F/A-18E/F, F-35C, F-35B, Su-35, MiG-29SM |
-| CAS ala fija | A-10C, F/A-18E/F, F-35B/C, Su-34M |
+| CAP / superioridad aérea | F/A-18E, F-35C, F-35B, Su-35, MiG-29SM |
+| CAS ala fija | A-10C, F/A-18E, F-35B/C, Su-34M |
 | CAS helicóptero | AH-1Z, AH-6M, Mi-24V, Mi-28N, Ka-52 |
 | Transporte ligero SOF | MH-6M, H-60 |
 | Transporte medio | H-60, Mi-8MT |
 | Transporte pesado | CH-47F, MH-47G, CH-53E |
 | Sling load pesado | CH-47F, MH-47G, CH-53E |
-| Strike de largo alcance | F-35C, F/A-18E/F, Su-34M, Su-35 |
-| Operación Nimitz | F/A-18E/F, F-35C |
+| Strike de largo alcance | F-35C, F/A-18E, Su-34M, Su-35 |
+| Operación Nimitz | F/A-18E, F-35C |
 | Operación LHA | F-35B, AH-1Z, H-60, CH-53E |
 
 [↑ Volver al índice](#indice)
@@ -211,7 +211,7 @@ Resumen centralizado de addons principales y sus dependencias conocidas de Steam
 | AH-1Z Viper | AH-1Z | Lala Peral - Vehicle Interaction System | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3546703780) |
 | Airfield Logistics | Soporte de aeródromo/cubierta | Sin dependencia obligatoria adicional declarada en Workshop | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3048131698) |
 | C-130 E/H/J Hercules Series | C-130 E/H/J/J-30 | FIR AWS | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3122396633) |
-| F/A-18E/F Super Hornet 2020 | F/A-18E/F | Sin dependencia obligatoria adicional declarada en Workshop | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2131302796) |
+| F/A-18E/F Super Hornet 2020 | F/A-18E | Sin dependencia obligatoria adicional declarada en Workshop | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2131302796) |
 | F-35B Lightning | F-35B | Lala Peral - Vehicle Interaction System | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3517620967) |
 | F-35C Lightning | F-35C | Lala Peral - Vehicle Interaction System | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3083645332) |
 | Hatchet H-60 Pack | H-60 Series | Hatchet Interaction Framework; ACE3; CBA_A3 (transitiva) | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1745501605) |
@@ -254,7 +254,7 @@ Esta sección contiene las aeronaves autorizadas de **Ala fija — BLUFOR**.
 
 - [A-10C Thunderbolt II](#a10c)
 - [C-130 E/H/J Hercules Series](#c130)
-- [F/A-18E/F Super Hornet](#fa18ef)
+- [F/A-18E Super Hornet](#fa18ef)
 - [F-35B Lightning II](#f35b)
 - [F-35C Lightning II](#f35c)
 
@@ -625,7 +625,7 @@ Radar multimodo de combate, RWR, navegación táctica, datalink y pods de design
 
 ### Fuentes de referencia
 
-- U.S. Navy — F/A-18E/F Super Hornet fact file
+- U.S. Navy — F/A-18E Super Hornet fact file
 - Steam Workshop — F/A-18E/F Super Hornet 2020
 
 [↑ Volver a Ala fija — BLUFOR](#ala-fija-blufor)  
@@ -874,7 +874,7 @@ Radar AESA, EOTS, DAS y guerra electrónica en la plataforma real; el mod integr
 
 ### Observaciones ROAN
 
-- Junto con el F/A-18E/F, constituye la plataforma principal para operaciones de ala fija desde Nimitz.
+- Junto con el F/A-18E, constituye la plataforma principal para operaciones de ala fija desde Nimitz.
 - Debe entrenarse específicamente apontaje con cable y bolter.
 - Su mayor radio lo hace preferible para CAP/strike a mayor distancia del carrier.
 
@@ -2752,7 +2752,7 @@ Versión experimental del USS Nimitz para Arma 3. El propio Workshop la describe
 - Catapultas para lanzamiento de aeronaves compatibles.
 - Cables de apontaje/arresting gear para recuperación.
 - Elementos de cubierta, estacionamiento y operación aeronaval.
-- Integración especialmente adecuada con F/A-18E/F y F-35C del catálogo ROAN.
+- Integración especialmente adecuada con F/A-18E y F-35C del catálogo ROAN.
 
 ### Escenarios recomendados
 
@@ -2777,7 +2777,7 @@ Versión experimental del USS Nimitz para Arma 3. El propio Workshop la describe
 
 ### Observaciones ROAN
 
-- ROAN debe tratarlo como la plataforma principal para F/A-18E/F y F-35C.
+- ROAN debe tratarlo como la plataforma principal para F/A-18E y F-35C.
 - Se recomienda mantener procedimientos estandarizados de taxi, catapulta, patrón y apontaje.
 - Airfield Logistics puede complementar el movimiento de aeronaves en cubierta, sujeto a compatibilidad.
 
@@ -2824,7 +2824,7 @@ Buque de asalto anfibio basado en la clase America y con una configuración cerc
 
 - El autor lo identifica como WIP; funciones adicionales siguen en desarrollo.
 - Las aeronaves compatibles con spawner/rearm/repair dependen de configuración del mod.
-- No sustituye a un carrier CATOBAR para F/A-18E/F o F-35C.
+- No sustituye a un carrier CATOBAR para F/A-18E o F-35C.
 
 ### MOD
 
@@ -2837,7 +2837,7 @@ Buque de asalto anfibio basado en la clase America y con una configuración cerc
 ### Observaciones ROAN
 
 - Plataforma ROAN preferente para F-35B y helicópteros en operaciones anfibias.
-- F-35C/F/A-18E/F deben mantenerse en Nimitz salvo pruebas específicas.
+- F-35C/F/A-18E deben mantenerse en Nimitz salvo pruebas específicas.
 - Planificar segregación entre spots de helicópteros y operaciones STOVL.
 
 [↑ Volver a Infraestructura](#infraestructura)  
@@ -2948,7 +2948,7 @@ Mod de apoyo que agrega tractores de remolque y activos de aeródromo para mover
 Las páginas de Steam Workshop enlazadas en cada ficha son la referencia principal para **mods y dependencias**. Para prestaciones no documentadas por los addons se utilizaron datos reales de fabricantes u organismos militares, entre ellos:
 
 - U.S. Air Force — fichas del A-10C y C-130.
-- U.S. Navy / NAVAIR / USMC — F/A-18E/F y CH-53E.
+- U.S. Navy / NAVAIR / USMC — F/A-18E y CH-53E.
 - Lockheed Martin — F-35 y UH-60M.
 - Boeing — AH-6 y H-47 Chinook.
 - USSOCOM Fact Books — AH-6M, MH-6M y MH-47G.
