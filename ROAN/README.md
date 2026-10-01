@@ -2193,7 +2193,7 @@ El MH-47G real integra navegación de precisión, sensores de vuelo nocturno/FLI
 ---
 
 <a id="ala-rotativa-opfor"></a>
-# 11. Ala rotativa — OPFOR
+# 9. Ala rotativa — OPFOR
 
 Esta sección contiene las aeronaves autorizadas de **Ala rotativa — OPFOR**.
 
