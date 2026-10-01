@@ -484,7 +484,7 @@ Radar multimodo de combate, RWR, navegación táctica, datalink y pods de design
 ### Escenarios no recomendados
 
 - Misiones de transporte o logística
-- Operaciones desde pistas/LHA sin infraestructura compatible CATOBAR/STOBAR
+- Operaciones desde LHA sin infraestructura compatible CATOBAR/STOBAR
 - Ataque profundo sin considerar combustible, tanker y defensa aérea enemiga
 
 ### Fortalezas
