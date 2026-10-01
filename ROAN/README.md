@@ -86,7 +86,6 @@ Por lo tanto, las cifras de alcance, techo, velocidad y carga deben usarse para 
 
 - [7. Ala rotativa — OPFOR](#ala-rotativa-opfor)
   - [Mi-8MT Hip](#mi8mt)
-  - [Mi-17 Hip](#mi17)
   - [Mi-24V Hind-E](#mi24v)
   - [Mi-28N Havoc](#mi28n)
   - [Ka-52 Alligator](#ka52)
@@ -144,7 +143,6 @@ Vista rápida del inventario autorizado. Los roles detallados y limitaciones se 
 | Modelo | Nombre | Rol principal | MOD |
 |---|---|---|---|
 | [Mi-8MT](#mi8mt) | Hip | Transporte / Utilidad | [RHSAFRF](https://steamcommunity.com/workshop/filedetails/?id=843425103) |
-| [Mi-17](#mi17) | Hip | Transporte / Utilidad | [RHSAFRF](https://steamcommunity.com/workshop/filedetails/?id=843425103) |
 | [Mi-24V](#mi24v) | Hind-E | Ataque / Transporte armado | [RHSAFRF](https://steamcommunity.com/workshop/filedetails/?id=843425103) |
 | [Mi-28N](#mi28n) | Havoc | Ataque | [RHSAFRF](https://steamcommunity.com/workshop/filedetails/?id=843425103) |
 | [Ka-52](#ka52) | Alligator | Ataque / Reconocimiento | [RHSAFRF](https://steamcommunity.com/workshop/filedetails/?id=843425103) |
@@ -153,8 +151,101 @@ Vista rápida del inventario autorizado. Los roles detallados y limitaciones se 
 
 ---
 
+<a id="matriz-empleo"></a>
+# 4. Matriz de Empleo Operacional
+
+La matriz resume para qué misiones resulta apropiada cada plataforma. No sustituye la ficha detallada.
+
+**Leyenda:** ✅ recomendado · ⚠️ capaz/condicional · ❌ no corresponde al rol
+
+| Aeronave | CAP | CAS | Strike | Anti-blindaje | Transporte | Logística | SOF / Inserción | SEAD/DEAD | Embarcada |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| A-10C | ❌ | ✅ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ⚠️ | ❌ |
+| C-130 E/H/J | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ |
+| F/A-18E/F | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ |
+| F-35B | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ (LHA) |
+| F-35C | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ (CATOBAR) |
+| MiG-29SM | ✅ | ⚠️ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ⚠️ | ❌ |
+| Su-34M | ⚠️ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅/⚠️ | ❌ |
+| Su-35 | ✅ | ⚠️ | ✅ | ✅ | ❌ | ❌ | ❌ | ⚠️ | ❌ |
+| H-60 Series | ❌ | ⚠️ | ⚠️ | ⚠️ | ✅ | ✅ | ✅ | ❌ | ✅ |
+| AH-1Z | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ (LHA) |
+| AH-6M | ❌ | ✅ | ⚠️ | ⚠️ | ❌ | ❌ | ⚠️ | ❌ | ⚠️ |
+| MH-6M | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ✅ | ❌ | ⚠️ |
+| CH-47F | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ⚠️ |
+| CH-53E | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ (LHA) |
+| MH-47G | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ⚠️ |
+| Mi-8MT | ❌ | ⚠️ | ⚠️ | ⚠️ | ✅ | ✅ | ✅ | ❌ | ❌ |
+| Mi-24V | ❌ | ✅ | ✅ | ✅ | ⚠️ | ❌ | ⚠️ | ❌ | ❌ |
+| Mi-28N | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Ka-52 | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
+
+## 4.1 Selección rápida
+
+| Necesidad | Plataformas preferentes |
+|---|---|
+| CAP / superioridad aérea | F/A-18E/F, F-35C, F-35B, Su-35, MiG-29SM |
+| CAS ala fija | A-10C, F/A-18E/F, F-35B/C, Su-34M |
+| CAS helicóptero | AH-1Z, AH-6M, Mi-24V, Mi-28N, Ka-52 |
+| Transporte ligero SOF | MH-6M, H-60 |
+| Transporte medio | H-60, Mi-8MT |
+| Transporte pesado | CH-47F, MH-47G, CH-53E |
+| Sling load pesado | CH-47F, MH-47G, CH-53E |
+| Strike de largo alcance | F-35C, F/A-18E/F, Su-34M, Su-35 |
+| Operación Nimitz | F/A-18E/F, F-35C |
+| Operación LHA | F-35B, AH-1Z, H-60, CH-53E |
+
+[↑ Volver al índice](#indice)
+
+---
+
+<a id="mods-dependencias"></a>
+# 5. Mods y Dependencias
+
+Resumen centralizado de addons principales y sus dependencias conocidas de Steam Workshop.
+
+| MOD | Uso ROAN | Dependencias conocidas | Workshop |
+|---|---|---|---|
+| A-10C Thunderbolt | A-10C | Lala Peral - Vehicle Interaction System | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2848059590) |
+| AH-1Z Viper | AH-1Z | Lala Peral - Vehicle Interaction System | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3546703780) |
+| Airfield Logistics | Soporte de aeródromo/cubierta | Sin dependencia obligatoria adicional declarada en Workshop | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3048131698) |
+| C-130 E/H/J Hercules Series | C-130 E/H/J/J-30 | FIR AWS | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3122396633) |
+| F/A-18E/F Super Hornet 2020 | F/A-18E/F | Sin dependencia obligatoria adicional declarada en Workshop | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2131302796) |
+| F-35B Lightning | F-35B | Lala Peral - Vehicle Interaction System | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3517620967) |
+| F-35C Lightning | F-35C | Lala Peral - Vehicle Interaction System | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3083645332) |
+| Hatchet H-60 Pack | H-60 Series | Hatchet Interaction Framework; ACE3; CBA_A3 (transitiva) | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1745501605) |
+| Improved RHS MiG-29SM + FIR support | MiG-29SM | FIR AWS; RHSGREF; RHSAFRF; RHSSAF; RHSUSAF | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2987850906) |
+| LHA | Buque anfibio | Sin dependencia obligatoria adicional declarada en Workshop | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3596653038) |
+| Nimitz Experimental Build | Portaaviones | CBA_A3 | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1697731012) |
+| Pegasus Systems MH-47G | MH-47G | Hatchet Interaction Framework; ACE3; CBA_A3 (transitiva) | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3805899171) |
+| RHSAFRF | Mi-8MT, Mi-24V, Mi-28N, Ka-52 | Sin dependencia obligatoria adicional declarada en Workshop | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=843425103) |
+| RHSUSAF | AH-6M, MH-6M, CH-47F, CH-53E | Sin dependencia obligatoria adicional declarada en Workshop | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=843577117) |
+| Su-34M (UMPK) | Su-34M | RHSAFRF; Improved RHS MiG-29SM + FIR support; FIR AWS (+ dependencias transitivas del MiG mod) | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3137489963) |
+| SU-35 Flanker E | Su-35 | Sin dependencia obligatoria adicional declarada en Workshop | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=743108251) |
+
+## 5.1 Dependencias auxiliares
+
+| Dependencia | Workshop |
+|---|---|
+| ACE3 | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=463939057) |
+| CBA_A3 | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=450814997) |
+| FIR AWS | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=366425329) |
+| Hatchet Interaction Framework | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=2941986336) |
+| Lala Peral - Vehicle Interaction System | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3083512801) |
+| RHSGREF | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=843593391) |
+| RHSAFRF | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=843425103) |
+| RHSSAF | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=843632231) |
+| RHSUSAF | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=843577117) |
+| USAF Mod - Main | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2397360831) |
+
+> **Nota ROAN:** una compatibilidad opcional (por ejemplo, un missilebox alternativo) no se considera dependencia obligatoria salvo que la misión la utilice de forma explícita.
+
+[↑ Volver al índice](#indice)
+
+---
+
 <a id="ala-fija-blufor"></a>
-# 4. Ala fija — BLUFOR
+# 6. Ala fija — BLUFOR
 
 Esta sección contiene las aeronaves autorizadas de **Ala fija — BLUFOR**.
 
@@ -797,7 +888,7 @@ Radar AESA, EOTS, DAS y guerra electrónica en la plataforma real; el mod integr
 ---
 
 <a id="ala-fija-opfor"></a>
-# 5. Ala fija — OPFOR
+# 7. Ala fija — OPFOR
 
 Esta sección contiene las aeronaves autorizadas de **Ala fija — OPFOR**.
 
@@ -1191,7 +1282,7 @@ Radar de antena en fase con detección de blancos aéreos de hasta ~350 km en co
 ---
 
 <a id="ala-rotativa-blufor"></a>
-# 6. Ala rotativa — BLUFOR
+# 8. Ala rotativa — BLUFOR
 
 Esta sección contiene las aeronaves autorizadas de **Ala rotativa — BLUFOR**.
 
@@ -2102,14 +2193,13 @@ El MH-47G real integra navegación de precisión, sensores de vuelo nocturno/FLI
 ---
 
 <a id="ala-rotativa-opfor"></a>
-# 7. Ala rotativa — OPFOR
+# 11. Ala rotativa — OPFOR
 
 Esta sección contiene las aeronaves autorizadas de **Ala rotativa — OPFOR**.
 
 ## Aeronaves
 
 - [Mi-8MT Hip](#mi8mt)
-- [Mi-17 Hip](#mi17)
 - [Mi-24V Hind-E](#mi24v)
 - [Mi-28N Havoc](#mi28n)
 - [Ka-52 Alligator](#ka52)
@@ -2233,131 +2323,6 @@ Aviónica de navegación convencional, radios y equipos de autoprotección segú
 ### Fuentes de referencia
 
 - Datos públicos familia Mi-8MT
-- RHSAFRF
-
-[↑ Volver a Ala rotativa — OPFOR](#ala-rotativa-opfor)  
-[↑ Volver al índice](#indice)
-
----
-
-<a id="mi17"></a>
-## Mi-17 Hip
-
-### Imagen
-
-_Pendiente._
-
-### Información general
-
-Evolución/exportación de la familia Mi-8 con motores y mejoras adaptadas a transporte, asalto, carga y operaciones en altura. Mantiene gran cabina y capacidad de carga interna/externa.
-
-### Base de los datos técnicos
-
-Se utiliza el Mi-17V-5 como referencia moderna de prestaciones. La variante exacta de RHSAFRF puede tener menos asientos o configuración distinta.
-
-### Roles ROAN
-
-- Transporte de tropas
-- Asalto aéreo
-- Logística
-- Sling load
-- MEDEVAC
-- Apoyo armado según variante
-
-### Características técnicas
-
-| Característica | Valor |
-|---|---|
-| Velocidad máxima | ≈ 250 km/h |
-| Velocidad de crucero | ≈ 220–230 km/h |
-| Alcance con tanques principales | ≈ 675 km |
-| Alcance con 2 tanques internos auxiliares | ≈ 1,180 km |
-| Techo de servicio | ≈ 6,000 m |
-| Peso máximo al despegue | ≈ 13,000 kg |
-| Carga útil | Hasta ≈ 4,000 kg |
-| Paracaidistas/tropas de referencia Mi-17V-5 | Hasta 36; otras variantes suelen transportar menos |
-
-### Tripulación y pasajeros
-
-| Configuración | Cantidad / criterio |
-|---|---|
-| Tripulación mínima | 1 (piloto) |
-| Tripulación recomendada | 2 (piloto y copiloto) |
-| Tripulación máxima | 3 (piloto, copiloto y flight engineer/crew chief) |
-| Pasajeros | ≈ 36 elementos |
-
-### Capacidad de carga
-
-Hasta aproximadamente 4 t de carga en la familia moderna, internamente o mediante gancho. El límite real de Arma 3 depende de la clase RHS seleccionada.
-
-### Armamento
-
-Puede montar pods de cohetes, ametralladoras y otras armas en variantes armadas; una configuración utility/transporte puede no tener armamento ofensivo.
-
-### Sensores y sistemas
-
-Navegación, radios y sistemas de autoprotección variables según versión. Las variantes recientes pueden integrar aviónica más moderna que Mi-8MT.
-
-### Escenarios recomendados
-
-- Transporte OPFOR de mayor capacidad
-- Asalto aéreo
-- MEDEVAC
-- Sling load
-- Operaciones de montaña comparadas con variantes más antiguas
-
-### Escenarios no recomendados
-
-- Entrar sobre objetivo con defensa AA activa
-- Ataque dedicado contra blindados pesados
-- LZ demasiado pequeñas para el rotor/tamaño
-
-### Fortalezas
-
-- Carga/tropas elevadas
-- Buena versatilidad
-- Robusto
-- Mayor alcance en variantes con tanques auxiliares
-
-### Debilidades
-
-- Grande y relativamente lento
-- Vulnerable durante hover
-- Configuraciones muy variables
-
-### Fuerte contra
-
-- En versión armada: infantería, vehículos ligeros y posiciones
-
-### Débil contra
-
-- MANPADS
-- AAA
-- SAM
-- Cazas
-
-### Limitaciones operativas
-
-- No exceder 4 t de sling load de referencia.
-- La selección de carga/armas debe respetar el rol asignado.
-
-### MOD
-
-[RHSAFRF](https://steamcommunity.com/workshop/filedetails/?id=843425103)
-
-### Dependencias
-
-- RHSAFRF no declara dependencias obligatorias adicionales en Steam Workshop.
-
-### Observaciones ROAN
-
-- Alternativa OPFOR al H-60/CH-47 para transporte medio.
-- Adecuado para escenarios donde ROAN deba operar material no occidental.
-- Puede utilizarse para entrenamiento de navegación/approach con instrumentación rusa.
-
-### Fuentes de referencia
-
-- Rosoboronexport — Mi-17V-5
 - RHSAFRF
 
 [↑ Volver a Ala rotativa — OPFOR](#ala-rotativa-opfor)  
@@ -2753,7 +2718,7 @@ Suite día/noche, navegación, electro-óptica y sistemas de autoprotección. El
 ---
 
 <a id="infraestructura"></a>
-# 8. Infraestructura y Operaciones Aeronavales
+# 12. Infraestructura y Operaciones Aeronavales
 
 Esta sección reúne las plataformas y herramientas autorizadas para soportar operaciones embarcadas y de aeródromo de ROAN.
 
@@ -2937,103 +2902,9 @@ Mod de apoyo que agrega tractores de remolque y activos de aeródromo para mover
 
 ---
 
-<a id="matriz-empleo"></a>
-# 9. Matriz de Empleo Operacional
-
-La matriz resume para qué misiones resulta apropiada cada plataforma. No sustituye la ficha detallada.
-
-**Leyenda:** ✅ recomendado · ⚠️ capaz/condicional · ❌ no corresponde al rol
-
-| Aeronave | CAP | CAS | Strike | Anti-blindaje | Transporte | Logística | SOF / Inserción | SEAD/DEAD | Embarcada |
-|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| A-10C | ❌ | ✅ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ⚠️ | ❌ |
-| C-130 E/H/J | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ |
-| F/A-18E/F | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ |
-| F-35B | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ (LHA) |
-| F-35C | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ (CATOBAR) |
-| MiG-29SM | ✅ | ⚠️ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ⚠️ | ❌ |
-| Su-34M | ⚠️ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅/⚠️ | ❌ |
-| Su-35 | ✅ | ⚠️ | ✅ | ✅ | ❌ | ❌ | ❌ | ⚠️ | ❌ |
-| H-60 Series | ❌ | ⚠️ | ⚠️ | ⚠️ | ✅ | ✅ | ✅ | ❌ | ✅ |
-| AH-1Z | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ (LHA) |
-| AH-6M | ❌ | ✅ | ⚠️ | ⚠️ | ❌ | ❌ | ⚠️ | ❌ | ⚠️ |
-| MH-6M | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ✅ | ❌ | ⚠️ |
-| CH-47F | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ⚠️ |
-| CH-53E | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ (LHA) |
-| MH-47G | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ⚠️ |
-| Mi-8MT | ❌ | ⚠️ | ⚠️ | ⚠️ | ✅ | ✅ | ✅ | ❌ | ❌ |
-| Mi-17 | ❌ | ⚠️ | ⚠️ | ⚠️ | ✅ | ✅ | ✅ | ❌ | ❌ |
-| Mi-24V | ❌ | ✅ | ✅ | ✅ | ⚠️ | ❌ | ⚠️ | ❌ | ❌ |
-| Mi-28N | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Ka-52 | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
-
-## 9.1 Selección rápida
-
-| Necesidad | Plataformas preferentes |
-|---|---|
-| CAP / superioridad aérea | F/A-18E/F, F-35C, F-35B, Su-35, MiG-29SM |
-| CAS ala fija | A-10C, F/A-18E/F, F-35B/C, Su-34M |
-| CAS helicóptero | AH-1Z, AH-6M, Mi-24V, Mi-28N, Ka-52 |
-| Transporte ligero SOF | MH-6M, H-60 |
-| Transporte medio | H-60, Mi-8MT, Mi-17 |
-| Transporte pesado | CH-47F, MH-47G, CH-53E |
-| Sling load pesado | CH-47F, MH-47G, CH-53E |
-| Strike de largo alcance | F-35C, F/A-18E/F, Su-34M, Su-35 |
-| Operación Nimitz | F/A-18E/F, F-35C |
-| Operación LHA | F-35B, AH-1Z, H-60, CH-53E |
-
-[↑ Volver al índice](#indice)
-
----
-
-<a id="mods-dependencias"></a>
-# 10. Mods y Dependencias
-
-Resumen centralizado de addons principales y sus dependencias conocidas de Steam Workshop.
-
-| MOD | Uso ROAN | Dependencias conocidas | Workshop |
-|---|---|---|---|
-| A-10C Thunderbolt | A-10C | Lala Peral - Vehicle Interaction System | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2848059590) |
-| AH-1Z Viper | AH-1Z | Lala Peral - Vehicle Interaction System | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3546703780) |
-| Airfield Logistics | Soporte de aeródromo/cubierta | Sin dependencia obligatoria adicional declarada en Workshop | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3048131698) |
-| C-130 E/H/J Hercules Series | C-130 E/H/J/J-30 | FIR AWS | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3122396633) |
-| F/A-18E/F Super Hornet 2020 | F/A-18E/F | Sin dependencia obligatoria adicional declarada en Workshop | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2131302796) |
-| F-35B Lightning | F-35B | Lala Peral - Vehicle Interaction System | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3517620967) |
-| F-35C Lightning | F-35C | Lala Peral - Vehicle Interaction System | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3083645332) |
-| Hatchet H-60 Pack | H-60 Series | Hatchet Interaction Framework; ACE3; CBA_A3 (transitiva) | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1745501605) |
-| Improved RHS MiG-29SM + FIR support | MiG-29SM | FIR AWS; RHSGREF; RHSAFRF; RHSSAF; RHSUSAF | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2987850906) |
-| LHA | Buque anfibio | Sin dependencia obligatoria adicional declarada en Workshop | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3596653038) |
-| Nimitz Experimental Build | Portaaviones | CBA_A3 | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1697731012) |
-| Pegasus Systems MH-47G | MH-47G | Hatchet Interaction Framework; ACE3; CBA_A3 (transitiva) | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3805899171) |
-| RHSAFRF | Mi-8MT, Mi-17, Mi-24V, Mi-28N, Ka-52 | Sin dependencia obligatoria adicional declarada en Workshop | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=843425103) |
-| RHSUSAF | AH-6M, MH-6M, CH-47F, CH-53E | Sin dependencia obligatoria adicional declarada en Workshop | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=843577117) |
-| Su-34M (UMPK) | Su-34M | RHSAFRF; Improved RHS MiG-29SM + FIR support; FIR AWS (+ dependencias transitivas del MiG mod) | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3137489963) |
-| SU-35 Flanker E | Su-35 | Sin dependencia obligatoria adicional declarada en Workshop | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=743108251) |
-
-## 10.1 Dependencias auxiliares
-
-| Dependencia | Workshop |
-|---|---|
-| ACE3 | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=463939057) |
-| CBA_A3 | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=450814997) |
-| FIR AWS | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=366425329) |
-| Hatchet Interaction Framework | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=2941986336) |
-| Lala Peral - Vehicle Interaction System | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3083512801) |
-| RHSGREF | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=843593391) |
-| RHSAFRF | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=843425103) |
-| RHSSAF | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=843632231) |
-| RHSUSAF | [Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=843577117) |
-| USAF Mod - Main | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2397360831) |
-
-> **Nota ROAN:** una compatibilidad opcional (por ejemplo, un missilebox alternativo) no se considera dependencia obligatoria salvo que la misión la utilice de forma explícita.
-
-[↑ Volver al índice](#indice)
-
----
-
 <a id="glosario"></a>
 
-# 11. Glosario
+# 13. Glosario
 
 | Término | Significado |
 |---|---|
@@ -3083,7 +2954,6 @@ Las páginas de Steam Workshop enlazadas en cada ficha son la referencia princip
 - Bell — AH-1Z Viper.
 - United Aircraft Corporation (UAC) — Su-34 y Su-35.
 - Rostec / Russian Helicopters — Mi-28 y Ka-52.
-- Rosoboronexport — Mi-17V-5.
 - Documentación militar pública de la familia Mi-24 y Mi-8.
 
 ## 12.1 Criterio de uso de cifras
