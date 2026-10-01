@@ -62,20 +62,22 @@ Por lo tanto, las cifras de alcance, techo, velocidad y carga deben usarse para 
 - [1. Introducción](#introduccion)
 - [2. Contenido](#indice)
 - [3. Inventario general ROAN](#inventario-general)
+- [4. Matriz de Empleo Operacional](#matriz-empleo)
+- [5. Mods y Dependencias](#mods-dependencias)
 
-- [4. Ala fija — BLUFOR](#ala-fija-blufor)
+- [6. Ala fija — BLUFOR](#ala-fija-blufor)
   - [A-10C Thunderbolt II](#a10c)
   - [C-130 E/H/J Hercules Series](#c130)
   - [F/A-18E/F Super Hornet](#fa18ef)
   - [F-35B Lightning II](#f35b)
   - [F-35C Lightning II](#f35c)
 
-- [5. Ala fija — OPFOR](#ala-fija-opfor)
+- [7. Ala fija — OPFOR](#ala-fija-opfor)
   - [MiG-29SM Fulcrum](#mig29sm)
   - [Su-34M Fullback](#su34m)
   - [Su-35 Flanker-E](#su35)
 
-- [6. Ala rotativa — BLUFOR](#ala-rotativa-blufor)
+- [8. Ala rotativa — BLUFOR](#ala-rotativa-blufor)
   - [H-60 Series](#h60)
   - [AH-1Z Viper](#ah1z)
   - [AH-6M Little Bird](#ah6m)
@@ -84,18 +86,17 @@ Por lo tanto, las cifras de alcance, techo, velocidad y carga deben usarse para 
   - [CH-53E Super Stallion](#ch53e)
   - [MH-47G Chinook](#mh47g)
 
-- [7. Ala rotativa — OPFOR](#ala-rotativa-opfor)
+- [9. Ala rotativa — OPFOR](#ala-rotativa-opfor)
   - [Mi-8MT Hip](#mi8mt)
   - [Mi-24V Hind-E](#mi24v)
   - [Mi-28N Havoc](#mi28n)
   - [Ka-52 Alligator](#ka52)
 
-- [8. Infraestructura y Operaciones Aeronavales](#infraestructura)
+- [10. Infraestructura y Operaciones Aeronavales](#infraestructura)
   - [Nimitz Experimental Build](#nimitz)
   - [LHA](#lha)
   - [Airfield Logistics](#airfield-logistics)
-- [9. Matriz de Empleo Operacional](#matriz-empleo)
-- [10. Mods y Dependencias](#mods-dependencias)
+
 - [11. Glosario](#glosario)
 - [12. Referencias generales](#referencias)
 
