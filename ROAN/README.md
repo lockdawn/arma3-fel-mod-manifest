@@ -2326,7 +2326,7 @@ Sistema de puntería/observación día-noche, navegación y autoprotección. Las
 
 ### Debilidades
 
-- Sin pasajeros
+- Pocos pasajeros
 - Grande y detectable
 - Menos rápido que ala fija ante amenazas SAM
 
