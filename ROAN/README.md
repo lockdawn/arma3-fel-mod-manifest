@@ -2293,7 +2293,7 @@ Prestaciones basadas en información pública de Rostec/Russian Helicopters para
 
 ### Capacidad de carga
 
-No transporta carga ni tropas. La capacidad externa está dedicada a armas y tanques/pods compatibles.
+No transporta carga. La capacidad externa está dedicada a armas y tanques/pods compatibles.
 
 ### Armamento
 
