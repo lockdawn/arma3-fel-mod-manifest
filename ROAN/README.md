@@ -10,8 +10,6 @@
 
 **[Consultar el Catálogo Operacional de Aeronaves — ROAN](https://github.com/lockdawn/arma3-fel-roan-docs/blob/main/aircraft-operational-catalog/README.md)**
 
-Para consultar el resto de manuales y documentación oficial, visita el **[Repositorio de Documentación ROAN](https://github.com/lockdawn/arma3-fel-roan-docs)**.
-
 ---
 
 *Esta ubicación se conserva únicamente como referencia para enlaces antiguos. Todas las futuras actualizaciones del catálogo se publicarán exclusivamente en el nuevo repositorio.*
