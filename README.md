@@ -55,7 +55,7 @@ A partir de esta lista, los editores pueden utilizar otros mods de las tablas qu
 <br />
 
 | Nombre del Mod | Descripción | Utilidades | Categoría | Compatibilidad |
-|----------------|-------------|------------|-----------|----------------|
+| :--- | :--- | :--- | :--- | :--- |
 | 3den Enhanced | Expande el editor 3DEN con herramientas avanzadas. | Edición de misiones, productividad. | Editor / Misiones | Independiente (recomendado con CBA_A3) |
 | ACE | Sistema avanzado de realismo (médico, balística, interacción). | Realismo táctico, nuevas mecánicas de jugabilidad. | Jugabilidad / Médico | Requiere CBA_A3 |
 | ACE3 Arsenal Extended - Core | Agrupa el arsenal por variantes para reducir la lista a la mitad de su tamaño original. | Realismo táctico, nuevas mecánicas de jugabilidad. | Jugabilidad / Médico | Requiere CBA_A3 |
@@ -65,10 +65,11 @@ A partir de esta lista, los editores pueden utilizar otros mods de las tablas qu
 | CH View Distance | Ajuste dinámico de distancias de visión. | Optimización de rendimiento y visibilidad. | Rendimiento | Independiente |
 | Enhanced Movement | Permite trepar, saltar y moverse con mayor libertad. | Movilidad avanzada del jugador. | Movilidad | Independiente |
 | Enhanced Movement Rework | Versión optimizada y más estable de Enhanced Movement. | Movimientos avanzados mejorados. | Movilidad | Independiente |
-| Esenciales 2026 v2 | Compilado de utilidades básicas usadas en misiones FEL. | Funciones comunes, soporte general de misión. | Compilación | Puede requerir CBA_A3 y ACE |
+| Esenciales 2026 v3 | Compilado de utilidades básicas usadas en misiones FEL. | Funciones comunes, soporte general de misión. | Compilación | Puede requerir CBA_A3 y ACE |
 | LAMBS_Danger.fsm | IA avanzada (Lambs) – módulo Danger. | IA dinámica de combate. | IA | Compatible con CBA_A3 (recomendado) |
-| Task Force Arrowhead Radio (BETA!!!) | Sistema de comunicación por radio realista con frecuencias. | Comunicaciones tácticas por rol. | Comunicación | Compatible con CBA_A3 |
-| Zeus Enhanced | Amplía significativamente las capacidades del Zeus. | Control avanzado de misiones en vivo. | Zeus / Administración | Requiere CBA_A3 |
+| Modules Enhanced | Añade nuevos módulos lógicos al editor 3DEN y Zeus. | Creación rápida de eventos y edición en tiempo real. | Editor / Zeus | Requiere CBA_A3 |
+| Task Force Arrowhead Radio (BETA!!!) | Sistema de comunicación por radio realista integrado con TeamSpeak 3. | Comunicación por voz en proximidad y canales de radio. | Audio / Jugabilidad | Requiere CBA_A3 y plugin de TeamSpeak 3 |
+| Zeus Enhanced | Mejora la interfaz y herramientas del modo Zeus (Game Master). | Control de partida en vivo, herramientas de moderación. | Zeus / Editor | Requiere CBA_A3 |
 
 <br /><br />
 
