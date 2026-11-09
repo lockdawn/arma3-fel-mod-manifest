@@ -136,7 +136,7 @@ En conjunto, estos mods **perfeccionan cómo se siente jugar**: la visión, el s
 | [Dog](https://steamcommunity.com/sharedfiles/filedetails/?id=2912186689) | Sistema/perro K9 (contenido y mecánicas). | Reconocimiento/rol. | Jugabilidad | N/D |
 | [Enhanced Movement](https://steamcommunity.com/sharedfiles/filedetails/?id=333310405) | Permite trepar y saltar obstáculos. | Movimientos nuevos. | Movilidad | Independiente |
 | [Enhanced Movement Rework](https://steamcommunity.com/sharedfiles/filedetails/?id=2034363662) | Versión optimizada del mod anterior. | Movimientos nuevos, más estables. | Movilidad | Independiente |
-| [Esenciales 2026 v2](https://steamcommunity.com/sharedfiles/filedetails/?id=3709556444) | Compilado de utilidades básicas usadas en misiones FEL. | Funciones comunes, soporte general de misión. | Compilación | Puede requerir CBA_A3 y ACE |
+| [Esenciales 2026 v3](https://steamcommunity.com/sharedfiles/filedetails/?id=3810360740) | Compilado de utilidades básicas usadas en misiones FEL. | Funciones comunes, soporte general de misión. | Compilación | Puede requerir CBA_A3 y ACE |
 | [IEDD Notebook](https://steamcommunity.com/sharedfiles/filedetails/?id=3048818056) | Libreta interactiva para desactivación de IED. | Utilidad EOD (desactivación de explosivos). | Jugabilidad | Compatible con ACE |
 | [JSRS Soundmod 2025](https://steamcommunity.com/sharedfiles/filedetails/?id=3407948300) | Mejora global de sonidos de armas y ambiente. | Sonidos realistas, ambiente. | Sonido | Independiente |
 | [KAT – Advanced Medical](https://steamcommunity.com/sharedfiles/filedetails/?id=2020940806) | Extiende el sistema médico de ACE. | Jugabilidad médica avanzada. | Médico | Requiere ACE + CBA_A3 |
