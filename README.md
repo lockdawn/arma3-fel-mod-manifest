@@ -57,6 +57,7 @@ A partir de esta lista, los editores pueden utilizar otros mods de las tablas qu
 | Nombre del Mod | Descripción | Utilidades | Categoría | Compatibilidad |
 | :--- | :--- | :--- | :--- | :--- |
 | 3den Enhanced | Expande el editor 3DEN con herramientas avanzadas. | Edición de misiones, productividad. | Editor / Misiones | Independiente (recomendado con CBA_A3) |
+| A3U - Arma 3 Utilities | Añade módulos de utilidades y scripts listos para usar en misiones (teletransporte, salto HALO, garaje virtual, zonas seguras, etc.). | Simplifica la edición de misiones sin necesidad de programar scripts. | Editor / Utilidades | Compatible con ACE, TFAR y Zeus (requiere carga en cliente y servidor) |
 | ACE | Sistema avanzado de realismo (médico, balística, interacción). | Realismo táctico, nuevas mecánicas de jugabilidad. | Jugabilidad / Médico | Requiere CBA_A3 |
 | ACE3 Arsenal Extended - Core | Agrupa el arsenal por variantes para reducir la lista a la mitad de su tamaño original. | Realismo táctico, nuevas mecánicas de jugabilidad. | Jugabilidad / Médico | Requiere CBA_A3 |
 | Advanced Combat Medicine | Extiende el sistema médico de ACE con mayor profundidad. | Medicina avanzada, procedimientos médicos. | Médico | Requiere ACE + CBA_A3 |
